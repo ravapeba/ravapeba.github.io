@@ -1,3 +1,3 @@
 # ravapeba.github.io
-this is ti build a blog webpage based on Jekyll
+this is going to be a blog webpage based on Jekyll
 
