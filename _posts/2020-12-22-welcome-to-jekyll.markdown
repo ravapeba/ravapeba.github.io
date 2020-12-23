@@ -6,7 +6,9 @@ categories: jekyll update
 
 ---
 
-Encontrarás este post en tu directorio `_posts` . Edita y reconstruye el sitio para ver los cambios. Puedes reconstruir el sitio de muchas maneras, pero la más común es ejecutar `jekyll serve`, que lanza un servidor web y autoregenera tu sitio cuando un fichero es actualizado.
+`
+
+Hola. Encontrarás este post en tu directorio `_posts` . Edita y reconstruye el sitio para ver los cambios. Puedes reconstruir el sitio de muchas maneras, pero la más común es ejecutar `jekyll serve`, que lanza un servidor web y autoregenera tu sitio cuando un fichero es actualizado.
 
 Para dar soporte a notación matemática debemos incluir estas lineas al final del fichero de layout al que queremos que se aplique. Estos ficheros se encuentran en *C:\Ruby27\lib\ruby\gems\2.7.0\gems\minima-2.5.1\\_layouts*, si estoy usando el tema 'minima', y si no en la carpeta del tema que este usando 
 
@@ -17,10 +19,10 @@ Para dar soporte a notación matemática debemos incluir estas lineas al final d
 > </script>
 > ```
 
-a ver que pasa
 $$
-  \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
   = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) = \\
+
 $$
 
 Jekyll requirere que los ficheros de post sean nombrados de acuerdo al siguiente formato:
@@ -28,10 +30,11 @@ Jekyll requirere que los ficheros de post sean nombrados de acuerdo al siguiente
 `YEAR-MONTH-DAY-title.MARKUP`
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, y `MARKUP`es la extensión que representa el formato usado en el fichero. Después, incluir la front matter necesaria. Echa un vistazo a la fuente de este post  para hacerte una idea de como funciona.
-a ver que pasa
 
-$$ \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
- = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) $$
+$$ 
+\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+ = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) 
+$$
 
 Jekyll también ofrece un poderoso soporte para  snippets de código:
 
