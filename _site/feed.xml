@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="/feed.xml" rel="self" type="application/atom+xml" /><link href="/" rel="alternate" type="text/html" /><updated>2020-12-23T11:32:43+01:00</updated><id>/feed.xml</id><title type="html">Bloggy Mono</title><subtitle>Este sitio web contiene posts variados sobre distintos temas que se me van ocurriendo. </subtitle><entry><title type="html">Bienvenido a Bloggy Mono!</title><link href="/jekyll/update/2020/12/22/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Bienvenido a Bloggy Mono!" /><published>2020-12-22T17:14:55+01:00</published><updated>2020-12-22T17:14:55+01:00</updated><id>/jekyll/update/2020/12/22/welcome-to-jekyll</id><content type="html" xml:base="/jekyll/update/2020/12/22/welcome-to-jekyll.html">&lt;p&gt;Encontrarás este post en tu directorio &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;_posts&lt;/code&gt; . Edita y reconstruye el sitio para ver los cambios. Puedes reconstruir el sitio de muchas maneras, pero la más común es ejecutar &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, que lanza un servidor web y autoregenera tu sitio cuando un fichero es actualizado.&lt;/p&gt;
+
+&lt;p&gt;Para dar soporte a notación matemática debemos incluir estas lineas al final del fichero de layout al que queremos que se aplique. Estos ficheros se encuentran en &lt;em&gt;C:\Ruby27\lib\ruby\gems\2.7.0\gems\minima-2.5.1\_layouts&lt;/em&gt;, si estoy usando el tema ‘minima’, y si no en la carpeta del tema que este usando&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&amp;lt;!-- Mathjax Support --&amp;gt;
+&amp;lt;script type=&quot;text/javascript&quot; async
+  src=&quot;https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-MML-AM_CHTML&quot;&amp;gt;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;  &lt;/div&gt;
+&lt;/blockquote&gt;
+
+\[\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+  = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) = \\\]
+
+&lt;p&gt;Jekyll requirere que los ficheros de post sean nombrados de acuerdo al siguiente formato:&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR-MONTH-DAY-title.MARKUP&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Where &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YEAR&lt;/code&gt; is a four-digit number, &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MONTH&lt;/code&gt; and &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;DAY&lt;/code&gt; are both two-digit numbers, y &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;MARKUP&lt;/code&gt;es la extensión que representa el formato usado en el fichero. Después, incluir la front matter necesaria. Echa un vistazo a la fuente de este post  para hacerte una idea de como funciona.&lt;/p&gt;
+
+&lt;p&gt;Jekyll también ofrece un poderoso soporte para  snippets de código:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&quot;&lt;/span&gt;
+&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;'Tom'&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
+&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints 'Hi, Tom' to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Chequea &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; para más info sobre como obtener el máximo aprovechamiento de jekyll. Guarda los bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;</content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html">Encontrarás este post en tu directorio _posts . Edita y reconstruye el sitio para ver los cambios. Puedes reconstruir el sitio de muchas maneras, pero la más común es ejecutar jekyll serve, que lanza un servidor web y autoregenera tu sitio cuando un fichero es actualizado.</summary></entry></feed>
