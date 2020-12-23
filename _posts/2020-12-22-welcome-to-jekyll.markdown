@@ -1,16 +1,14 @@
 ---
 layout: post
-title:  "Bienvenido a Bloggy Mono!"
+title:  "¡Bienvenido a mi blog monoblog!"
 date:   2020-12-22 17:14:55 +0100
 categories: jekyll update
 
 ---
 
-`
+Hola.  Este blog ha sido creado en diciembre de 2020 utilizando la herramienta [jekyll](https://jekyllrb.com/), que permite la creación de páginas web estáticas de manera fácil y rápida.  Los pasos a seguir para instalar jekyll están descritos [aquí](https://jekyllrb.com/docs/installation/). Además, en el mismo sitio web encontramos un [tutorial](https://jekyllrb.com/docs/step-by-step/01-setup/) paso a paso de como crear un sitio web una vez hemos instalado jekyll.
 
-Hola. Encontrarás este post en tu directorio `_posts` . Edita y reconstruye el sitio para ver los cambios. Puedes reconstruir el sitio de muchas maneras, pero la más común es ejecutar `jekyll serve`, que lanza un servidor web y autoregenera tu sitio cuando un fichero es actualizado.
-
-Para dar soporte a notación matemática debemos incluir estas lineas al final del fichero de layout al que queremos que se aplique. Estos ficheros se encuentran en *C:\Ruby27\lib\ruby\gems\2.7.0\gems\minima-2.5.1\\_layouts*, si estoy usando el tema 'minima', y si no en la carpeta del tema que este usando 
+En caso de que queramos incluir notación matemática en nuestro blog, como es el caso, debemos utilizar algún recurso externo que nos lo permita: mathjax o katex son dos buenas opciones. Para hacer uso de mathjax debemos incluir una directiva de javascript al final del fichero de layout al que queremos que se aplique. Estos ficheros se encuentran en el subdirectorio _layouts de nuestro sitio web. Uno de estos ficheros es 'posts.html', donde se configura el layout de los posts, al final del cual añadiremos la directiva o líneas de código siguientes:
 
 > ```
 > <!-- Mathjax Support -->
@@ -19,22 +17,18 @@ Para dar soporte a notación matemática debemos incluir estas lineas al final d
 > </script>
 > ```
 
-$$
-\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
-  = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) = \\
+Una vez hecho esto, el navegador será capaz de interpretar la notación matemática y podremos escribir las siguientes líneas, por ejemplo,
 
+$$ 
+\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)=\\\
+ = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) 
 $$
 
-Jekyll requirere que los ficheros de post sean nombrados de acuerdo al siguiente formato:
+Para que nuestro sitio web funcione como un blog, Jekyll requirere que los ficheros de post sean nombrados de acuerdo al siguiente formato:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, y `MARKUP`es la extensión que representa el formato usado en el fichero. Después, incluir la front matter necesaria. Echa un vistazo a la fuente de este post  para hacerte una idea de como funciona.
-
-$$ 
-\phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
- = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) 
-$$
+Donde `YEAR` es un número de 4 dígitos,  y`MONTH` y `DAY` son números de 2 dígitos, y `MARKUP`es la extensión que representa el formato usado en el fichero. 
 
 Jekyll también ofrece un poderoso soporte para  snippets de código:
 
@@ -46,8 +40,4 @@ print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
 
-Chequea [Jekyll docs][jekyll-docs] para más info sobre como obtener el máximo aprovechamiento de jekyll. Guarda los bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+Para más información chequea la web principal del proyecto [jekyll](https://jekyllrb.com/).
