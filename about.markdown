@@ -1,21 +1,19 @@
 ---
 layout: page
-title: About
+title: Acerca de
 permalink: /about/
 ---
 
-Este es el tema base de Jekyll. Puedes encontrar más información sobre como adaptar tu tema de Jekyll, así como la documentación de uso básico en [jekyllrb.com](https://jekyllrb.com/)
 
-$$
-\frac{a}{b} + 2^5
-$$
 
-Puedes encontrar el código fuente para Minima en GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+Este blog ha sido creado por ravapeba@protonmail.com. En el se irán añadiendo artículos sobre temas diversos de cuando en cuando, según vengan la energía y las ganas
 
-Y también el código fuente de Jekyll en:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
 
-[jekyll-organization]: https://github.com/jekyll
+
+> De lo poco que le gusta hacer al río 
+> 
+> Es dejarse caer, lo mismo 
+> 
+> Le sucede al color amarillo 
+> 
+> De las hojas del arce si es otoño
