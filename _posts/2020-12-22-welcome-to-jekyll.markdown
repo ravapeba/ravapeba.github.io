@@ -29,6 +29,9 @@ Jekyll requirere que los ficheros de post sean nombrados de acuerdo al siguiente
 
 Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, y `MARKUP`es la extensión que representa el formato usado en el fichero. Después, incluir la front matter necesaria. Echa un vistazo a la fuente de este post  para hacerte una idea de como funciona.
 
+$$ \phi(x,y) = \phi \left(\sum_{i=1}^n x_ie_i, \sum_{j=1}^n y_je_j \right)
+ = \sum_{i=1}^n \sum_{j=1}^n x_i yj \phi(e_i, e_j) $$
+
 Jekyll también ofrece un poderoso soporte para  snippets de código:
 
 {% highlight ruby %}
