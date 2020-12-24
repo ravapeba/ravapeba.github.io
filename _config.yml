@@ -16,7 +16,7 @@
 title: blog monoblog
 email: ravapeba@protonmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Blog tipo ATDACC: Artículos sobre Temas Diversos Añadidos de Cuando en Cuando. 
+  Blog tipo ATDACC: Artículos sobre Temas Diversos Añadidos de Cuando en Cuando, monchilmente. 
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://ravapeba.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
