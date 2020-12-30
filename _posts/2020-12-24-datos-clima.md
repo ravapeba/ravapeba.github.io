@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Datos climáticos visualizados con R"
+title: "Datos climáticos básicos"
 date: 2020-12-24 07:00:00 +0100
 categories: jekyll updat
 ---
 
-Este artículo está basado en  el repositorio de github  [GitHub - cortinah/hockeystick: Download and Visualize Essential Climate Change Data in R](https://github.com/cortinah/hockeystick). En el se puede descargar el paquete de R 'hockeystick', que permite descargar datos climáticos desde distintas url's y plotearlos a partir de distintas funciones que se definen en él.
+En este artículo se muestran algunos gráficos con datos fundamentales sobre la evolución del clima en la tierra. Para la visualización de estos datos se ha empleado un paquete de R obtenido en  el repositorio de github  [GitHub - cortinah/hockeystick: Download and Visualize Essential Climate Change Data in R](https://github.com/cortinah/hockeystick). El nombre de este paquete es 'hockeystick', y permite descargar datos climáticos desde distintas url's de reconocido prestigio y plotearlos a partir de distintas funciones que se definen en él.
 
 Las principales funciones para la obtención de datos son las siguientes:
 > get_carbon(), get_temp(), get_sea_level(), get_seaice(), get_paleo()
@@ -27,3 +27,8 @@ plot_temp(anomaly)
 ```
 ![](/img/temp_avg_global.png)
 
+## Serie larga de temperaturas y concentración de CO2
+
+Los datos de la serie que se muestra a continuación se obtuvieron a partir del testigo de hielo de la base Antartica de Vostok. La serie contiene más cuatrocientosmil años y en el gráfico se aprecia la fuerte correlación entre la temperatura y la concentración de CO2.
+
+![](/img/vostok_serie.png)
