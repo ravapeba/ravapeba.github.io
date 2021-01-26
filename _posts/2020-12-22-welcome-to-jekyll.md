@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "¡Bienvenido a mi blog monoblog!"
+title:  "¡Bienvenido a mi blog cuader1!"
 date:   2020-12-22 17:14:55 +0100
 categories: jekyll update
 
@@ -26,18 +26,23 @@ $$
 
 Para que nuestro sitio web funcione como un blog, Jekyll requiere que los ficheros de post sean nombrados de acuerdo al siguiente formato:
 
-`YEAR-MONTH-DAY-title.MARKUP`
+`AÑO-MES-DIA-TITULO.MD`
 
-Donde `YEAR` es un número de 4 dígitos,  y`MONTH` y `DAY` son números de 2 dígitos, y `MARKUP`es la extensión que representa el formato usado en el fichero. 
+Donde `AÑO` es un número de 4 dígitos,  y `MES` y `DIA` son números de 2 dígitos, y `MD` es la extensión que representa el formato usado en el fichero. 
 
-Jekyll también ofrece un poderoso soporte para  snippets de código:
+Jekyll también ofrece soporte para snippets de código:
 
 {% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
+def print_hola(nombre)
+  puts "Hola, #{nombre}"
 end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+print_hola('Moncho')
+#=> imprime 'Hola, Moncho' en STDOUT.
+{% endhighlight %}
+
+{% highlight ruby %}
+bundle exec jekyll serve
+#=> inicializa y/o actualiza el sitio web después de cambios
 {% endhighlight %}
 
 Para más información chequea la web principal del proyecto [jekyll](https://jekyllrb.com/).
