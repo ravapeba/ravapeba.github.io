@@ -23,8 +23,7 @@ Aunque con altibajos, se aprecia en el gráfico una tendencia continuada al aume
 ## Serie de los dos últimos milenios (200-1980 DC)
 Si nos movemos más hacia el pasado, más allá de los registros instrumentales, los datos de temperatura que podemos recoger son indirectos. En climatología a este tipo de datos indirectos se les llama datos proxy o indicadores paleoclimáticos. Estos indicadores sirven para reconstruir las condiciones climáticas de momentos pasados de la historia de la tierra. Ejemplos conocidos son los anillos de los árboles, los testigos de hielo (perforaciones profundas en capas de hielo en glaciares o continentes helados), sedimentos marinos, polen, etc... La fiabilidad de estos datos se estima a partir de calibraciones frente a registros instrumentales. Una reconstrucción a partir de datos proxy de diferentes fuentes para los dos últimos milenios (priodo 200-1980) se muestra en el siguiente gráfico. 
 
-%![](/img/serie_mann.svg)
-*Figura 2. Evolución de las temperaturas (anomalía respecto al periodo 1961-1990) entre los años 200DC y 1980DC. Fuente: Mann, M.E. and P.D. Jones, 2003, 2000 Year Hemispheric Multi-proxy Temperature Reconstructions,IGBP PAGES/World Data Center for Paleoclimatology. NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.*
+[comment]: # ![](/img/serie_mann.svg)
 
 {% include image.html url="/img/serie_mann.svg" description="Figura 2. Evolución de las temperaturas (anomalía respecto al periodo 1961-1990) entre los años 200DC y 1980DC. Fuente: Mann, M.E. and P.D. Jones, 2003, 2000 Year Hemispheric Multi-proxy Temperature Reconstructions,IGBP PAGES/World Data Center for Paleoclimatology. NOAA/NGDC Paleoclimatology Program, Boulder CO, USA." %}
 
