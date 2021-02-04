@@ -48,10 +48,10 @@ En el gráfico se constata que durante todo el periodo los niveles de CO<sub>2</
 [2] Mann, M.E. and P.D. Jones, 2003,2000 Year Hemispheric Multi-proxy Temperature Reconstructions,IGBP PAGES/World Data Center for Paleoclimatology. NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.
 [Enlace al artículo](https://agupubs.onlinelibrary.wiley.com/doi/full/10.1029/2003GL017814)
 
-[3] J.R. Petit, D. Raynaud, C. Lorius, J. Jouzel and G. Delaygue, N.I. Barkov, V.M. Kotlyakov. Historical Isotopic Temperature Record from the Vostok Ice Core
+[3] J.R. Petit, D. Raynaud, C. Lorius, J. Jouzel and G. Delaygue, N.I. Barkov, V.M. Kotlyakov. Historical Isotopic Temperature Record from the Vostok Ice Core.
 [Enlace al artículo](https://cdiac.ess-dive.lbl.gov/trends/temp/vostok/jouz_tem.htm)
 
-[4] J.-M. Barnola, D. Raynaud, C. Lorius, N.I. Barkov. Historical Carbon Dioxide Record from the Vostok Ice Core
+[4] J.-M. Barnola, D. Raynaud, C. Lorius, N.I. Barkov. Historical Carbon Dioxide Record from the Vostok Ice Core.
 [Enlace al artículo](https://cdiac.ess-dive.lbl.gov/trends/co2/vostok.html)
 
 [5] J.R. Petit, D. Raynaud, C. Lorius, J. Jouzel, y otros. Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica. [Enlace al artículo](https://swisscows.com/web?query=climate%20past%20420000%20years%20mcmillan%20magazines)
