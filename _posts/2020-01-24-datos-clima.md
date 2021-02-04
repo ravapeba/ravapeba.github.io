@@ -9,7 +9,7 @@ categories: jekyll update
 {:toc}
 
 ## Introducción
-En este artículo se muestran dos series históricas de temperatura media global en superficie, y una serie larga con las temperaturas registradas en la estación antártida de Vostok. Estas son series climáticas de referencia que pueden ayudarnos a entender la evolución del clima en la tierra durante el último medio millón de años, lo cual es también una buena ayuda para entender la evolución que anticipan las proyecciones climáticas hacia el futuro. Las distintas fuentes de datos, a partir de las cuales se han realizado los gráficos, se relacionan en cada apartado o bien al final del artículo, en el apartado de [referencias](#referencias).
+En este artículo se muestran dos series históricas de temperatura media global en superficie, y una serie larga, prehistórica, con las temperaturas registradas en la estación antártida de Vostok. Estas son series climáticas de referencia que pueden ayudarnos a entender la evolución del clima en la tierra durante el último medio millón de años, lo cual puede servirnos de gran ayuda para entender la evolución futura que anticipan las proyecciones climáticas. Las distintas fuentes de datos, a partir de las cuales se han realizado los gráficos, se relacionan al final del artículo, en el apartado de [referencias](#referencias).
 
 <a id="temp_instru"></a>
 ## Serie instrumental, 1850-2020 
