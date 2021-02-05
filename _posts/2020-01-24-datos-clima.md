@@ -68,7 +68,7 @@ Merece finalmente destacar la rapidez de las transiciones hacia periodos inter-g
 <a id="5"></a>
 [5] J.R. Petit, D. Raynaud, C. Lorius, J. Jouzel, y otros. Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica. [Enlace al artículo](http://2018.icrps.org/wp-content/uploads/sites/4/2018/06/Article-3-Climate-and-atmospheric-history-of-the-past-4202c000-years-from-the-Vostok-ice-core2c-Antarctica-1.pdf)
 
-<a id="7"></a>
+<a id="6"></a>
 [6] Variaciones orbitales y ciclos de Milankovitch.
 [Enlace al artículo](https://es.wikipedia.org/wiki/Variaciones_orbitales)
 
