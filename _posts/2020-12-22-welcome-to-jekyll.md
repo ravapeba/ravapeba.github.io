@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "¡Bienvenido a mi blog cuader1!"
+title:  "¡Bienvenido a mi blog cuader 1's!"
 date:   2020-12-22 17:14:55 +0100
 categories: jekyll update
 
