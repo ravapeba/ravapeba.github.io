@@ -12,8 +12,8 @@ categories: jekyll update
 En este artículo se muestran dos series históricas de temperatura media global en superficie, y una serie larga, prehistórica, con las temperaturas registradas en la estación antártica de Vostok. Estas son series climáticas de referencia que pueden ayudarnos a entender la evolución del clima en la tierra durante el último medio millón de años, lo cual puede servirnos de gran ayuda para entender la evolución futura que anticipan las proyecciones climáticas (ver referencia [7](#7)). Las distintas fuentes de datos, a partir de las cuales se han realizado los gráficos, se relacionan al final del artículo, en el apartado de [referencias](#referencias). 
 
 <a id="temp_instru"></a>
-## Serie instrumental, 1850-2020 
-Una serie instrumental de temperaturas es aquella que se ha obtenido mediante registros directos de la temperatura del aire a partir de termómetros. La serie que se muestra a continuación se ha obtenido a partir de datos elaborados por el  [Met Office Hadley Centre](https://www.metoffice.gov.uk/hadobs/hadcrut4/index.html). Muestra la evolución de la temperatura media global en términos de anomalías respecto al periodo de referencia 1961-1990. Puede consultarse el fichero fuente de datos en el siguiente [enlace](https://www.metoffice.gov.uk/hadobs/hadcrut4/data/current/time_series/HadCRUT.4.6.0.0.annual_ns_avg.txt).
+## Serie instrumental, 1850-2025 
+Una serie instrumental de temperaturas es aquella que se ha obtenido mediante registros directos de la temperatura del aire a partir de termómetros. La serie que se muestra a continuación se ha obtenido a partir de datos elaborados por el  [Met Office Hadley Centre](https://www.metoffice.gov.uk/hadobs/hadcrut5/index.html). Muestra la evolución de la temperatura media global en términos de anomalías respecto al periodo de referencia 1961-1990. Puede consultarse el fichero fuente de datos en el siguiente [enlace](https://crudata.uea.ac.uk/cru/data/temperature/HadCRUT5.0Analysis_gl.txt).
 
 [comment]: #![](/img/serie_had_1y10.svg)
 
