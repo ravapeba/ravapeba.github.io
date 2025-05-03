@@ -13,7 +13,7 @@ En este artículo se muestran dos series históricas de temperatura media global
 
 <a id="temp_instru"></a>
 ## Serie instrumental, 1850-2024 
-Una serie instrumental de temperaturas es aquella que se ha obtenido mediante registros directos de la temperatura del aire a partir de termómetros. La serie que se muestra a continuación se ha obtenido a partir de datos elaborados por el  [Met Office Hadley Centre:Summary_Series: Global: Annual](https://www.metoffice.gov.uk/hadobs/hadcrut5/index.html). Muestra la evolución de la temperatura media global en términos de anomalías respecto a las temperaturas media globales del periodo de referencia 1961-1990. 
+Una serie instrumental de temperaturas es aquella que se ha obtenido mediante registros directos de la temperatura del aire a partir de termómetros. La serie que se muestra a continuación se ha obtenido a partir de datos elaborados por el  [Met Office Hadley Centre: Summary_Series: Global: Annual](https://www.metoffice.gov.uk/hadobs/hadcrut5/index.html). Muestra la evolución de la temperatura media global en términos de anomalías respecto a las temperaturas media globales del periodo de referencia 1961-1990. 
 [comment]: #![](/img/serie_had_1y10.svg)
 
 <a id="f1"></a>
