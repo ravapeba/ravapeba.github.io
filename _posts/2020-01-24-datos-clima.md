@@ -43,7 +43,7 @@ Es tentador comparar la serie de temperaturas de la figura [3](#f3) con las de l
 
 Volvemos pues a encontrarnos con la situación que ya vimos al comentar la serie del apartado [2](#temp_milenio): los cambios de temperatura en el periodo instrumental, especialmente los que estamos registrando en las últimas décadas (figura [1](#f1)), no tienen precedente, en cuanto a rapidez, tampoco comparándolos con la serie local de Vostok, siendo incluso superiores los cambios a escala decadal de la serie instrumental (más de 0.7 ºC de aumento de la temperatura media global en los últimos 40 años) que los máximos cambios a escala centenal de la serie de Vostok. 
 
-Destacar finalmente la corta duración (unos pocos milenios) de los periodos cálidos o interglaciales, excepto, curiosamente, el periodo interglacial  presente (óptimo climático del Holoceno), que lleva manteniéndose durante unos 11 milenios. Esto es debido, probablemente, a que las condiciones de forzamiento astronómico no han sido exactamente las mismas que en anteriores transiciones hacia una glaciación.  
+Destacar finalmente la corta duración (unos pocos milenios) de los periodos cálidos o interglaciales, excepto, curiosamente, el periodo interglacial  presente (óptimo climático del Holoceno), que lleva manteniéndose durante unos 11 milenios.  
 
 <a id="referencias"></a>
 ## Referencias
