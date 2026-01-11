@@ -11,7 +11,10 @@ categories: jekyll update
 ## Introducción
 En este artículo se dan algunas pinceladas de lo que podría llamarse 'geo-ubicación artesana', es decir, la geolocalización sin apoyo del moderno GPS. En realidad, de una u otra forma esto se lleva haciendo desde hace mucho tiempo, principalmente en el contexto de la navegación por mar, utilizando instrumentos como el sextante, la brújula y el reloj.  
 
+¿Es esto útil?. En principio sería útil en una situación en que nos hemos perdido y, por la razón que sea, no disponemos de GPS. Se acabó la batería del móvil, por ejemplo.  
+
 <a id="donde_estoy"></a>
+
 ## ¿Donde estoy? 
 
 En el contexto de la tierra la respuesta a esta pregunta se compone de 3 números:
@@ -20,6 +23,17 @@ En el contexto de la tierra la respuesta a esta pregunta se compone de 3 número
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel del mar
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en el mar es donde es más relevante saber geolocalizarse, pues en alta mar normalmente no tenemos referencias que nos ayuden. 
+
+La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. Esto convierte un problema que parecía unicamente geográfico en un problema astronómico. Él término técnico, incluso algo poético, es el de Navegación Celeste. 
+
+<a id="donde_estoy"></a>
+
+## ¿Cuál es mi latitud? 
+
+La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el sextante, utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima.  
+
+
+
 
 
 <a id="f3"></a>
