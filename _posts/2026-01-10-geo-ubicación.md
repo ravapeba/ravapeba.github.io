@@ -22,9 +22,9 @@ En el contexto de la tierra la respuesta a esta pregunta se compone de 3 número
 - longitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel del mar
 
-si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en el mar es donde es más relevante saber geolocalizarse, pues en alta mar normalmente no tenemos referencias que nos ayuden. 
+si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
-La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. Esto convierte un problema que parecía unicamente geográfico en un problema astronómico. Él término técnico, incluso algo poético, es el de Navegación Celeste. 
+La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. Esto convierte un problema que parecía unicamente geográfico en un problema astronómico. El término técnico, incluso algo poético, es el de Navegación Celeste. 
 
 <a id="donde_estoy"></a>
 
@@ -37,7 +37,7 @@ La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el m
 
 
 <a id="f3"></a>
-{% include  image.html url="/img/serie_vostok1.svg" description="Figura 3. Arriba: temperatura media centenal (anomalías respecto al promedio del último siglo). Abajo: concentración de CO<sub>2</sub> en partes por millón (ppm).  Datos obtenidos a partir del testigo de hielo de Vostok, últimos 420.000 años. Fuente: ver referencias 3 y 4 " %}
+{% include  image.html url="/img/geoloc/sextante_marino.svg" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
 
  (~0.4ºC, [ver serie](https://ravapeba.github.io/img/serie_mann_hadley100b.svg)), aún a pesar de los factores de extremas continentalidad y latitud de la estación de Vostok.
 
