@@ -38,7 +38,7 @@ $$
 \sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h)
 $$
 
-donde $\alpha$ es la altitud del astro sobre el horizonte,  $\delta$ es la declinación del astro (declinación solar en nuestro ejemplo), $\phi$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
+donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)
