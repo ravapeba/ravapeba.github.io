@@ -38,7 +38,7 @@ $$
 \sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h)
 $$
 
-donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
+donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)
@@ -49,6 +49,10 @@ que nos lleva a la expresión final de la latitud en función de la altitud y de
 $$ 
 \phi = \delta+ arcos(sin(\alpha)) 
 $$
+
+la declinación solar en el momento de la observación puede obtenerse por dos métodos
+- consultando un almanaque naútico, por ejemplo: [AlmanacPagesISAPI](http://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll)
+- utilizando alguna fórmula empírica de entre las disponibles en la bibliografía
 
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
