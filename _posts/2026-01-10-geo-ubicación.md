@@ -50,9 +50,15 @@ $$
 \phi = \delta+ arcos(sin(\alpha)) 
 $$
 
-la declinación solar en el momento de la observación puede obtenerse por dos métodos
-- consultando un almanaque naútico, por ejemplo: [AlmanacPagesISAPI](http://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll)
-- utilizando alguna fórmula empírica de entre las disponibles en la bibliografía
+la declinación solar en el momento de la observación puede estimarse mediante dos métodos
+Método 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: [AlmanacPagesISAPI](http://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll)
+Método 2. Utilizando alguna fórmula empírica de entre las disponibles en la bibliografía 
+
+$$ 
+\delta = arsin(sin(\delta_max)cos(\frac{360}{365.24}(d-1+10+\frac{h_z+h_s}{})+\frac{360}{\pi}\times\epsilon\sin(\frac{360}{365.24}(d-1+\frac{h}{24}-2))))
+$$ 
+
+
 
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
