@@ -63,8 +63,24 @@ $$
 donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno y el día 22 de diciembre a las 12.  
 
 Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$ 
+las fechas del solsticio de invierno para los próxinos años son
 
-
+| Año      | Día    | Hora        |
+| :------: | :----: | :---------: |
+| 2026 	   | 21     |20:50:09     |
+| 2027     | 22     |02:42:04     |
+| 2028     | 21     |08:19:33     |
+| 2029     | 21     |14:13:59     |
+| 2030     | 21     |20:09:30     |
+| 2031     | 22     |01:55:25     |
+| 2032     | 21     |07:55:48     |
+| 2033     | 21     |13:45:51     |
+| 2034     | 21     |19:33:50     |
+| 2035     | 22     |01:30:42     |
+| 2036     | 21     |07:12:42     |
+  
+  
+  
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
 
