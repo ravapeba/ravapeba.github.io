@@ -35,19 +35,19 @@ La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el m
 La altitud de un astro o planeta sobre el horizonte viene dada por la ecuación siguiente:
 
 $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h) \qquad \small \textbf{[ 1.1 ]}
+\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h) \qquad \small \textbf{[ 2.1 ]}
 $$ 
 
 donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)  \qquad \small \textbf{[ 1.2 ]}
+\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)  \qquad \small \textbf{[ 2.2 ]}
 $$ 
 
 que nos lleva a la expresión final de la latitud en función de la altitud y declinación de un sol observado a mediodía
 
 $$ 
-\phi = \delta+ arcos(sin(\alpha)) \qquad \small \textbf{[ 1.3 ]}   
+\phi = \delta+ arcos(sin(\alpha)) \qquad \small \textbf{[ 2.3 ]}   
 $$ 
 
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
@@ -57,7 +57,7 @@ la declinación solar en el momento de la observación puede estimarse mediante 
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
-$$\delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2)))) \quad \small \textbf{[ 1.4 ]}
+$$\delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2)))) \quad \small \textbf{[ 2.4 ]}
 $$ 
 
 donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno del año anterior y el día 22 de diciembre de tal año a las 12.  
@@ -82,8 +82,9 @@ las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 
 nótese que hay algo menos de 6 horas ($$0.24\times24$$) de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
 
-**Ejemplo:** estimar nuestra latitud el día 10 de febrero de 2026 al mediodía   
-Para ello emplearemos la ecuación [1.3]. Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm $$ corrección gubernamental. Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  
+**Ejemplo:** Utilizando la ecuación **[1.3]** estimar nuestra latitud el día 10 de febrero de 2026 al mediodía   
+Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental.   
+Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  
 
 
   
