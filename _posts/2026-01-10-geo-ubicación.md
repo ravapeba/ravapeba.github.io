@@ -35,19 +35,19 @@ La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el m
 La altitud de un astro o planeta sobre el horizonte viene dada por la ecuación siguiente:
 
 $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[ 1.1 ]}
+\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h) \qquad \small \textbf{[ 1.1 ]}
 $$ 
 
 donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)  \quad \small \textbf{[ 1.2 ]}
+\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)  \qquad \small \textbf{[ 1.2 ]}
 $$ 
 
 que nos lleva a la expresión final de la latitud en función de la altitud y declinación de un sol observado a mediodía
 
 $$ 
-\phi = \delta+ arcos(sin(\alpha)) \quad \small \textbf{[ 1.3 ]}   
+\phi = \delta+ arcos(sin(\alpha)) \qquad \small \textbf{[ 1.3 ]}   
 $$ 
 
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
@@ -80,7 +80,7 @@ las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 | 2035   | 22/12     |01:30:42     |
 | 2036   | 21/12     |07:12:42     |
 
-nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
+nótese que hay algo menos de 6 horas ($$0.24\times24$$) de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
 
 Ejemplo de cáculo de la latitud con la ecuación 
   
