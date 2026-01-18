@@ -55,8 +55,10 @@ Método 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: [Alman
 Método 2. Utilizando alguna fórmula empírica de entre las disponibles en la bibliografía 
 
 $$ 
-\delta = arsin(sin(\delta_max)cos(\frac{360}{365.24}(d-1+10+\frac{h_z+h_s}{})+\frac{360}{\pi}\times\epsilon\sin(\frac{360}{365.24}(d-1+\frac{h}{24}-2))))
+\delta = arsin(sin(\delta_M)cos(\frac{360}{365.24}(d-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{365.24}(d-1+\frac{h}{24}-2))))
 $$ 
+
+donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno y al día 22 de diciembre a las 12  
 
 
 
