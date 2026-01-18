@@ -58,8 +58,10 @@ la declinación solar en el momento de la observación puede estimarse mediante 
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
-$$\delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}\\. 
-(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\\. 
+$$\delta = arsin(sin(\delta_M)\\. 
+cos(\frac{360}{N_m} 
+(N-1+10+\frac{h_o+h_s}{24})+\\  
+\frac{360\epsilon}{\pi} 
 \sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2)))) \quad \small \textbf{[2.4]}
 $$ 
 
