@@ -82,7 +82,7 @@ las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 
 nótese que hay algo menos de 6 horas ($$0.24\times24$$) de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
 
-**Ejemplo** de cálculo de la latitud con la ecuación [1.3] aplicada al día 10 de febrero de 2026 al mediodía, que no suele coincidir con las 12 UTC (hora media de la zona horaria de  referencia, Grennwich). Lo 
+**Ejemplo** de cálculo de la latitud con la ecuación [1.3] aplicada al día 10 de febrero de 2026 al mediodía (que no suele coincidir con las 12 UTC, [Tiempo_universal_coordinado](https://es.wikipedia.org/wiki/Tiempo_universal_coordinado). Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  
 
 
   
