@@ -52,8 +52,8 @@ $$
 
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
 
-Método 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: [AlmanacPagesISAPI](http://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll)  
-Método 2. Utilizando alguna fórmula empírica de entre las disponibles en la bibliografía 
+*Método 1 (Más preciso):* Consultando un almanaque naútico, por ejemplo: [AlmanacPagesISAPI](http://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll)  
+*Método 2:* Utilizando alguna fórmula empírica de entre las disponibles en la bibliografía 
 
 $$ 
 \delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2))))
