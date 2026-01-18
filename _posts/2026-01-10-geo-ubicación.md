@@ -15,7 +15,7 @@ En este artículo se dan algunas pinceladas de lo que podría llamarse 'geo-ubic
 
 <a id="donde_estoy"></a>
 
-## ¿Donde estoy? 
+## 1. ¿Donde estoy? 
 
 En el contexto de la tierra la respuesta a esta pregunta se compone de 3 números:
 - latitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
@@ -28,7 +28,7 @@ La filosofía de la geolocalización es: 'para saber donde uno está es necesari
 
 <a id="donde_estoy"></a>
 
-## ¿Cuál es mi latitud? 
+## 2. ¿Cuál es mi latitud? 
 
 La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el [sextante](https://es.wikipedia.org/wiki/Sextante), utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima, entre otros métodos posibles, ¿se te ocurre alguno?.  
 
@@ -36,19 +36,19 @@ La altitud de un astro o planeta sobre el horizonte viene dada por la ecuación 
 
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h)
-$$
+$$ ** Eq 1.1**
 
 donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)   
-$$ ** Eq. 1**
+$$ ** Eq 1.2**
 
 que nos lleva a la expresión final de la latitud en función de la altitud y declinación de un sol observado a mediodía
 
 $$ 
 \phi = \delta+ arcos(sin(\alpha))   
-$$ ** Eq.2**
+$$ ** Eq 1.3**
 
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
 
@@ -58,7 +58,7 @@ la declinación solar en el momento de la observación puede estimarse mediante 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
 $$\delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2))))
-** Eq. 3**$$ 
+** Eq 1.4**$$ 
 
 donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno y el día 22 de diciembre a las 12.  
 
