@@ -9,7 +9,7 @@ categories: jekyll update
 {:toc}
 
 ## Introducción
-En este artículo se dan algunas pinceladas de lo que podría llamarse 'geo-ubicación artesana', es decir, la geolocalización sin apoyo del moderno GPS. En realidad, de una u otra forma esto se lleva haciendo desde hace mucho tiempo, principalmente en el contexto de la navegación por mar, utilizando instrumentos como el sextante, la brújula y el reloj.  
+En este artículo se describen algunos métodos o técnicas de geolocalización sin apoyo del moderno GPS. En realidad, de una u otra forma este tipo de técnicas se llevan aplicando desde hace mucho tiempo, principalmente en el contexto de la navegación por mar, utilizando instrumentos como el sextante, la brújula y el reloj.  
 
 ¿Es esto útil?. En principio sería útil en una situación en que nos hemos perdido y, por la razón que sea, no disponemos de GPS. Se acabó la batería del móvil, por ejemplo.  
 
@@ -24,7 +24,7 @@ En el contexto de la tierra la respuesta a esta pregunta se compone de 3 número
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
-La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. Esto convierte un problema que parecía unicamente geográfico en un problema astronómico. El término técnico, incluso algo poético, es el de Navegación Celeste. 
+La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion: navegación celeste. 
 
 <a id="donde_estoy"></a>
 
@@ -35,7 +35,7 @@ La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el m
 La altitud de un astro o planeta sobre el horizonte viene dada por la ecuación siguiente:
 
 $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)cos(h) \qquad \small \textbf{[ 2.1 ]}
+\sin(\alpha) = sin(\delta)sin(\phi)+\\   cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[2.1]}
 $$ 
 
 donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
