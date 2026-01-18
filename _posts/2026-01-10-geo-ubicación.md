@@ -41,13 +41,13 @@ $$
 donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)
+\sin(\alpha) = sin(\delta)sin(\phi)+cos(\delta)cos(\phi)   **Eq. 1**
 $$
 
 que nos lleva a la expresión final de la latitud en función de la altitud y declinación de un sol observado a mediodía
 
 $$ 
-\phi = \delta+ arcos(sin(\alpha)) 
+\phi = \delta+ arcos(sin(\alpha))  **Eq. 2**
 $$
 
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
@@ -58,12 +58,13 @@ la declinación solar en el momento de la observación puede estimarse mediante 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
 $$\delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2))))
-$$ 
+$$ **Eq. 3**
 
 donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno y el día 22 de diciembre a las 12.  
 
-Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$ 
-las fechas del solsticio de invierno para los próxinos años son
+Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$  
+
+las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son 
 
 | Año    | Día       | Hora        |
 | :----: | :----:    | :---------: |
@@ -78,6 +79,10 @@ las fechas del solsticio de invierno para los próxinos años son
 | 2034   | 21/12     |19:33:50     |
 | 2035   | 22/12     |01:30:42     |
 | 2036   | 21/12     |07:12:42     |
+
+nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
+
+Ejemplo de cáculo de la latitud con la ecuación 
   
   
   
