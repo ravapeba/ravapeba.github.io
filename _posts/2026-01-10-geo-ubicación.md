@@ -58,13 +58,13 @@ la declinación solar en el momento de la observación puede estimarse mediante 
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
-$$\begin{align} 
-\delta = arsin(sin(\delta_M)\\   
+$$\begin{flalign} 
+\delta = arsin(sin(\delta_M)&\\   
 cos(\frac{360}{N_m} 
-(N+9+\frac{h_o+h_s}{24})+\\ 
+(N+9+\frac{h_o+h_s}{24})+&\\ 
 \frac{360\epsilon}{\pi} 
-\sin(\frac{360}{d_a}(N+\frac{h}{24}-3)))) \quad \small \textbf{[2.4]}
-\end{align}
+\sin(\frac{360}{N_m}(N+\frac{h}{24}-3)))) \quad \small \textbf{[2.4]}
+\end{flalign}
 $$ 
 
 donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno del año anterior y el día 22 de diciembre de tal año a las 12.  
