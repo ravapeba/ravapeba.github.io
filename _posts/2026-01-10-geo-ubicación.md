@@ -60,7 +60,7 @@ la declinación solar en el momento de la observación puede estimarse mediante 
 $$\delta = arsin(sin(\delta_M)cos(\frac{360}{N_m}(N-1+10+\frac{h_o+h_s}{24})+\frac{360\epsilon}{\pi}\sin(\frac{360}{d_a}(N-1+\frac{h}{24}-2)))) \quad \small \textbf{[ 1.4 ]}
 $$ 
 
-donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno y el día 22 de diciembre a las 12.  
+donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno del año anterior y el día 22 de diciembre de tal año a las 12.  
 
 Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$  
 
@@ -82,7 +82,9 @@ las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 
 nótese que hay algo menos de 6 horas ($$0.24\times24$$) de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
 
-Ejemplo de cáculo de la latitud con la ecuación 
+**Ejemplo** de cálculo de la latitud con la ecuación [1.3] aplicada al día 10 de febrero de 2026 al mediodía, que no suele coincidir con las 12 UTC (hora media de la zona horaria de  referencia, Grennwich). Lo 
+
+
   
   
   
