@@ -20,7 +20,7 @@ En este artículo se dan algunas pinceladas de lo que podría llamarse 'geo-ubic
 En el contexto de la tierra la respuesta a esta pregunta se compone de 3 números:
 - latitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
 - longitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
-- altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel del mar
+- altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
@@ -67,6 +67,25 @@ Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$
 las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son 
 
 | Año    | Día       | Hora        |
+| :----: | :----:    | :---------: |
+| 2026 	 | 21/12     |20:50:09     |
+| 2027   | 22/12     |02:42:04     |
+| 2028   | 21/12     |08:19:33     |
+| 2029   | 21/12     |14:13:59     |
+| 2030   | 21/12     |20:09:30     |
+| 2031   | 22/12     |01:55:25     |
+| 2032   | 21/12     |07:55:48     |
+| 2033   | 21/12     |13:45:51     |
+| 2034   | 21/12     |19:33:50     |
+| 2035   | 22/12     |01:30:42     |
+| 2036   | 21/12     |07:12:42     |
+
+
+| Año    | Día       | Hora        | Año    | Día       | Hora        | Año    | Día       | Hora        |
+| :----: | :----:    | :---------: | :----: | :----:    | :---------: | :----: | :----:    | :---------:| :----: | :----:    | :---------:
+| 2026 	 | 21/12     |20:50:09     |
+| :----: | :----:    | :---------: |
+| 2026 	 | 21/12     |20:50:09     |
 | :----: | :----:    | :---------: |
 | 2026 	 | 21/12     |20:50:09     |
 | 2027   | 22/12     |02:42:04     |
