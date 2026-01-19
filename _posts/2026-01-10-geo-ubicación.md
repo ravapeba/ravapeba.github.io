@@ -73,11 +73,11 @@ Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$
 las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son:   
 
 | :-------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | 
-| Año  		| 2025     | 2026     | 2027     | 2028     | 2032     | 2036     | 2040     |
-| Día  		| 21/12    | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    |
+| Fecha  	| 2025     | 2026     | 2027     | 2028     | 2032     | 2036     | 2040     |
+| Día  		| 21/12/   | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    |
 | Hora(UTC) | 15:03:01 | 20:50:09 | 02:42:04 | 08:19:33 | 07:55:48 | 07:12:42 | 06:32:38 |
 
-nótese que hay algo menos de 6 horas ($$0.24\times24$$) de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
+nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
 
 **Ejemplo:** Estimar nuestra latitud el día 10 de febrero de 2026 al mediodía   
 Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea vamos a utilizar la ecuación **[1.3]**.  
