@@ -86,10 +86,10 @@ las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 | 2035   | 22/12     |01:30:42     |
 | 2036   | 21/12     |07:12:42     |
 
-| :---: | :------: | :---: | :----: | :----:    | :---------: | :----: | :----:    | :---------: | 
-| Año   | 2024     | 2025  | 2026   | Día       | Hora        | Año    | Día       | Hora        |
-| Día   | 21/12    | Hora        | Año    | Día       | Hora        | Año    | Día       | Hora        |
-| Hora  | 20:50:09 | Hora        | Año    | Día       | Hora        | Año    | Día       | Hora        |
+| :---: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | 
+| Año   | 2024     | 2025     | 2026     | 2026     | 2026     | 2026     | 2026     | 2026     |
+| Día   | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    | 21/12    |
+| Hora  | 20:50:09 | 20:50:09 | 20:50:09 | 20:50:09 | 20:50:09 | 20:50:09 | 20:50:09 | 20:50:09 |
 
 nótese que hay algo menos de 6 horas ($$0.24\times24$$) de diferencia de año en año, reseteándose la cuenta unas 18 horas  hacia atrás cada año bisiesto.
 
