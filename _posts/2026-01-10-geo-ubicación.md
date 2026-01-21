@@ -83,10 +83,10 @@ nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándo
 Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea vamos a utilizar la ecuación **[1.3]**.  
 Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  
 
-<!-- !["Figura 1. Esquema para la estimación de la altitud solar"](https://ravapeba.github.io/img/sombra1.png)--> 
+<!-- !["Figura 1. Esquema para la estimación de la altitud solar"](https://ravapeba.github.io/img/sombra1.png)
 
  <a id="f3"></a>
-{% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
+{% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}--> 
  
  
  
@@ -95,6 +95,8 @@ Lo primero será hacer una medición lo más precisa posible de la altitud del s
 	{% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
 </div>
   
+  
+  <img src="image.jpg" alt="A floating image" style="float: center; ">
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
 
