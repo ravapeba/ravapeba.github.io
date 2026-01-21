@@ -94,7 +94,7 @@ Lo primero será hacer una medición lo más precisa posible de la altitud del s
  
 <div align="center">
    <a id="f3"></a>
-	{% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
+	{% include  image.html url="/img/geoloc/sombra2.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
 </div>
   
   
