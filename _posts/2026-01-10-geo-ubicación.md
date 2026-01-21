@@ -84,7 +84,8 @@ Antes de empezar es importante ser consciente de que el verdadero mediodía no s
 Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  
 
 
-  
+<a id="f3"></a>
+{% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
   
   
 <!-- <a id="f3"></a>
