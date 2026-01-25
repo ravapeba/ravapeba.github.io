@@ -79,9 +79,8 @@ las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 
 nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
 
-**Ejemplo:** Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar nuestra latitud el día 10 de febrero de 2026 al mediodía   
-Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea vamos a utilizar la ecuación **[2.3]**.  
-Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
+**Ejemplo:** Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía   
+Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
 
 $$\alpha=34.3^\circ$$
 
@@ -104,11 +103,13 @@ Anotamos también la hora de la observación, por ejemplo, las 13.30 en nuestro 
 
 $$\delta=-14.24833^\circ $$
 
-por tanto, de acuerdo con la ecuación [2.3], nuestra latitud estimada sería
+por tanto, de acuerdo con la ecuación **[2.3]**, nuestra latitud estimada sería
 
 $$ 
 \phi =  \delta + arcos(sin(\alpha)) = -14.24833^\circ+arcos(sin(34.3^\circ) = 41.45^\circ
 $$ 
+
+la latitud oficial en Valladolid (centro geográfico de la ciudad) es de unos $$41.65^\circ$$, con lo cual el error cometido en nuestra estimación sería de 2 décimas de grado, es decir, 12 minutos de latitud, que traducido a distancia sobre el terreno son unos 22 km en dirección sur. Este valor del error puede parecer muy grande, dado que estamos acostumbrados a la exactitud del GPS. No obstante, si estuvieramos en un barco en el mar y con buena visibilidad es un error muy asumible, pues la vista que alcanzamos lo suple sobradamente.
 
 
   
