@@ -81,9 +81,11 @@ nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándo
 
 **Ejemplo:** Estimar nuestra latitud el día 10 de febrero de 2026 al mediodía   
 Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea vamos a utilizar la ecuación **[1.3]**.  
-Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  
+Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar $$\alfa=33.5^{\circ}$$
 
 <!-- !["Figura 1. Esquema para la estimación de la altitud solar"](https://ravapeba.github.io/img/sombra1.png)
+
+
 
  <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
@@ -91,13 +93,12 @@ Lo primero será hacer una medición lo más precisa posible de la altitud del s
 --> 
  
  
- 
 <div align="center">
    <a id="f3"></a>
 	{% include  image.html url="/img/geoloc/sombra2.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
 </div>
   
-  
+Consultando en las tablas del almanaque naútico para el día  [10 de febrero de 2026](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/pages?date=02%2F10%2F2026), vemos que la declinación solar a las 12 UTC
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
