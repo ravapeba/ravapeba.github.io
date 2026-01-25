@@ -109,7 +109,7 @@ $$
 \phi =  \delta + arcos(sin(\alpha)) = -14.24833^\circ+arcos(sin(34.3^\circ) = 41.45^\circ
 $$ 
 
-la latitud oficial en Valladolid (centro geográfico de la ciudad) es de unos $$41.65^\circ$$, con lo cual el error cometido en nuestra estimación sería de 2 décimas de grado, es decir, 12 minutos de latitud, que traducido a distancia sobre el terreno son unos 22 km en dirección sur. Este valor del error puede parecer muy grande, dado que estamos acostumbrados a la exactitud del GPS. No obstante, si estuvieramos en un barco en el mar y con buena visibilidad es un error muy asumible, pues la vista que alcanzamos lo suple sobradamente.
+La latitud oficial de Valladolid (centro geográfico de la ciudad) es de unos $$41.65^\circ$$, con lo cual el error cometido en nuestra estimación, suponiendo que la hemos hecho en el mismisimo centro geográfico de la ciudad, sería de 2 décimas de grado, es decir, 12 minutos de latitud- Este valor, traducido a distancia sobre el terreno, equivale a unos 22 km en dirección sur. El error puede parecer muy grande, dado que estamos acostumbrados a la exactitud del GPS. No obstante, si estuvieramos en un barco en el mar y con buena visibilidad es un error muy asumible, pues la vista que alcanzamos lo suple sobradamente. Si estuvieramos en desierto amplio, como el del Sahara, por ejemplo, sigue siendo un valor útil, que nos posicionaría en nuestro mapa de papel y nos indicaría la mejor dirección para seguir una ruta hacia un punto habitado, si es el caso.
 
 
   
