@@ -83,7 +83,7 @@ nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándo
 Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea vamos a utilizar la ecuación **[2.3]**.  
 Lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
 
-$$\alfa=34.3\circ}$$
+$$\alpha=34.3^\circ}$$
 
 <!-- !["Figura 1. Esquema para la estimación de la altitud solar"](https://ravapeba.github.io/img/sombra1.png)
 
@@ -100,12 +100,12 @@ $$\alfa=34.3\circ}$$
 	{% include  image.html url="/img/geoloc/sombra2.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
 </div>
   
-Anotamos también la hora de la observación, por ejemplo, las 13.30 locales, es decir, las 12.30 UTC en Valladolid. Después, , consultando en lastablas del almanaque naútico para el día  [10 de febrero de 2026](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/pages?date=02%2F10%2F2026), vemos que la declinación solar a las 12.30 UTC es 
+Anotamos también la hora de la observación, por ejemplo, las 13.30 en Valladolid, es decir, las 12.30 UTC. Después, , consultando en lastablas del almanaque naútico para el día  [10 de febrero de 2026](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/pages?date=02%2F10%2F2026), vemos que la declinación solar a las 12.30 UTC es 
 
-$$\delta=-14.24833$$
+$$\delta=-14.24833^\circ $$
 
 $$ 
-\phi =  \delta + arcos(sin(\alpha)) = -14.24833+arcos(sin(34.3) = 41.45
+\phi =  \delta + arcos(sin(\alpha)) = -14.24833^\circ+arcos(sin(34.3^\circ) = 41.45^\circ
 $$ 
 
 
