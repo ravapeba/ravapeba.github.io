@@ -83,8 +83,8 @@ nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándo
 (¡Ojo!, el verdadero mediodía raramente coincide con las 12 locales $$\pm$$ corrección gubernamental). 
 
 <div align="center">
-   <a id="f3"></a>
-	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
+   <a id="f21"></a>
+	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 2.1. Esquema para la estimación de la altitud solar" %}
 </div>
   
 Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
@@ -107,9 +107,12 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 
 ## 3. ¿Cuál es mi longitud? 
 
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la figura **3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él. El de Greenwich, G, el meridiano del observador, O, y el meridiano correspondiente al punto subsolar, GP.   
+
+
 <div align="center">
-   <a id="f3"></a>
-	{% include  image.html url="/img/geoloc/longitud5.png" description="Figura 1. Esquema para la estimación de la longitud del observador, O." %}
+   <a id="f31"></a>
+	{% include  image.html url="/img/geoloc/longitud5.png" description="Figura 3.1. Esquema para la estimación de la longitud del observador, O." %}
 </div>
   
 <!-- <a id="f3"></a>
@@ -141,7 +144,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 [https://en.wikipedia.org/wiki/Celestial_navigation](https://en.wikipedia.org/wiki/Celestial_navigation)
 
 <a id="7"></a>
-[8] Tablas de parámetros solares por fecha y lugar,  [https://salidaypuestadelsol.com/sun](https://salidaypuestadelsol.com/sun/valladolid_(spain))
+[7] Tablas de parámetros solares por fecha y lugar,  [https://salidaypuestadelsol.com/sun](https://salidaypuestadelsol.com/sun/valladolid_(spain))
 
 
 
