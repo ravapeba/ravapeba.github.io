@@ -132,17 +132,17 @@ Estimación de la longitud. Desde un punto de observación vamos a tomar dos med
 
 Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la referencia 1,  obtenemos 
 
-| :--: | :------: | :------: | :------: | :------: |
-|      |  hora    |  alt     |  dec     |  GHA     |
-| 1    | 11 UTC   |  33.4    | -10.83   | 341.58   |
-| 2    | 16 UTC   |  19.3    | -10.753  | 56.585   |
+| :---: | :------: | :------: | :------: | :------: |
+|       |  hora    |  alt     |  dec     |  GHA     |
+| Obs 1 | 11 UTC   |  33.4    | -10.83   | 341.58   |
+| Obs 2 | 16 UTC   |  19.3    | -10.753  | 56.585   |
 
 aplicando la ecuación 2.1 a cada medida obtenemos el siguiente sistema de ecuaciones:
 
 		
 $$ 
-\sin(33.4) = sin(-10.83)sin(\phi)+\\   cos(-10.83)cos(\phi)cos(341.58+\lambda) \\
-\sin(\alpha) = sin(-10.753)sin(\phi)+\\   cos(-10.753)cos(\phi)cos(56.585+\lambda) 
+\begin{align} [obs1] \quad sin(33.4) = sin(-10.83)sin(\phi)+\\   cos(-10.83)cos(\phi)cos(341.58+\lambda)   \\ \\ 
+[obs2] \quad\sin(\alpha) = sin(-10.753)sin(\phi)+\\   cos(-10.753)cos(\phi)cos(56.585+\lambda) \end{align}
 $$ 
 
   
