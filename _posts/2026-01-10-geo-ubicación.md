@@ -143,8 +143,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 <a id="7"></a>
 [8] Tablas de parámetros solares por fecha y lugar,  [https://salidaypuestadelsol.com/sun](https://salidaypuestadelsol.com/sun/valladolid_(spain))
 
-<a id="8"></a>Conversor de grados, muinutos y segundos a grados decimales,[https://www.rapidtables.org/convert/number/degrees-minutes-seconds-to-degrees.html]
-(https://www.rapidtables.org/convert/number/degrees-minutes-seconds-to-degrees.html)
+
 
 
 
