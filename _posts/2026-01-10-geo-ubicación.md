@@ -123,7 +123,7 @@ donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miem
  
 $$
 \begin{align}
-GHA = 30^\circ \\LHA=  12^\circ \\  \lambda=LHA-GHA=-18^\circ
+ LHA=  12^\circ \\GHA = 30^\circ \\  \lambda=LHA-GHA=-18^\circ
 \end{align}
 $$
 
