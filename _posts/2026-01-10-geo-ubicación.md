@@ -80,8 +80,7 @@ Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
 
 **Ejemplo práctico 2.1:**  
-Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía.  
-(¡Ojo!, el verdadero mediodía raramente coincide con las 12 locales $$\pm$$ corrección gubernamental). 
+Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía. (¡Ojo!, el verdadero mediodía raramente coincide con las 12 locales $$\pm$$ corrección gubernamental). 
 
 <div align="center">
    <a id="f21"></a>
@@ -129,6 +128,16 @@ $$
 $$
 
 **Ejemplo práctico 3.1:**  
+Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tabla naúticas y la ecuación **2.1**.  
+
+Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la referencia 1,  obtenemos 
+
+| :--: | :------: | :------: | :------: | :------: |
+|      |  hora    |  alt     |  dec     |  GHA     |
+| 1    | 11 UTC   |  33.4    | -10.83   | 341.58   |
+| 2    | 16 UTC   |  19.3    | -10.753  | 56.585   |
+
+
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
