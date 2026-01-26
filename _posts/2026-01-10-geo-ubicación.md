@@ -24,7 +24,7 @@ En el contexto de la tierra la respuesta a esta pregunta se compone de 3 número
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
-La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion: navegación celeste. 
+La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
 <a id="donde_estoy"></a>
 
@@ -125,23 +125,23 @@ Veremos más adelante que esta estimación es mejorable si hacemos dos medicione
 ## Referencias
 
 <a id="1"></a>
-[1]  [Almanaque naútico en línea](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/)
+[1]  Almanaque naútico en línea, [https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/)
 
 <a id="2"></a>
-[2] [Editor de ecuaciones en línea](https://latexeditor.lagrida.com/)
+[2] Editor de ecuaciones en línea, [https://latexeditor.lagrida.com/](https://latexeditor.lagrida.com/)
 
 <a id="3"></a>
-[3] [Position of the sun (wikipedia)](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)
+[3] Position of the sun (wikipedia), [https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)
 
 <a id="4"></a>
-[4] [Solsticio](https://es.wikipedia.org/wiki/Solsticio)
+[4] Solsticio (wikipedia), [https://es.wikipedia.org/wiki/Solsticio](https://es.wikipedia.org/wiki/Solsticio)
 
 <a id="5"></a>
-[5] [Sextante](https://es.wikipedia.org/wiki/Sextante)
+[5] Sextante (wikipedia), [https://es.wikipedia.org/wiki/Sextante](https://es.wikipedia.org/wiki/Sextante)
 
 <a id="6"></a>
-[6] Variaciones orbitales y ciclos de Milankovitch.
-[Enlace al artículo](https://es.wikipedia.org/wiki/Variaciones_orbitales)
+[6] Navegación astronómica o celeste, (wikipedia),
+[https://en.wikipedia.org/wiki/Celestial_navigation](https://en.wikipedia.org/wiki/Celestial_navigation)
 
 <a id="7"></a>
 [8] Serie instrumental de temperaturas en la  [estación antártica de Vostok](http://www.nerc-bas.ac.uk/icd/gjma/vostok.temps.html)
