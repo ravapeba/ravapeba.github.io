@@ -137,6 +137,13 @@ Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.
 | 1    | 11 UTC   |  33.4    | -10.83   | 341.58   |
 | 2    | 16 UTC   |  19.3    | -10.753  | 56.585   |
 
+aplicando la ecuación 2.1 a cada medida obtenemos el siguiente sistema de ecuaciones:
+
+		
+$$ 
+\sin(33.4) = sin(-10.83)sin(\phi)+\\   cos(-10.83)cos(\phi)cos(341.58+\lambda) \\
+\sin(\alpha) = sin(-10.753)sin(\phi)+\\   cos(-10.753)cos(\phi)cos(56.585+\lambda) 
+$$ 
 
   
 <!-- <a id="f3"></a>
