@@ -109,9 +109,9 @@ $$
 \phi =  \delta + arcos(sin(\alpha)) = -14.24833^\circ+arcos(sin(34.3^\circ) = 41.45^\circ
 $$ 
 
-La latitud oficial de Valladolid (centro geográfico de la ciudad) es de unos $$41.65^\circ$$, con lo cual el error cometido en nuestra estimación, suponiendo que la hemos hecho en el mismísimo centro geográfico de la ciudad, sería de 2 décimas de grado, es decir, 12 minutos de latitud. Este valor, traducido a distancia sobre el terreno, equivale a unos 22 km en dirección sur. El error puede parecer muy grande, dado que estamos acostumbrados a la exactitud del GPS. No obstante, si estuvieramos en un barco en el mar y con buena visibilidad es un error muy asumible, pues la vista que alcanzamos lo suple sobradamente. Si estuvieramos en desierto amplio, como el del Sahara, por ejemplo, sigue siendo un valor útil, que nos posicionaría en nuestro mapa de papel y nos indicaría la mejor dirección para seguir una ruta hacia un punto habitado, si es el caso.  
+La latitud oficial de Valladolid (centro geográfico de la ciudad) es de unos $$41.65^\circ$$, con lo cual el error cometido en nuestra estimación, suponiendo que la hemos hecho en el mismísimo centro geográfico de la ciudad, sería de 2 décimas de grado, es decir, 12 minutos de latitud. Este valor, traducido a distancia sobre el terreno, equivale a unos 22 km en dirección sur. El error puede parecer muy grande, dado que estamos acostumbrados a la exactitud del GPS. No obstante, si estuvieramos en un barco en el mar y con buena visibilidad es un error muy asumible, pues la vista que alcanzamos lo suple sobradamente. Si estuvieramos en un desierto amplio, como el del Sahara, por ejemplo, sigue siendo un valor útil, que nos posicionaría en nuestro mapa de papel y nos indicaría la mejor dirección para seguir una ruta hacia un punto habitado, si es el caso.  
 
-Veremos más adelante que esta estimación es mejorable si hacemos dos mediciones en lugar de una. Por ejemplo, si hacemos una medición de la altitud de la luna, caso de que este disponible. O bien si hacemos otra medición de la altitud solar a una hora diferente.
+Veremos más adelante que esta estimación es mejorable si hacemos dos mediciones en lugar de una. Por ejemplo, si hacemos una medición de la altitud de la luna, caso de que este disponible. O bien si hacemos dos mediciones de la altitud solar en momentos diferentes.
 
 
   
@@ -125,31 +125,25 @@ Veremos más adelante que esta estimación es mejorable si hacemos dos medicione
 ## Referencias
 
 <a id="1"></a>
-[1] Met Office Hadley Centre observations datasets. [Met Office Hadley Centre](https://www.metoffice.gov.uk/hadobs/hadcrut5/index.html)
+[1]  [Almanaque naútico en línea](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/)
 
 <a id="2"></a>
-[2] Mann, M.E. and P.D. Jones, 2003,2000 Year Hemispheric Multi-proxy Temperature Reconstructions, IGBP PAGES/World Data Center for Paleoclimatology. NOAA/NGDC Paleoclimatology Program, Boulder CO, USA.
-[Enlace al artículo](http://stephenschneider.stanford.edu/Publications/PDF_Papers/Mann_Jones1.pdf)
+[2] [Editor de ecuaciones en línea](https://latexeditor.lagrida.com/)
 
 <a id="3"></a>
-[3] J.R. Petit, D. Raynaud, C. Lorius, J. Jouzel and G. Delaygue, N.I. Barkov, V.M. Kotlyakov. Historical Isotopic Temperature Record from the Vostok Ice Core.
-[Enlace a artículo y datos](https://cdiac.ess-dive.lbl.gov/trends/temp/vostok/jouz_tem.htm)
+[3] [Position of the sun (wikipedia)](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)
 
 <a id="4"></a>
-[4] J.-M. Barnola, D. Raynaud, C. Lorius, N.I. Barkov. Historical Carbon Dioxide Record from the Vostok Ice Core.
-[Enlace a artículo y datos](https://cdiac.ess-dive.lbl.gov/trends/co2/vostok.html)
+[4] [Solsticio](https://es.wikipedia.org/wiki/Solsticio)
 
 <a id="5"></a>
-[5] J.R. Petit, D. Raynaud, C. Lorius, J. Jouzel, y otros. Climate and atmospheric history of the past 420,000 years from the Vostok ice core, Antarctica. [Enlace al artículo](http://2018.icrps.org/wp-content/uploads/sites/4/2018/06/Article-3-Climate-and-atmospheric-history-of-the-past-4202c000-years-from-the-Vostok-ice-core2c-Antarctica-1.pdf)
+[5] [Sextante](https://es.wikipedia.org/wiki/Sextante)
 
 <a id="6"></a>
 [6] Variaciones orbitales y ciclos de Milankovitch.
 [Enlace al artículo](https://es.wikipedia.org/wiki/Variaciones_orbitales)
 
 <a id="7"></a>
-[7] E. Rodríguez Camino, J.A. Parodi, F. González Rouco, M. Montoya Redondo. Proyecciones climáticas. Física del caos en la predicción meteorológica. Capítulo 29. [Enlace al artículo](http://www.aemet.es/documentos/es/conocermas/recursos_en_linea/publicaciones_y_estudios/publicaciones/Fisica_del_caos_en_la_predicc_meteo/29_Proyecciones_climaticas.pdf)
-
-<a id="8"></a>
 [8] Serie instrumental de temperaturas en la  [estación antártica de Vostok](http://www.nerc-bas.ac.uk/icd/gjma/vostok.temps.html)
 
 
