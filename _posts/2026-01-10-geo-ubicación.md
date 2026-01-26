@@ -80,15 +80,17 @@ Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
 
 **Ejemplo 2.1:** Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía   
-Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
-
-$$\alpha=34.3^\circ$$
+Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. 
 
 <div align="center">
    <a id="f3"></a>
 	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
 </div>
   
+Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
+
+$$\alpha=34.3^\circ$$  
+
 Anotamos también la hora de la observación, por ejemplo, las 13.30 en nuestro caso en Valladolid, es decir, las 12.30 UTC. Después, consultando en las tablas del almanaque naútico para el día  [10 de febrero de 2026](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/pages?date=02%2F10%2F2026), vemos que la declinación solar a las 12.30 UTC es 
 
 $$\delta=-14.24833^\circ $$
