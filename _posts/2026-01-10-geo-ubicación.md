@@ -114,11 +114,15 @@ La longitud de un lugar sobre la superficie terrestre, como se definió anterior
 	{% include  image.html url="/img/geoloc/longitud5.png" description="Figura 3.1. Esquema para la estimación de la longitud del observador, O." %}
 </div>
 
-Para mayor claridad, la escena representa un momento equinocial, en el que la declinación solar es cero. Para el propósito de este apartado, que es mostrar los ángulos horarios y aprender a calcular la longitud geográfica, no se pierde generalidad y el esquema gráfico es más sencillo (sin inclinación). Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la ecuación **2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular de dicho meridiano con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$. Como evidencia el gráfico, existe la siguiente relación sencilla entre estos elementos:
+Para mayor claridad, la escena representa un momento equinocial, en el que la declinación solar es cero. Para el propósito de este apartado, que es mostrar los ángulos horarios y aprender a calcular la longitud geográfica, no se pierde generalidad y el esquema gráfico es más sencillo (sin inclinación). Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la ecuación **2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
 
 $$LHA=GHA+\lambda$$
 
-donde $$\lamda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo.
+donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, LHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. Ambos ángulos se toman como positivos y se miden hacia el oeste del meridiano de Greenwich. En el ejemplo mostrado bien podrían valer 
+
+$$
+GHA = 30^\circ \qquad y LHA= 12^\circ \qquad, por tanto \lambda=LHA-GHA=-18^\circ
+$$
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
