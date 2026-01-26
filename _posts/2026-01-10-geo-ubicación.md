@@ -137,7 +137,7 @@ Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.
 | Obs 1 | 11 UTC   |  33.4    | -10.83   | 341.58   |
 | Obs 2 | 16 UTC   |  19.3    | -10.753  | 56.585   |
 
-donde alt y dec son la aaltitud y declinación solares $$(\alpha,\delta)$$. Aplicando la ecuación **2.1** a cada observación obtenemos el siguiente sistema de ecuaciones:
+donde alt y dec son la altitud y declinación solares $$(\alpha,\delta)$$. Aplicando la ecuación **2.1** a cada observación obtenemos el siguiente sistema de ecuaciones:
 
 		
 $$ 
