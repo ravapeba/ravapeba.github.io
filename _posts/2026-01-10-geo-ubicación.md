@@ -107,7 +107,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 
 <div align="center">
    <a id="f3"></a>
-	{% include  image.html url="/img/geoloc/longitud.png" description="Figura 1. Esquema para la estimación de la longitud del observador, O." %}
+	{% include  image.html url="/img/geoloc/longitud2.png" description="Figura 1. Esquema para la estimación de la longitud del observador, O." %}
 </div>
   
 <!-- <a id="f3"></a>
