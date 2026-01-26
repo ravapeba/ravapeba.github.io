@@ -86,7 +86,7 @@ $$\alpha=34.3^\circ$$
 
 <div align="center">
    <a id="f3"></a>
-	{% include  image.html url="/img/geoloc/sombra2.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
+	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
 </div>
   
 Anotamos también la hora de la observación, por ejemplo, las 13.30 en nuestro caso en Valladolid, es decir, las 12.30 UTC. Después, consultando en las tablas del almanaque naútico para el día  [10 de febrero de 2026](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/pages?date=02%2F10%2F2026), vemos que la declinación solar a las 12.30 UTC es 
