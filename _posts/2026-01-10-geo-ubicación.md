@@ -107,13 +107,18 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 
 ## 3. ¿Cuál es mi longitud? 
 
-La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la figura **3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él. El de Greenwich, G, el meridiano del observador, O, y el meridiano correspondiente al punto subsolar, GP.   
-
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la figura **3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él. 
 
 <div align="center">
    <a id="f31"></a>
 	{% include  image.html url="/img/geoloc/longitud5.png" description="Figura 3.1. Esquema para la estimación de la longitud del observador, O." %}
 </div>
+
+Para mayor claridad, la escena representa un momento equinocial, en el que la declinación solar es cero. Para el propósito de este apartado, que es mostrar los ángulos horarios y aprender a calcular la longitud geográfica, no se pierde generalidad y el esquema gráfico es más sencillo (sin inclinación). Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la ecuación **2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular de dicho meridiano con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$. Como evidencia el gráfico, existe la siguiente relación sencilla entre estos elementos:
+
+$$LHA=GHA+\lambda$$
+
+donde $$\lamda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo.
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
