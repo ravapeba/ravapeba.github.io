@@ -122,7 +122,7 @@ $$LHA=GHA+\lambda$$
 donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. Ambos ángulos se toman como positivos y se miden hacia el oeste del meridiano de Greenwich. Es decir, si el sol estuviera $$10^\circ$$ al este de G, su GHA sería $$355^\circ$$.  En el ejemplo mostrado lo números en juego bien podrían ser, a groso modo,
  
 $$
-GHA = 30^\circ \qquad y LHA= 12^\circ \qquad, por tanto \lambda=LHA-GHA=-18^\circ
+GHA = 30^\circ \qquad  LHA= 12^\circ \qquad, por \quad tanto \quad \lambda=LHA-GHA=-18^\circ
 $$
   
 <!-- <a id="f3"></a>
