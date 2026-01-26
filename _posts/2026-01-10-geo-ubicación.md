@@ -137,7 +137,7 @@ Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.
 | Obs 1 | 11 UTC   |  33.4    | -10.83   | 341.58   |
 | Obs 2 | 16 UTC   |  19.3    | -10.753  | 56.585   |
 
-aplicando la ecuación 2.1 a cada medida obtenemos el siguiente sistema de ecuaciones:
+aplicando la ecuación **2.1** a cada medida obtenemos el siguiente sistema de ecuaciones:
 
 		
 $$ 
@@ -145,6 +145,12 @@ $$
 [obs2] \quad\sin(\alpha) = sin(-10.753)sin(\phi)+\\   cos(-10.753)cos(\phi)cos(56.585+\lambda) \end{align}
 $$ 
 
+donde se ha tenido en cuenta que $$LHA=GHA+\lambda$$ para sustituir el ángulo horario local, h en la ecuación original. La solución a este sistema puede obtenerse usando una calculadora científica. En nuestro caso el resultado ha sido
+
+$$
+\lambda= -4.78^\circ\\
+\phi= 41.59^\circ 
+$$
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
