@@ -79,21 +79,11 @@ Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 
 nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
 
-**Ejemplo:** Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía   
+**Ejemplo 2.1:** Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía   
 Antes de empezar es importante ser consciente de que el verdadero mediodía no suele coincidir con las 12 locales $$\pm$$ corrección gubernamental. Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
 
 $$\alpha=34.3^\circ$$
 
-<!-- !["Figura 1. Esquema para la estimación de la altitud solar"](https://ravapeba.github.io/img/sombra1.png)
-
-
-
- <a id="f3"></a>
-{% include  image.html url="/img/geoloc/sombra1.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
-<img src="image.jpg" alt="A floating image" style="float: center; ">
---> 
- 
- 
 <div align="center">
    <a id="f3"></a>
 	{% include  image.html url="/img/geoloc/sombra2.png" description="Figura 1. Esquema para la estimación de la altitud solar" %}
@@ -111,9 +101,14 @@ $$
 
 La latitud oficial de Valladolid (centro geográfico de la ciudad) es de unos $$41.65^\circ$$, con lo cual el error cometido en nuestra estimación, suponiendo que la hemos hecho en el mismísimo centro geográfico de la ciudad, sería de 2 décimas de grado, es decir, 12 minutos de latitud. Este valor, traducido a distancia sobre el terreno, equivale a unos 22 km en dirección sur. El error puede parecer muy grande, dado que estamos acostumbrados a la exactitud del GPS. No obstante, si estuvieramos en un barco en el mar y con buena visibilidad es un error muy asumible, pues la vista que alcanzamos lo suple sobradamente. Si estuvieramos en un desierto amplio, como el del Sahara, por ejemplo, sigue siendo un valor útil, que nos posicionaría en nuestro mapa de papel y nos indicaría la mejor dirección para seguir una ruta hacia un punto habitado, si es el caso.  
 
-Veremos más adelante que esta estimación es mejorable si hacemos dos mediciones en lugar de una. Por ejemplo, si hacemos una medición de la altitud de la luna, caso de que este disponible. O bien si hacemos dos mediciones de la altitud solar en momentos diferentes.
+Veremos en el siguiente apartado que esta estimación es mejorable si hacemos dos mediciones en lugar de una. Por ejemplo, si además de medir la altitud solar hacemos una medición de la altitud de la luna en el mismo momento, caso de que este disponible. O bien si hacemos dos mediciones de la altitud solar en momentos diferentes.
 
+## 3. ¿Cuál es mi longitud? 
 
+<div align="center">
+   <a id="f3"></a>
+	{% include  image.html url="/img/geoloc/longitud.png" description="Figura 1. Esquema para la estimación de la longitud del observador, O." %}
+</div>
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
@@ -146,6 +141,8 @@ Veremos más adelante que esta estimación es mejorable si hacemos dos medicione
 <a id="7"></a>
 [8] Tablas de parámetros solares por fecha y lugar,  [https://salidaypuestadelsol.com/sun](https://salidaypuestadelsol.com/sun/valladolid_(spain))
 
+<a id="8"></a>Conversor de grados, muinutos y segundos a grados decimales,[https://www.rapidtables.org/convert/number/degrees-minutes-seconds-to-degrees.html]
+(https://www.rapidtables.org/convert/number/degrees-minutes-seconds-to-degrees.html)
 
 
 
