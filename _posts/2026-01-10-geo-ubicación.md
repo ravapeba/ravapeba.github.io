@@ -38,7 +38,7 @@ $$
 \sin(\alpha) = sin(\delta)sin(\phi)+\\   cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[2.1]}
 $$ 
 
-donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación. Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
+donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación respecto al punto de observación (ángulo horario local). Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+\\  
@@ -128,7 +128,7 @@ $$
 $$
 
 **Ejemplo práctico 3.1:**  
-Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tabla naúticas y la ecuación **2.1**.  
+Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la ecuación **2.1**.  
 
 Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la referencia 1,  obtenemos 
 
