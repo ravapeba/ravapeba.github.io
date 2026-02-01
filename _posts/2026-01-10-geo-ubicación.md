@@ -111,19 +111,20 @@ La longitud de un lugar sobre la superficie terrestre, como se definió anterior
 Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación, en UTC,  del momento exacto del mediodía (verdadero mediodía). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
-\lambda=\frac{ET- (difZ_{noon}))}{4}
+\lambda=\frac{EoT- (difZ_{noon}))}{4}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
 
 <div align="center">
    <a id="f31"></a>
 	{% include  image.html url="/img/geoloc/et2.png" description="Figura 3.1. Evolución anual de la ecuación del tiempo, en minutos." %}
 </div>
 
-De forma aproximada (Ref.10) puede calcularse a partir de la siguiente expresión (Ref. 10)  
+De forma aproximada, (**Ref_10**), puede calcularse a partir de la siguiente expresión  
+
 $$
-EoT = 9.87\sin(2\frac{360}{365}(d-81))- 7.67\sin(\frac{360}{365}(d-81) + 78.7°)
+EoT = 9.87\sin(2\frac{360}{365}(d-81))- 7.67\sin(\frac{360}{365}(d-81) + 78.7)
 $$
 
 
