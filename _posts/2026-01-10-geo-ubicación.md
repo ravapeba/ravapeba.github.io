@@ -124,7 +124,7 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en U
 De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
 
 $$
-EoT = -9.87\sin(2\frac{360}{365}(d-81))+ \quad \small \textbf{[3.2]} \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) 
+EoT = -9.87\sin(2\frac{360}{365}(d-81))+  \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) \qquad \small \textbf{[3.2]}
 $$
 
 donde **d** es el día del año contado desde el 1 de enero.  
