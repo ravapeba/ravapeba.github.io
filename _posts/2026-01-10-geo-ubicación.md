@@ -114,7 +114,7 @@ $$
 \lambda=\frac{EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1**,**Ref_8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**Ref_9**) 
 
 <div align="center">
    <a id="f31"></a>
@@ -161,7 +161,7 @@ $$
 **Ejemplo práctico 3.2:**  
 Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la ecuación **2.1**.  
 
-Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la referencia 1,  obtenemos 
+Hechas las medidas y consultadas las tablas en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la **ref_1**,  obtenemos 
 
 | :---: | :------: | :------: | :------: | :------: |
 |       |  hora    |  alt     |  dec     |  GHA     |
