@@ -124,8 +124,11 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en U
 De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
 
 $$
-EoT = -9.87\sin(2\frac{360}{365}(d-81))+ 7.67\sin(\frac{360}{365}(d-81) + 78.7)
+EoT = -9.87\sin(2\frac{360}{365}(d-81))+ \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7)
 $$
+
+donde **d** es el día del año contado desde el 1 de enero.  
+
 
 **Ejemplo práctico 3.1:** 
 Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la **ecuación 3.1**, estimar la longitud de dicho punto de observación. 
@@ -133,7 +136,7 @@ Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 
 Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32.5 (sumamos 0.5 por ser mediodía)  
 
 $$
-EoT = -9.87\sin(2\frac{360}{365}(32.5-81))+ 7.67\sin(\frac{360}{365}(32.5-81) + 78.7)=13.756'
+EoT = -9.87\sin(2\frac{360}{365}(32.5-81))+ \\7.67\sin(\frac{360}{365}(32.5-81) + 78.7)=13.756'
 $$
 
 y después llevamos ese valor a la **ecuación 3.1**  
