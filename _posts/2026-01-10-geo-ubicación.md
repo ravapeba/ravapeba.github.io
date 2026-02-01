@@ -187,6 +187,8 @@ $$
 \lambda= -4.78^\circ\\
 \phi= 41.59^\circ 
 $$
+
+vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, es decir, $$3.6'$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del **ejemplo 2.1**. En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, 6 centésimas de grado, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, la tercera parte del error cometido en la estimación del **ejemplo 3.1** 
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
