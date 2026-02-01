@@ -54,7 +54,7 @@ $$
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
 
 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: 
-[AlmanacPagesISAPI](http://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll)  
+[The Nautical Almanac]https://thenauticalalmanac.com/)  
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
@@ -91,7 +91,7 @@ Para realizar la tarea lo primero será hacer una medición lo más precisa posi
 
 $$\alpha=34.3^\circ$$  
 
-Anotamos también la hora de la observación, por ejemplo, las 13.30 en nuestro caso en Valladolid, es decir, las 12.30 UTC. Después, consultando en las tablas del almanaque naútico para el día  [10 de febrero de 2026](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/pages?date=02%2F10%2F2026), vemos que la declinación solar a las 12.30 UTC es 
+Anotamos también la hora de la observación, por ejemplo, las 13.30 en nuestro caso en Valladolid, es decir, las 12.30 UTC. Después, consultando en las tablas del almanaque naútico para el día  [10 de febrero de 2026]https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf), vemos que la declinación solar a las 12.30 UTC es 
 
 $$\delta=-14.24833^\circ $$
 
@@ -164,7 +164,7 @@ $$
 **Ejemplo práctico 3.2:**  
 Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la **ecuación 2.1**.  
 
-Hechas las medidas y consultadas las tablas en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la **ref_1**,  obtenemos 
+Hechas las medidas y consultadas las tablas en el [almanaque](https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf) de la **ref 1**,  obtenemos 
 
 | :---: | :------: | :------: | :------: | :------: |
 |       |  hora    |  alt     |  dec     |  GHA     |
@@ -196,7 +196,7 @@ $$
 ## Referencias
 
 <a id="1"></a>
-[1]  Almanaque naútico en línea, [https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/)
+[1]  The Nautical Almanac, [https://thenauticalalmanac.com/](https://thenauticalalmanac.com/)
 
 <a id="2"></a>
 [2] Editor de ecuaciones en línea, [https://latexeditor.lagrida.com/](https://latexeditor.lagrida.com/)
