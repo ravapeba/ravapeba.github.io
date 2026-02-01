@@ -118,7 +118,7 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en U
 
 <div align="center">
    <a id="f31"></a>
-	{% include  image.html url="/img/geoloc/ect2.png" description="Figura 3.1. Esquema para la estimación de la longitud del observador, O." %}
+	{% include  image.html url="/img/geoloc/et2.png" description="Figura 3.1. Evolución anual de la ecuación del tiempo, en minutos." %}
 </div>
 
 Para mayor claridad, la escena representa un momento equinocial, en el que la declinación solar es cero. Para el propósito de este apartado, que es mostrar los ángulos horarios y aprender a calcular la longitud geográfica, no se pierde generalidad y el esquema gráfico es más sencillo (sin inclinación).  
