@@ -168,7 +168,7 @@ $$
 
 Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la **ecuación 2.1**.  
 
-Hechas las medidas y consultadas las tablas en el [almanaque::ref1](https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf) de la **ref 1**,  obtenemos 
+Hechas las medidas y consultadas las tablas en el [almanaque](https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf) de la **ref 1**,  obtenemos 
 
 | :---: | :------: | :------: | :------: | :------: |
 |       |  hora    |  alt     |  dec     |  GHA     |
