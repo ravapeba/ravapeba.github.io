@@ -107,21 +107,21 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 
 ## 3. Estimación de la longitud 
 
-La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la figura **3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él.  
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la **figura 3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él.  
 Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación, en UTC,  del momento exacto del mediodía (verdadero mediodía). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
 \lambda=\frac{EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1**, **ref8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**ref9**) 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura 3.1**, **ref 8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
 
 <div align="center">
    <a id="f31"></a>
 	{% include  image.html url="/img/geoloc/et2.png" description="Figura 3.1. Evolución anual de la ecuación del tiempo, en minutos." %}
 </div>
 
-De forma aproximada, (**ref10**), puede calcularse a partir de la siguiente expresión  
+De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
 
 $$
 EoT = -9.87\sin(2\frac{360}{365}(d-81))+ 7.67\sin(\frac{360}{365}(d-81) + 78.7)
@@ -136,7 +136,7 @@ $$
 EoT = -9.87\sin(2\frac{360}{365}(32.5-81))+ 7.67\sin(\frac{360}{365}(32.5-81) + 78.7)=13.756'
 $$
 
-y después llevamos ese valor a la ecuación **3.1**  
+y después llevamos ese valor a la **ecuación 3.1**  
 
 $$
 \lambda=\frac{13.756 - 32}{4}=-4.56^\circ
@@ -168,7 +168,7 @@ Hechas las medidas y consultadas las tablas en el [almanaque](https://www.tecepe
 | Obs 1 | 11 UTC   |  33.4    | -10.83   | 341.58   |
 | Obs 2 | 16 UTC   |  19.3    | -10.753  | 56.585   |
 
-donde alt y dec son la altitud y declinación solares $$(\alpha,\delta)$$. Aplicando la ecuación **2.1** a cada observación obtenemos el siguiente sistema de ecuaciones:
+donde alt y dec son la altitud y declinación solares $$(\alpha,\delta)$$. Aplicando la **ecuación 2.1** a cada observación obtenemos el siguiente sistema de ecuaciones:
 
 		
 $$ 
