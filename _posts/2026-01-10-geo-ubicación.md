@@ -142,7 +142,7 @@ $$
 \lambda=\frac{13.756 - 32}{4}=-4.56^\circ
 $$
 
-el error cometido en este caso sería $$-4.56-(-4.72)=-0.16^\circ$$, es decir, unos 9.6 minutos, es decir, unos 18 km al este del punto de observación.
+el error cometido en este caso sería $$-4.56-(-4.72)=0.16^\circ$$, es decir, unos 9.6 minutos, es decir, unos 18 km al este del punto de observación.
 
 
 
