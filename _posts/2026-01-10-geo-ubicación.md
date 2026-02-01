@@ -130,7 +130,8 @@ $$
 **Ejemplo práctico 3.1:** 
 Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 33 minutos. Aplicando la ecuación **3.1**, estimar la longitud de dicho punto de observación. 
 
-Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32.5 (sumamos 0.5 por ser mediodía)
+Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32.5 (sumamos 0.5 por ser mediodía)  
+
 $$
 EoT = -9.87\sin(2\frac{360}{365}(32.5-81))+ 7.67\sin(\frac{360}{365}(32.5-81) + 78.7)=13.756'
 $$
