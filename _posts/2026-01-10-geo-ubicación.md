@@ -127,7 +127,7 @@ $$
 EoT = -9.87\sin(2\frac{360}{365}(d-81))+  \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) \qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año contado desde el 1 de enero.  
+donde **d** es el día del año contado desde el 1 de enero. Para cálculos más precisos puede consultarse la **ref 11**.
 
 
 **Ejemplo práctico 3.1:** 
@@ -229,6 +229,9 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 
 <a id="10"></a>
 [10] Calculadora de la ecuación del tiempo,  [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/](https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/) 
+
+<a id="11"></a>
+[11] Sola position calculations [https://gml.noaa.gov/grad/solcalc/solareqns.PDF](https://gml.noaa.gov/grad/solcalc/solareqns.PDF) 
 
 
 
