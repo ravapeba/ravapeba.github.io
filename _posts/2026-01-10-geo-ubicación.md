@@ -114,7 +114,7 @@ $$
 \lambda=\frac{ET- (difZ_{noon}))}{4}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** puede obtenerse una buena estimación del valor de ET para cualquier día del año (¡ojo!, aunque la variación es lenta habría que actualizar la figura cadaa x años)  
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año (¡ojo!, aunque la variación es lenta habría que actualizar la figura cada x años)  
 
 <div align="center">
    <a id="f31"></a>
