@@ -114,17 +114,11 @@ $$
 \lambda=\frac{ET- (difZ_{noon}))}{4}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). Entre las muchas ecuaciones propuestas en la literatura para la estimación de la ET, elegimos la siguiente versión (Jesús Manzo, 2009) 
-
-$$
-ET=10\sin(\frac{2n}{58}- 2.82) - 7.53\sin(\frac{π}{2}  - (\frac{n}{58} - 1.4)) - 1.5\sin(\frac{n}{58} - 1.4)
-$$
-
-donde n es el número de día de la fecha, contado desde el 1 de enero (ej. el 10 de febrero serìa n=41)  
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** puede obtenerse una buena estimación del valor de ET para cualquier día del año (¡ojo!, aunque la variación es lenta habría que actualizar la figura cadaa x años)  
 
 <div align="center">
    <a id="f31"></a>
-	{% include  image.html url="/img/geoloc/longitud5.png" description="Figura 3.1. Esquema para la estimación de la longitud del observador, O." %}
+	{% include  image.html url="/img/geoloc/ect2.png" description="Figura 3.1. Esquema para la estimación de la longitud del observador, O." %}
 </div>
 
 Para mayor claridad, la escena representa un momento equinocial, en el que la declinación solar es cero. Para el propósito de este apartado, que es mostrar los ángulos horarios y aprender a calcular la longitud geográfica, no se pierde generalidad y el esquema gráfico es más sencillo (sin inclinación).  
