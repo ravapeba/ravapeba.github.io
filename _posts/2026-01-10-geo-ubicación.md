@@ -95,7 +95,7 @@ Anotamos también la hora de la observación, por ejemplo, las 13.30 en nuestro 
 
 $$\delta=-14.24833^\circ $$
 
-por tanto, de acuerdo con la ecuación **[2.3]**, nuestra latitud estimada sería
+por tanto, de acuerdo con la **ecuación 2.3**, nuestra latitud estimada sería
 
 $$ 
 \phi =  \delta + arcos(sin(\alpha)) = \\-14.24833^\circ+arcos(sin(34.3^\circ) = \\= 41.45^\circ
@@ -128,7 +128,7 @@ EoT = -9.87\sin(2\frac{360}{365}(d-81))+ 7.67\sin(\frac{360}{365}(d-81) + 78.7)
 $$
 
 **Ejemplo práctico 3.1:** 
-Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la ecuación **3.1**, estimar la longitud de dicho punto de observación. 
+Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la **ecuación 3.1**, estimar la longitud de dicho punto de observación. 
 
 Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32.5 (sumamos 0.5 por ser mediodía)  
 
@@ -146,7 +146,7 @@ el error cometido en este caso sería $$-4.56-(-4.72)=0.16^\circ$$, es decir, un
 
 
 
- Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la ecuación **2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
+ Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la **ecuación 2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
 
 $$LHA=GHA+\lambda$$
 
@@ -159,7 +159,7 @@ $$
 $$
 
 **Ejemplo práctico 3.2:**  
-Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la ecuación **2.1**.  
+Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la **ecuación 2.1**.  
 
 Hechas las medidas y consultadas las tablas en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la **ref_1**,  obtenemos 
 
