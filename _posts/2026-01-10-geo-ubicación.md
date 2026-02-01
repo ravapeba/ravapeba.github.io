@@ -111,7 +111,7 @@ La longitud de un lugar sobre la superficie terrestre, como se definió anterior
 Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación, en UTC,  del momento exacto del mediodía (verdadero mediodía). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
-\lambda=\frac{EoT- (difZ_{noon}))}{4}
+\lambda=\frac{EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
 donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
@@ -124,8 +124,12 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en U
 De forma aproximada, (**Ref_10**), puede calcularse a partir de la siguiente expresión  
 
 $$
-EoT = 9.87\sin(2\frac{360}{365}(d-81))- 7.67\sin(\frac{360}{365}(d-81) + 78.7)
+EoT = -9.87\sin(2\frac{360}{365}(d-81))+ 7.67\sin(\frac{360}{365}(d-81) + 78.7)
 $$
+
+**Ejemplo práctico 3.1:** 
+Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 35 minutos. Aplicando la ecuación **3.1**, estimar la longitud de dicho punto de observación.
+
 
 
  Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la ecuación **2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
@@ -140,7 +144,7 @@ $$
 \end{align}
 $$
 
-**Ejemplo práctico 3.1:**  
+**Ejemplo práctico 3.2:**  
 Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la ecuación **2.1**.  
 
 Hechas las medidas y consultadas las tabla en el [almanaque](https://www.tecepe.com.br/scripts/AlmanacPagesISAPI.dll/) de la referencia 1,  obtenemos 
@@ -200,10 +204,10 @@ $$
 [8] Kepler. Grupo docente de astronomía, Fuenlabrada,  [https://curso.auladeastronomiadefuenlabrada.com/tema-7-relojes-de-sol/7-9-ecuacion-de-tiempo/](https://curso.auladeastronomiadefuenlabrada.com/tema-7-relojes-de-sol/7-9-ecuacion-de-tiempo/)
 
 <a id="9"></a>
-[7] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
+[9] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
 
 <a id="10"></a>
-[7] Calculadora de la ecuación del tiempo,  [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/](https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/) 
+[10] Calculadora de la ecuación del tiempo,  [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/](https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/) 
 
 
 
