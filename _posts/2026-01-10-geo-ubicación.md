@@ -114,14 +114,19 @@ $$
 \lambda=\frac{ET- (difZ_{noon}))}{4}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
 
 <div align="center">
    <a id="f31"></a>
 	{% include  image.html url="/img/geoloc/et2.png" description="Figura 3.1. Evolución anual de la ecuación del tiempo, en minutos." %}
 </div>
 
-Para mayor claridad, la escena representa un momento equinocial, en el que la declinación solar es cero. Para el propósito de este apartado, que es mostrar los ángulos horarios y aprender a calcular la longitud geográfica, no se pierde generalidad y el esquema gráfico es más sencillo (sin inclinación).  
+De forma aproximada (Ref.10) puede calcularse a partir de la siguiente expresión (Ref. 10)  
+$$
+EoT = 9.87\sin(2\frac{360}{365}(d-81))- 7.67\sin(\frac{360}{365}(d-81) + 78.7°)
+$$
+
+
  Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la ecuación **2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
 
 $$LHA=GHA+\lambda$$
@@ -196,6 +201,8 @@ $$
 <a id="9"></a>
 [7] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
 
+<a id="10"></a>
+[7] Calculadora de la ecuación del tiempo,  [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/](https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/) 
 
 
 
