@@ -114,14 +114,14 @@ $$
 \lambda=\frac{EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1**, **Ref_8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**Ref_9**) 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1**, **ref8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**ref9**) 
 
 <div align="center">
    <a id="f31"></a>
 	{% include  image.html url="/img/geoloc/et2.png" description="**Figura 3.1.** Evolución anual de la ecuación del tiempo, en minutos." %}
 </div>
 
-De forma aproximada, (**Ref_10**), puede calcularse a partir de la siguiente expresión  
+De forma aproximada, (**ref10**), puede calcularse a partir de la siguiente expresión  
 
 $$
 EoT = -9.87\sin(2\frac{360}{365}(d-81))+ 7.67\sin(\frac{360}{365}(d-81) + 78.7)
