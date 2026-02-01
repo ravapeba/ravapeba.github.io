@@ -9,9 +9,9 @@ categories: jekyll update
 {:toc}
 
 ## Introducción
-En este artículo se describen algunos métodos o técnicas de geolocalización sin apoyo del moderno GPS. En realidad, de una u otra forma este tipo de técnicas se llevan aplicando desde hace mucho tiempo, principalmente en el contexto de la navegación por mar, utilizando instrumentos como el sextante, la brújula y el reloj.  
+En este artículo se describen algunos métodos o técnicas de **geolocalización sin apoyo del GPS**. En realidad, de una u otra forma este tipo de técnicas se llevan aplicando desde hace mucho tiempo, principalmente en el contexto de la navegación por mar, utilizando instrumentos como el sextante, la brújula y el reloj, combinados con la tablas de los almanaques naúticos. Herramientas todas habituales, incluso hoy en día, a bordo de buena parte de las embarcaciones que salen a alta mar.
 
-¿Es esto útil?. En principio sería útil en una situación en que nos hemos perdido y, por la razón que sea, no disponemos de GPS. Se acabó la batería del móvil, por ejemplo.  
+¿Es útil la información que se presenta en éste artículo?. En principio podría ser útil en una situación en la que nos hemos perdido y, por la razón que sea, no disponemos de GPS. Se acabó la batería del móvil, por ejemplo.  
 
 <a id="donde_estoy"></a>
 
