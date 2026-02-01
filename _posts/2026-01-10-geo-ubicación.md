@@ -118,7 +118,7 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en U
 
 <div align="center">
    <a id="f31"></a>
-	{% include  image.html url="/img/geoloc/et2.png" description="Figura 3.1. Evolución anual de la ecuación del tiempo, en minutos." %}
+	{% include  image.html url="/img/geoloc/et2.png" description="**Figura 3.1.** Evolución anual de la ecuación del tiempo, en minutos." %}
 </div>
 
 De forma aproximada, (**Ref_10**), puede calcularse a partir de la siguiente expresión  
