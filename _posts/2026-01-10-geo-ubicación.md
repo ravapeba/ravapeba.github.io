@@ -130,7 +130,8 @@ $$
 donde **d** es el día del año contado desde el 1 de enero. Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**.
 
 
-**[Ejemplo práctico 3.1]** 
+**[Ejemplo práctico 3.1]**  
+ 
 Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la **ecuación 3.1**, estimar la longitud de dicho punto de observación. 
 
 Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32.5 (sumamos 0.5 por ser mediodía)  
@@ -163,7 +164,8 @@ $$
 \end{align}
 $$
 
-**[Ejemplo práctico 3.2]**  
+**[Ejemplo práctico 3.2]**   
+
 Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la **ecuación 2.1**.  
 
 Hechas las medidas y consultadas las tablas en el [almanaque](https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf) de la **ref 1**,  obtenemos 
