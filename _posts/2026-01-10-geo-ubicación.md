@@ -54,7 +54,7 @@ $$
 la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
 
 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: 
-[The Nautical Almanac]https://thenauticalalmanac.com/)  
+[The Nautical Almanac](https://thenauticalalmanac.com/)  
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
 [Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
