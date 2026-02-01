@@ -114,7 +114,7 @@ $$
 \lambda=\frac{ET- (difZ_{noon}))}{4}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año (¡ojo!, aunque la variación es lenta habría que actualizar la figura cada x años)  
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$ET$$ es la ecuación (corrección astronómica) del tiempo, esa decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la figura **3.1** (Ref. 8) puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada x años (Ref. 9) 
 
 <div align="center">
    <a id="f31"></a>
@@ -190,9 +190,11 @@ $$
 <a id="7"></a>
 [7] Tablas de parámetros solares por fecha y lugar,  [https://salidaypuestadelsol.com/sun](https://salidaypuestadelsol.com/sun/valladolid_(spain))
 
-<a id="7"></a>
+<a id="8"></a>
 [8] Kepler. Grupo docente de astronomía, Fuenlabrada,  [https://curso.auladeastronomiadefuenlabrada.com/tema-7-relojes-de-sol/7-9-ecuacion-de-tiempo/](https://curso.auladeastronomiadefuenlabrada.com/tema-7-relojes-de-sol/7-9-ecuacion-de-tiempo/)
 
+<a id="9"></a>
+[7] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
 
 
 
