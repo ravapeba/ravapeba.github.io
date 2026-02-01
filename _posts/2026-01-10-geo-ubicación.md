@@ -190,6 +190,11 @@ $$
 <a id="7"></a>
 [7] Tablas de parámetros solares por fecha y lugar,  [https://salidaypuestadelsol.com/sun](https://salidaypuestadelsol.com/sun/valladolid_(spain))
 
+<a id="7"></a>
+[8] Kepler. Grupo docente de astronomía, Fuenlabrada,  [https://curso.auladeastronomiadefuenlabrada.com/tema-7-relojes-de-sol/7-9-ecuacion-de-tiempo/](https://curso.auladeastronomiadefuenlabrada.com/tema-7-relojes-de-sol/7-9-ecuacion-de-tiempo/)
+
+
+
 
 
 
