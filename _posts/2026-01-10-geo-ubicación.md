@@ -28,7 +28,7 @@ La filosofía de la geolocalización es: 'para saber donde uno está es necesari
 
 <a id="donde_estoy"></a>
 
-## 2. ¿Cuál es mi latitud? 
+## 2. Estimación de la latitud
 
 La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el [sextante](https://es.wikipedia.org/wiki/Sextante), utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima, entre otros métodos posibles, ¿se te ocurre alguno?.  
 
@@ -105,9 +105,14 @@ La latitud oficial de Valladolid (centro geográfico de la ciudad) es de unos $$
 
 Veremos en el siguiente apartado que esta estimación es mejorable si hacemos dos mediciones en lugar de una. Por ejemplo, si además de medir la altitud solar hacemos una medición de la altitud de la luna en el mismo momento, caso de que este disponible. O bien si hacemos dos mediciones de la altitud solar en momentos diferentes.
 
-## 3. ¿Cuál es mi longitud? 
+## 3. Estimación de la longitud 
 
-La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la figura **3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él. 
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la figura **3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él.  
+Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si conocemos, en UTC,  el momento exacto del mediodía (verdadero mediodía). En ese caso, basta aplicar la siguiente ecuación, 
+
+$$
+\lambda=\frac{ET\pm (12-Z_{noon}))}{4}
+$$
 
 <div align="center">
    <a id="f31"></a>
