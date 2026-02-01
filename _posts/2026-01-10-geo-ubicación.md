@@ -111,8 +111,10 @@ La longitud de un lugar sobre la superficie terrestre, como se definió anterior
 Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si conocemos, en UTC,  el momento exacto del mediodía (verdadero mediodía). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
-\lambda=\frac{ET\pm (12-Z_{noon}))}{4}
+\lambda=\frac{ET- (difZ_{noon}))}{4}
 $$
+
+donde $difZ_{noon}$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y ET es la ecuación (corrección astronómica) del tiempo 
 
 <div align="center">
    <a id="f31"></a>
