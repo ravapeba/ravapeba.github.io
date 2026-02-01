@@ -124,7 +124,7 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en U
 De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
 
 $$
-EoT = -9.87\sin(2\frac{360}{365}(d-81))+ \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) \quad \small \textbf{[3.2]
+EoT = -9.87\sin(2\frac{360}{365}(d-81))+ \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) \quad \small \textbf{[3.2]}
 $$
 
 donde **d** es el día del año contado desde el 1 de enero.  
@@ -151,7 +151,7 @@ el error cometido en este caso sería $$-4.56-(-4.72)=0.16^\circ$$, es decir, un
 
  Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la **ecuación 2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
 
-$$LHA=GHA+\lambda \quad \small \textbf{[3.3]$$ 
+$$LHA=GHA+\lambda \quad \small \textbf{[3.3]}$$ 
 
 donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. Ambos ángulos se toman como positivos y se miden hacia el oeste del meridiano de Greenwich. Es decir, si el sol estuviera $$10^\circ$$ al este de G, su GHA sería $$355^\circ$$, casi una vuelta completa ($$360^\circ$$), salvo $$10^\circ$$.  En el ejemplo mostrado lo números en juego bien podrían ser, a groso modo,
  
