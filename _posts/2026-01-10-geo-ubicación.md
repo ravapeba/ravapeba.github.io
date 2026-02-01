@@ -142,7 +142,7 @@ $$
 \lambda=\frac{13.756 - 33}{4}=-4.81^\circ
 $$
 
-el error cometido en este caso sería $$-4.81-(-4.72)=-0.09^\circ$$, casi una décima de grado, es decir, algo menos de 6 minutos
+el error cometido en este caso sería $$-4.81-(-4.72)=-0.09^\circ$$, casi una décima de grado, es decir, algo menos de 6 minutos, es decir, unos 8 km al oeste del punto de observación.
 
 
 
