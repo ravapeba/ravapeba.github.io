@@ -77,7 +77,7 @@ Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) 
 | Día  		| 21/12/   | 21/12    | 22/12    | 21/12    | 21/12    | 21/12    | 21/12    |
 | Hora(UTC) | 15:03:01 | 20:50:09 | 02:42:04 | 08:19:33 | 07:55:48 | 07:12:42 | 06:32:38 |
 
-nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto.
+nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto. Para cálculos más precisos de la declinación puede consultarse la **ref 11**.
 
 **Ejemplo práctico 2.1:**  
 Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía. (¡Ojo!, el verdadero mediodía raramente coincide con las 12 locales $$\pm$$ corrección gubernamental). 
@@ -127,7 +127,7 @@ $$
 EoT = -9.87\sin(2\frac{360}{365}(d-81))+  \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) \qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año contado desde el 1 de enero. Para cálculos más precisos puede consultarse la **ref 11**.
+donde **d** es el día del año contado desde el 1 de enero. Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**.
 
 
 **Ejemplo práctico 3.1:** 
