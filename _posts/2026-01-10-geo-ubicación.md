@@ -15,9 +15,9 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 <a id="donde_estoy"></a>
 
-## 1. ¿Donde estoy? 
+## 1. Posición del sol y del observador
 
-En el contexto de la tierra la respuesta a esta pregunta se compone de 3 números:
+En el contexto de la tierra las coodenadas que dan la posición de un observador sobre su superficie son las llamadas coordenadas geográficas:
 - latitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
 - longitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
@@ -25,6 +25,12 @@ En el contexto de la tierra la respuesta a esta pregunta se compone de 3 número
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
+
+
+<div align="center">
+   <a id="f11"></a>
+	{% include  image.html url="/img/geoloc/longit2.png" description="Figura 1.1. Variables de posición del sol y del observador." %}
+</div>
 
 <a id="donde_estoy"></a>
 
@@ -116,10 +122,6 @@ $$
 
 donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura 3.1**, **ref 8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
 
-<div align="center">
-   <a id="f31"></a>
-	{% include  image.html url="/img/geoloc/et2.png" description="Figura 3.1. Evolución anual de la ecuación del tiempo, en minutos." %}
-</div>
 
 De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
 
