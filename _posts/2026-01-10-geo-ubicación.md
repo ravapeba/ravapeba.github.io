@@ -156,12 +156,6 @@ $$
 
 el error cometido en este caso sería $$-4.56-(-4.72)=0.16^\circ$$, es decir, unos 9.6 minutos, es decir, unos 18 km al este del punto de observación.
 
-<div align="center">
-   <a id="f32"></a>
-	{% include  image.html url="/img/geoloc/longit1.png" description="Figura 3.2. Esquema de los ángulos horarios que definen la posición Este-Oeste del sol." %}
-</div>
-
-
 En la **figura 3.2** se muestra un esquema de los ángulos horarios que definen la posición Este-Oeste del sol en un instante dado.
  Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la **ecuación 2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
 
