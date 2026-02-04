@@ -30,8 +30,8 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 </div> 
 
 En cuanto a las **coordenadas del sol**, respecto al centro de la tierra, las mismas para cualquier observador en un instante dado, serían: 
-- declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$ y el plano del ecuador. Coincide con la latitud del punto subsolar, GP.
-- ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol y el meridiano de Greenwich
+- declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP.
+- ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$.
 
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
