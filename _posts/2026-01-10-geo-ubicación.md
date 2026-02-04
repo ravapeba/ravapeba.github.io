@@ -19,7 +19,7 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 En el contexto de la tierra las coodenadas que dan la posición de un observador sobre su superficie son las llamadas coordenadas geográficas:
 - latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
-- longitud ($$\varlambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
+- longitud ($$\lambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
