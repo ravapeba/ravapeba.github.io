@@ -26,7 +26,7 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 
 <div align="center">
    <a id="f11"></a>
-	{% include  image.html url="/img/geoloc/sol_yobs1.png" description="Figura 1.1. Variables de posición del sol ($$GP(\delta,GHA)$$) y del observador ($$O(\lambda,\varphi)$$)." %}
+	{% include  image.html url="/img/geoloc/sol_yobs1.png" description="Figura 1.1. Variables de posición del sol, $$GP(\delta,GHA)$$, y del observador $$O(\lambda,\varphi)$$." %}
 </div> 
 
 En cuanto a las **coordenadas del sol**, respecto al centro de la tierra, las mismas para cualquier observador en un instante dado, serían: 
