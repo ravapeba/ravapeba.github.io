@@ -29,6 +29,10 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 	{% include  image.html url="/img/geoloc/longit2.png" description="Figura 1.1. Variables de posición del sol y del observador." %}
 </div> 
 
+En cuanto a las coordenadas del sol, respecto al centro de la tierra, es decir, las mismas para cualquier observador en un instante dado, serían: 
+- decilnación (\delta): ángulo formado por la línea de posición del sol, $$\overbar{CGP}$$ y el plano del ecuador 
+- ángulo horario de greenwich ($$GHA$$):
+
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
 
