@@ -18,19 +18,21 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 ## 1. Posición del sol y del observador
 
 En el contexto de la tierra las coodenadas que dan la posición de un observador sobre su superficie son las llamadas coordenadas geográficas:
-- latitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
-- longitud: se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
+- latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
+- longitud ($$\varlambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
-La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
-
-
 <div align="center">
    <a id="f11"></a>
 	{% include  image.html url="/img/geoloc/longit2.png" description="Figura 1.1. Variables de posición del sol y del observador." %}
-</div>
+</div> 
+
+La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
+
+
+
 
 <a id="donde_estoy"></a>
 
