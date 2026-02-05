@@ -19,7 +19,7 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas (**figura 1.1**): 
 
-- latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre. Varía en un rango de $$[-90^\circ,90^\circ]$$, siendo $$0^\circ$$ en el ecuador y negativa al sur del mismo.
+- latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre. Varía en un rango de $$[-90^\circ,90^\circ]$$, siendo $$\pm90^\circ$$ en los polos y $$0^\circ$$ en el ecuador (negativa al sur del mismo).
 - longitud ($$\lambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich. Varía en un rango de $$[-180^\circ,180^\circ]$$, siendo $$0^\circ$$ en el meridiano de Greenwich y negativa hacia el oeste del mismo. 
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
 
