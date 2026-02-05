@@ -19,8 +19,8 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas (**figura 1.1**): 
 
-- latitud ($$\large \varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre. Varía en un rango de $$[-90^\circ,90^\circ]$$, siendo $$\pm90^\circ$$ en los polos y $$0^\circ$$ en el ecuador (negativa al sur del mismo).
-- longitud ($$\large \lambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich. Varía en un rango de $$[-180^\circ,180^\circ]$$, siendo $$0^\circ$$ en el meridiano de Greenwich y negativa hacia el oeste del mismo. 
+- latitud, $$\large \varphi$$: se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre. Varía en un rango de $$[-90^\circ,90^\circ]$$, siendo $$\pm90^\circ$$ en los polos y $$0^\circ$$ en el ecuador (negativa al sur del mismo).
+- longitud, $$\large \lambda$$: se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich. Varía en un rango de $$[-180^\circ,180^\circ]$$, siendo $$0^\circ$$ en el meridiano de Greenwich y negativa hacia el oeste del mismo. 
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
@@ -33,8 +33,8 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 
 En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado (**figura 1.1**):  
 
-- declinación ($$\large \delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$[-23.44^\circ,23.44^\circ]$$.
-- ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
+- declinación, $$\large \delta$$: ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$[-23.44^\circ,23.44^\circ]$$.
+- ángulo horario de greenwich, $$GHA$$: ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
 
 La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta hacia el oeste desde valores próximos a $$0^\circ$$ en puntos cercanos al meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos y hacia el este de dicho meridiano.
 
