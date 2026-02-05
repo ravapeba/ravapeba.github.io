@@ -17,7 +17,7 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 ## 1. Posición del sol y del observador
 
-En el contexto de la tierra las **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas:
+En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas:
 - latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
 - longitud ($$\lambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
@@ -30,16 +30,16 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 	{% include  image.html url="/img/geoloc/sol_yobs1.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
 </div> 
 
-En cuanto a las **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado:  
+En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado:  
 
 - declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP.
 - ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$.
 
 La declinación del sol varía en el rango $$\delta[-23.44,23.44]^\circ$$, alcanzando valores extremos en los solsticios y psando por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, varía en el rango  $$GHA[0,360]^\circ$$ aumentando desde valores próximos a $$0^\circ$$ en puntos cercanos y hacia el oeste de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos a Greenwich hacia el este.
 
-Por último, la **posición del sol respecto a un observador** dado, puede definirse mediante dos ángulos:
+Por último, la **posición del sol respecto a un observador** en un instante dado, puede definirse mediante dos ángulos:
 - ángulo horario local, $$LHA\quad ó \quadh$$: ángulo formado entre el meridiano del sol y el del observador
-- ángulo de elevación sobre el horizonte, $$\alpha$$: (también llamado altitud)   
+- ángulo de elevación sobre el horizonte, $$\alpha$$: también llamado altitud, que toma valores en el rango $$\alfa[0,90]^\circ$$, siendo próxima a $$0^\circ$$ en el amanecer y en el ocaso y pudiendo alcanzar valores de hasta $$90^\circ$$ en latirudes intertropicales
 
 
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
