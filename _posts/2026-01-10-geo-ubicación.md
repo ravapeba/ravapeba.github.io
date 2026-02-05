@@ -24,12 +24,13 @@ En el contexto de la tierra las **posición de un observador** sobre su superfic
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
+<!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f11"></a>
 	{% include  image.html url="/img/geoloc/sol_yobs1.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
 </div> 
 
-En cuanto a las **posición del sol**, respecto al centro de la tierra, las coordenadas son las mismas para cualquier observador en un instante dado:  
+En cuanto a las **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado:  
 
 - declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP.
 - ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$.
@@ -37,7 +38,7 @@ En cuanto a las **posición del sol**, respecto al centro de la tierra, las coor
 La declinación del sol varía en el rango $$\delta[-23.44,23.44]^\circ$$, alcanzando valores extremos en los solsticios y psando por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, varía en el rango  $$GHA[0,360]^\circ$$ aumentando desde valores próximos a $$0^\circ$$ en puntos cercanos y hacia el oeste de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos a Greenwich hacia el este.
 
 Por último, la **posición del sol respecto a un observador** dado, puede definirse mediante dos ángulos:
-- ángulo horario local, $$LHA ó h$$: ángulo formado entre el meridiano del sol y el del observador
+- ángulo horario local, $$LHA\quad ó \quadh$$: ángulo formado entre el meridiano del sol y el del observador
 - ángulo de elevación sobre el horizonte, $$\alpha$$: (también llamado altitud)   
 
 
@@ -102,6 +103,7 @@ nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándo
 **[Ejemplo práctico 2.1]**  
 Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía. (¡Ojo!, el verdadero mediodía raramente coincide con las 12 locales $$\pm$$ corrección gubernamental). 
 
+<!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f21"></a>
 	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 2.1. Esquema para la estimación de la altitud solar" %}
