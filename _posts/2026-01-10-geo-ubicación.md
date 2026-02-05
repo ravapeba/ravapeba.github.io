@@ -41,7 +41,7 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 - ángulo horario local, $$LHA$$ ó $$h$$: ángulo formado entre el meridiano del sol y el del observador. Su rango de valores es $$[-180^\circ,180^\circ]$$. 
 - ángulo de elevación sobre el horizonte, $$\alpha$$: también llamado altitud, que toma valores en el rango $$[-90^\circ,90^\circ]$$. 
 
-Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar valores de hasta $$90^\circ$$ en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
+Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
  
 
 
