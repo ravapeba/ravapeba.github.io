@@ -245,10 +245,10 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 [9] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
 
 <a id="10"></a>
-[10] Calculadora de la ecuación del tiempo,  [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/](https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/) 
+[10] Ecuación del tiempo,  [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/](https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/) 
 
 <a id="11"></a>
-[11] Sola position calculations, [https://gml.noaa.gov/grad/solcalc/solareqns.PDF](https://gml.noaa.gov/grad/solcalc/solareqns.PDF) 
+[11] Solar position calculations, [https://gml.noaa.gov/grad/solcalc/solareqns.PDF](https://gml.noaa.gov/grad/solcalc/solareqns.PDF) 
 
 
 
