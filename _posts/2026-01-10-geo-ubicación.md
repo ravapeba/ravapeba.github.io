@@ -36,7 +36,7 @@ En cuanto a la **posición del sol respecto al centro de la tierra**, las coorde
 - declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$[-23.44^\circ,23.44^\circ]$$.
 - ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
 
-La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta desde valores próximos a $$0^\circ$$ en puntos cercanos y hacia el oeste del meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos a dicho meridiano y hacia el este.
+La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta hacia el oeste desde valores próximos a $$0^\circ$$ en puntos cercanos al meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos y hacia el este de dicho meridiano.
 
 Por último, la **posición del sol respecto a un observador** en un instante dado, puede definirse mediante dos ángulos:
 - ángulo horario local, $$LHA$$ ó $$h$$: ángulo formado entre el meridiano del sol y el del observador. Su rango de valores es $$[-180^\circ,180^\circ]$$. 
