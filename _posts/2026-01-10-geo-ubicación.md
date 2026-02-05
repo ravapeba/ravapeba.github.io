@@ -39,8 +39,8 @@ En cuanto a la **posición del sol respecto al centro de la tierra**, las coorde
 La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta hacia el oeste desde valores próximos a $$0^\circ$$ en puntos cercanos al meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos y hacia el este de dicho meridiano.
 
 Por último, la **posición del sol respecto a un observador** en un instante dado, puede definirse mediante dos ángulos:
-- ángulo horario local, $$LHA$$ ó $$\large h$$: ángulo formado entre el meridiano del sol y el del observador. Su rango de valores es $$[-180^\circ,180^\circ]$$. 
-- ángulo de elevación sobre el horizonte, $$\large \alpha$$: también llamado altitud, que toma valores en el rango $$[-90^\circ,90^\circ]$$. 
+- ángulo horario local, $$LHA$$ ó $$\large h$$: ángulo formado entre el meridiano del sol, $$\overline{ZGP}$$ y el del observador, , $$\overline{ZO}$$. Su rango de valores es $$[-180^\circ,180^\circ]$$. 
+- ángulo de elevación del sol sobre el horizonte del observador, $$\large \alpha$$: también llamado altitud. Toma valores en el rango $$[-90^\circ,90^\circ]$$. 
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
  
