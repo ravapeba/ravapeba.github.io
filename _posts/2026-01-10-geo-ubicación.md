@@ -32,14 +32,18 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 
 En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado:  
 
-- declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP.
-- ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$.
+- declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$\delta[-23.44^\circ,23.44^\circ]$$.
+- ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. varía en el rango  $$GHA[0^\circ,360^\circ]$$.
 
-La declinación del sol varía en el rango $$\delta[-23.44^\circ,23.44^\circ]$$, alcanzando valores extremos en los solsticios y pasando por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, varía en el rango  $$GHA[0^\circ,360^\circ]$$, aumentando desde valores próximos a $$0^\circ$$ en puntos cercanos y hacia el oeste de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos a Greenwich y hacia el este.
+La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta desde valores próximos a $$0^\circ$$ en puntos cercanos y hacia el oeste del meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos al meridiano de Greenwich y hacia el este.
 
 Por último, la **posición del sol respecto a un observador** en un instante dado, puede definirse mediante dos ángulos:
-- ángulo horario local, $$LHA\quad ó \quad h$$: ángulo formado entre el meridiano del sol y el del observador. Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero). El rango de valores es $$GHA[-180^\circ,180^\circ]$$.
-- ángulo de elevación sobre el horizonte, $$\alpha$$: también llamado altitud, que toma valores en el rango $$\alfa[-90,90]^\circ$$, siendo próxima a $$0^\circ$$ en el amanecer y en el ocaso y pudiendo alcanzar valores de hasta $$90^\circ$$ en latirudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
+- ángulo horario local, $$LHA\quad ó \quad h$$: ángulo formado entre el meridiano del sol y el del observador. Su rango de valores es $$GHA[-180^\circ,180^\circ]$$. 
+- ángulo de elevación sobre el horizonte, $$\alpha$$: también llamado altitud, que toma valores en el rango $$\alpha[-90,90]^\circ$$. 
+
+Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar valores de hasta $$90^\circ$$ en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
+ 
+
 
 
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
