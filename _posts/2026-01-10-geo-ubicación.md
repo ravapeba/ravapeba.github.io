@@ -17,9 +17,10 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 ## 1. Posición del sol y del observador
 
-En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas:
-- latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre
-- longitud ($$\lambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich
+En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas (**figura 1.1**): 
+
+- latitud ($$\varphi$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre. Varía en un rango de $$[-90^\circ,90^\circ]$$, siendo $$0^\circ$$ en el ecuador y negativa al sur del mismo.
+- longitud ($$\lambda$$): se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich. Varía en un rango de $$[-180^\circ,180^\circ]$$, siendo $$0^\circ$$ en el meridiano de Greenwich y negativa hacia el oeste del mismo. 
 - altitud: se refiere a cuan cerca o lejos estoy, en metros medidos en dirección 'vertical', del nivel medio del mar
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
@@ -30,7 +31,7 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 	{% include  image.html url="/img/geoloc/sol_yobs1.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
 </div> 
 
-En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado:  
+En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado (**figura 1.1**):  
 
 - declinación ($$\delta$$): ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$[-23.44^\circ,23.44^\circ]$$.
 - ángulo horario de greenwich ($$GHA$$): ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
@@ -43,9 +44,6 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
  
-
-
-
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
 
