@@ -44,13 +44,14 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
 
-En la **figura  1.2** se muestra un esquema que describe las coordenadas de posición del sol respecto a un observador dado. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano (sur) del observador. 
+En la **figura  1.2** se muestra un esquema que describe las coordenadas de posición del sol respecto a un observador dado. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano, el sur, del observador. En el ejemplo mostrado, el ángulo horario, $$h=LHA$$, sería positivo, pues el sol queda al oeste del observador. La altitud también es positiva, pues el sol se encuentra por encima del horizonte. En cuanto a la longitud, $$\lambda$$, por vonvenio, al estar situado el observador al oeste del meridiano de Greenwich, sería negativa. 
 
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f12"></a>
 	{% include  image.html url="/img/geoloc/sol_pos_obs3.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado. Escala distorsionada para poder incluir el punto del meridiano de Greenwich y el propio sol" %}
 </div> 
+
 
 
 Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
@@ -71,8 +72,6 @@ $$
 \sin(\alpha) = sin(\delta)sin(\phi)+\\   cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[2.1]}
 $$ 
  -->
-
-donde $$\lambda$$ incluye el signo (negativo si el observador esta al oeste de Greenwich).  
 
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
