@@ -44,11 +44,14 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
 
-Entre las coordenadas deposición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador,$$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:
+Entre las coordenadas deposición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador,$$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
+
 
 $$
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.1]}
 $$
+
+
 que también puede escribirse
 
 $$
