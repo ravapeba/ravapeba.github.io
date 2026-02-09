@@ -34,7 +34,7 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado (**figura 1.1**):  
 
 - declinación, $$\large \delta$$: ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$[-23.44^\circ,23.44^\circ]$$.
-- ángulo horario de greenwich, $$GHA$$: ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
+- ángulo horario de Greenwich, $$GHA$$: ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
 
 La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta hacia el oeste desde valores próximos a $$0^\circ$$ en puntos cercanos al meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos y hacia el este de dicho meridiano.
 
@@ -63,7 +63,7 @@ $$
 $$ 
  -->
 
- 
+donde $$\lambda$$ incluye el signo (negativo si el observador esta al oeste de Greenwich)
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
 
