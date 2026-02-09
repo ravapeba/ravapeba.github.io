@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Geolocalización artesana"
+title: "Geolocalización sin GPS"
 date: 2026-01-10 07:00:00 +0100
 categories: jekyll update
 ---
