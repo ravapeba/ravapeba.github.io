@@ -68,12 +68,7 @@ $$
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(GHA+\lambda) \quad \textbf{[1.2]}
 $$
 
-<!-- $$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+\\   cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[2.1]}
-$$ 
- -->
-
-La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
+y que utilizaremos en los siguientes apartados para estimar nuestras coordenadas geográficas, $$(\varphi,\lambda)$$. La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
 
 
