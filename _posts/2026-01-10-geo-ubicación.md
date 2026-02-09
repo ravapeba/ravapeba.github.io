@@ -47,16 +47,12 @@ Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano
 Entre las coordenadas deposición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador,$$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:
 
 $$
-\begin{align}
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.1]\\ 
-\end{align} 
 $$
 que también puede escribirse
 
 $$
-\begin{align}
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(GHA+\lambda) \quad \textbf{[1.2]\\ 
-\end{align}
 $$
 
 <!-- $$ 
