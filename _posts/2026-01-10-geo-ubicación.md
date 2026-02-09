@@ -49,7 +49,7 @@ En la **figura  1.2** se muestra un esquema que describe las coordenadas de posi
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f12"></a>
-	{% include  image.html url="/img/geoloc/sol_yobs2.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado." %}
+	{% include  image.html url="/img/geoloc/sol_pos_obs2.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado. Escala distorsionada para poder incluir el punto del meridiano de Greenwich y el propio sol" %}
 </div> 
 
 
