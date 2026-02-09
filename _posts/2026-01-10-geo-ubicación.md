@@ -43,13 +43,21 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 - ángulo de elevación del sol sobre el horizonte del observador, $$\large \alpha$$: también llamado altitud. Toma valores en el rango $$[-90^\circ,90^\circ]$$. 
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
+
+Entre las coordenadas deposición del sol respecto a la tierra, $$(\delta,GHA)$$ y respecto al observador,$$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:
+
+
+$$ 
+\sin(\alpha) = sin(\delta)sin(\phi)+\\   cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[2.1]}
+$$ 
+
+
  
 La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
 
 
 
-
-<a id="donde_estoy"></a>
+<a id="latitud"></a>
 
 ## 2. Estimación de la latitud
 
@@ -57,9 +65,6 @@ La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el m
 
 La altitud de un astro o planeta sobre el horizonte viene dada por la ecuación siguiente:
 
-$$ 
-\sin(\alpha) = sin(\delta)sin(\phi)+\\   cos(\delta)cos(\phi)cos(h) \quad \small \textbf{[2.1]}
-$$ 
 
 donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación respecto al punto de observación (ángulo horario local). Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
 
