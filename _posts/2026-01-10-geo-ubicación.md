@@ -53,7 +53,7 @@ En la **figura  1.2** se muestra un esquema que describe las coordenadas de posi
 </div> 
 
 
-Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador,$$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
+Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
 
 
 $$
