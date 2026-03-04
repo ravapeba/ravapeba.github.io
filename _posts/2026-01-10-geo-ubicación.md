@@ -125,7 +125,7 @@ Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud 
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f21"></a>
-	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 2.1. Esquema para la estimación de la altitud solar" %}
+	{% include  image.html url="/img/geoloc/sombra4.png" description="Figura 2.1. Esquema para la estimación de la altitud solar" %}
 </div>
   
 Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
