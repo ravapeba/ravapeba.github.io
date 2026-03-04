@@ -78,10 +78,7 @@ y que utilizaremos en los siguientes apartados para estimar nuestras coordenadas
 
 La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el [sextante::ref5](https://es.wikipedia.org/wiki/Sextante), utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima, entre otros métodos posibles, ¿se te ocurre algún otro?.  
 
-La altitud de un astro o planeta sobre el horizonte viene dada por la ecuación siguiente:
-
-
-donde $$\alpha$$ es la altitud del astro sobre el horizonte,  $$\delta$$ es la declinación del astro en el momento de la observación (declinación solar en nuestro ejemplo), $$\phi$$ es la latitud del punto desde donde observamos y h el ángulo horario del sol en el momento de la observación respecto al punto de observación (ángulo horario local). Si observamos justo al mediodía h será cero y eso facilita mucho las cosas. En tal caso (h=0) la ecuación  nos queda:
+Si observamos justo al mediodía (verdadero), el águlo horario local, h, será cero y eso facilita mucho las cuentas. En tal caso (h=0) la  **ecuación 2.3** nos queda:
 
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+\\  
