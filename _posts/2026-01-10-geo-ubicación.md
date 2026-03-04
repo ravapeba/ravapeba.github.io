@@ -28,7 +28,7 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f11"></a>
-	{% include  image.html url="/img/geoloc/sol_yobs2.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
+	{% include  image.html url="/img/geoloc/sol_yobs4.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
 </div> 
 
 En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado (**figura 1.1**):  
@@ -49,7 +49,7 @@ En la **figura  1.2** se muestra un esquema que describe las coordenadas de posi
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f12"></a>
-	{% include  image.html url="/img/geoloc/sol_pos_obs3.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado. Escala distorsionada para poder incluir el punto del meridiano de Greenwich y el propio sol" %}
+	{% include  image.html url="/img/geoloc/sol_pos_obs4.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado. Escala distorsionada para poder incluir el punto del meridiano de Greenwich y el propio sol" %}
 </div> 
 
 
