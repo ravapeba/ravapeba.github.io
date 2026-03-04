@@ -76,7 +76,7 @@ y que utilizaremos en los siguientes apartados para estimar nuestras coordenadas
 
 ## 2. Estimación de la latitud
 
-La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el [sextante|ref5](https://es.wikipedia.org/wiki/Sextante), utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima, entre otros métodos posibles, ¿se te ocurre algún otro?.  
+La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el [sextante::ref5](https://es.wikipedia.org/wiki/Sextante), utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima, entre otros métodos posibles, ¿se te ocurre algún otro?.  
 
 Si observamos justo al mediodía (verdadero), el águlo horario local, h, será cero y eso facilita mucho las cuentas. En tal caso (h=0) la  **ecuación 1.1** nos queda:
 
@@ -94,9 +94,9 @@ $$
 La declinación solar, $$\delta$$, en el momento de la observación, puede estimarse mediante dos métodos  
 
 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: 
-[The Nautical Almanac|ref1](https://thenauticalalmanac.com/)  
+[The Nautical Almanac::ref1](https://thenauticalalmanac.com/)  
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
-[Position of the sun|ref3](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
+[Position of the sun::ref3](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
 $$
 \delta = arsin(sin(\delta_M)\\   
@@ -110,7 +110,7 @@ donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el 
 
 Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$  
 
-Las [fechas del solsticio de invierno|ref4](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son:   
+Las [fechas del solsticio de invierno::ref4](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son:   
 
 | :-------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | 
 | Fecha  	| 2025     | 2026     | 2027     | 2028     | 2032     | 2036     | 2040     |
@@ -125,7 +125,7 @@ Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud 
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f21"></a>
-	{% include  image.html url="/img/geoloc/sombra4.png" description="Figura 2.1. Esquema para la estimación de la altitud solar" %}
+	{% include  image.html url="/img/geoloc/sombra3.png" description="Figura 2.1. Esquema para la estimación de la altitud solar" %}
 </div>
   
 Para realizar la tarea lo primero será hacer una medición lo más precisa posible de la altitud del sol al mediodía, y para esto es necesario que esté despejado y que sepamos valorar cuando el sol ha alcanzado su meridiano, osea, el sur geográfico, osea, su punto de máxima elevación ese día.  Supongamos que las condiciones son buenas y medimos, por el procedimiento de la sombra o con un sextante (más preciso) un angulo de elevación solar 
