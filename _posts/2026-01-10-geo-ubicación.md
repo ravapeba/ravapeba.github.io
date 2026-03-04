@@ -91,7 +91,7 @@ $$
 \phi = \delta+ arcos(sin(\alpha)) \quad \small \textbf{[2.3]}   
 $$ 
 
-la declinación solar en el momento de la observación puede estimarse mediante dos métodos  
+La declinación solar, $$\delta$$, en el momento de la observación, puede estimarse mediante dos métodos  
 
 1. (Más preciso) Consultando un almanaque naútico, por ejemplo: 
 [The Nautical Almanac::ref1](https://thenauticalalmanac.com/)  
