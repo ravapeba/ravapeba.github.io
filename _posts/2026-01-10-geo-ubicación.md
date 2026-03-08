@@ -241,7 +241,9 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 <a id="anex1"></a>
 # Anexo I: El verdadero mediodía
 
-Si conocemos nuestra longitud, el momento del verdadero mediodía puede calcularse a partir de la **ecuación 3.1**
+Si conocemos nuestra longitud, el momento del verdadero mediodía puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$
+
+$$difZ_{noon} =EoT -4\lambda \quad \small \textbf{[AI.1]}$$
 
 <a id="referencias"></a>
 ## Referencias
