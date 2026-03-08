@@ -239,15 +239,15 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
  (~0.4ºC, [ver serie](https://ravapeba.github.io/img/serie_mann_hadley100b.svg)), aún a pesar de los factores de extremas continentalidad y latitud de la estación de Vostok. -->
 
 <a id="anex1"></a>
-## Anexo I: El verdadero mediodía
+## Anexo I: El mediodía verdadero
 
-**Si conocemos nuestra longitud, $$\lambda$$**, el momento del verdadero mediodía puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$. Así obtendremos la corrección, en minutos, respecto al mediodía promedio que debemos de sumar a dicho valor,
+**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$ (corrección, en minutos, respecto al mediodía promedio) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ (hora UTC o Z) en la zona horaria $$ZH$$. Para España ZH sería 0, para Canarias -1, para Italia 1, etc... 
 
-$$Z_{VM} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
+$$Z_{MV} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
 
-así obtendremos la hora Z (UTC) del mediodía verdadero en la zona horaria $$ZH$$. Para España ZH sería 0, para Canarias -1, para Italia 1, etc... Si queremos el resultado en hora local habrá que añadir al valor calculado, $$Z_{VM}$$, la corrección gubernamental vigente. 
+así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resultado en hora local habrá que añadir al valor calculado, $$Z_{VM}$$, la corrección gubernamental vigente. 
 
-**Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del verdadero mediodía puede estimarse de manera más o menos precisa.
+**Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse de manera más o menos precisa.
 
 
 <a id="referencias"></a>
