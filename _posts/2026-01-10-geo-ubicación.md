@@ -15,6 +15,9 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 <a id="donde_estoy"></a>
 
+$$\frac{\sin\left(x\right)}{\sqrt{1 - a^{2} \cos^{2}\left(x\right)}}$$
+$$-\frac{\arcsin\left(a \cos\left(x\right)\right)}{a}$$
+
 ## 1. Posición del sol y del observador
 
 En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas (**figura 1.1**): 
