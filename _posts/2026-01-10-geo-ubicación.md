@@ -15,8 +15,7 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 <a id="donde_estoy"></a>
 
-$$\frac{\sin\left(x\right)}{\sqrt{1 - a^{2} \cos^{2}\left(x\right)}}$$
-$$-\frac{\arcsin\left(a \cos\left(x\right)\right)}{a}$$
+
 
 ## 1. Posición del sol y del observador
 
@@ -28,7 +27,10 @@ En el contexto de la tierra la **posición de un observador** sobre su superfici
 
 si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisamente en alta mar es donde es más relevante saber geolocalizarse, pues allí normalmente no tenemos referencias que nos ayuden. Otros lugares indicados serían un desierto, una selva o una cordillera. 
 
-<!-- XXXXXXXXXXX -->
+<!-- XXXXXXXXXXX 
+$$\frac{\sin\left(x\right)}{\sqrt{1 - a^{2} \cos^{2}\left(x\right)}}$$
+$$-\frac{\arcsin\left(a \cos\left(x\right)\right)}{a}$$ -->
+
 <div align="center">
    <a id="f11"></a>
 	{% include  image.html url="/img/geoloc/sol_yobs4.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
@@ -276,7 +278,9 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 
 
 
+# Apéndice I: estimación del verdadero mediodía
 
+Si conocemos nuestra longitud, el momento del verdadero mediodía puede calcularse a partir de la **ecuación 3.1**
 
 
 
