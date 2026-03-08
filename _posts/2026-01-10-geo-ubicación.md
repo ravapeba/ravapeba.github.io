@@ -241,7 +241,7 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 <a id="anex1"></a>
 ## Anexo I: El mediodía verdadero
 
-**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$ (corrección, en minutos, respecto al mediodía promedio) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ (hora UTC o Z) en la zona horaria $$ZH$$. Para España ZH sería 0, para Canarias -1, para Italia 1, etc... 
+**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$ (corrección, en minutos, respecto al mediodía promedio) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ en la zona horaria $$ZH$$. Para España ZH sería 0, para Canarias -1, para Italia 1, etc...,
 
 $$Z_{MV} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
 
