@@ -239,7 +239,7 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
  (~0.4ºC, [ver serie](https://ravapeba.github.io/img/serie_mann_hadley100b.svg)), aún a pesar de los factores de extremas continentalidad y latitud de la estación de Vostok. -->
 
 <a id="ap1"></a>
-# Anexo I: estimación del verdadero mediodía
+## Anexo I: el verdadero mediodía
 
 Si conocemos nuestra longitud, el momento del verdadero mediodía puede calcularse a partir de la **ecuación 3.1**
 
