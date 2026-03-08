@@ -154,13 +154,13 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 ## 3. Estimación de la longitud 
 
 La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la **figura 3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él.  
-Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación, en UTC,  del momento exacto del mediodía (verdadero mediodía). En ese caso, basta aplicar la siguiente ecuación, 
+Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, **ver Apéndice I** ). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
 \lambda=\frac{EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía local, en UTC, y las 12 UTC y $$EoT$$ es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura 3.1**, **ref 8**, puede obtenerse una buena estimación del valor de ET para cualquier día del año. ¡Ojo!, aunque la variación es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, ZH. Es decir,  $$difZ_{noon}= 12 -ZH$$. Para España $$ZH=0$$, para Canarias -1, para Italia 1, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura 3 BLABLABLA**, **ref 8**, puede obtenerse una buena estimación del valor de EoT para cualquier día del año. ¡Ojo!, aunque la variación de l valor de EoT es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
 
 
 De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
