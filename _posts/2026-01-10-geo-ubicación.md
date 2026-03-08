@@ -242,7 +242,7 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 <a id="anex1"></a>
 ## Anexo I: El mediodía verdadero
 
-**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$ (diferencia minutal entre el mediodía promedio y el verdadero) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ en la zona horaria $$ZH$$ (ver [apartado 3](#estimacion-de-la-longitud)),
+**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$ (diferencia minutal entre el mediodía promedio y el verdadero) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ en la zona horaria $$ZH$$ (ver [apartado 3](#3-estimación-de-la-longitud)),
 
 $$Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
 
