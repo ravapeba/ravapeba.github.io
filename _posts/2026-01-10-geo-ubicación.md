@@ -158,7 +158,7 @@ La longitud de un lugar sobre la superficie terrestre, como se definió anterior
 Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, **ver Apéndice I** ). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
-\lambda=\frac{EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
+\lambda=\frac{-EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
 donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, ZH. Es decir,  $$difZ_{noon}= 12 -ZH$$. Para España ZH=0, para Canarias -1, para Italia 1, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura BLA  BLABLABLA**, **ref 8**, puede obtenerse una buena estimación del valor de EoT para cualquier día del año. ¡Ojo!, aunque la variación de l valor de EoT es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
@@ -234,7 +234,7 @@ $$
 \phi= 41.59^\circ 
 $$
 
-vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del **ejemplo 2.1**. En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, la tercera parte del error cometido en la estimación del **ejemplo 3.1**.
+vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del **ejemplo 2.1**. En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, que también, en menor grado, mejora el error cometido en la estimación del **ejemplo 3.1**.
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
