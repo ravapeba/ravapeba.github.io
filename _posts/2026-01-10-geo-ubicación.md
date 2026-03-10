@@ -164,10 +164,12 @@ $$
 donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, ZH. Es decir,  $$difZ_{noon}= 12 -ZH$$. Para España ZH=0, para Canarias -1, para Italia 1, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura BLA  BLABLABLA**, **ref 8**, puede obtenerse una buena estimación del valor de EoT para cualquier día del año. ¡Ojo!, aunque la variación de l valor de EoT es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
 
 
-De forma aproximada, (**ref 10**), puede calcularse a partir de la siguiente expresión  
+
+EoT puede calcularse (**ref 10**), con error inferior a 1 minuto , a partir de la siguiente expresión  
 
 $$
-EoT = -9.87\sin(2\frac{360}{365}(d-81))+  \\ 7.67\sin(\frac{360}{365}(d-81) + 78.7) \qquad \small \textbf{[3.2]}
+EoT =-7.659\sin(6.24004077 + 0.01720197(365.24(y-2000) + d)) \\
++ 9.863sin( 2(6.24004077 + 0.01720197(365.24(y-2000) + d)) + 3.5932)\qquad \small \textbf{[3.2]}
 $$
 
 donde **d** es el día del año contado desde el 1 de enero. Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**.
