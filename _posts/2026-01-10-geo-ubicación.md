@@ -172,7 +172,13 @@ EoT =-7.659\sin(6.24004077 + 0.01720197(365.24(y-2000) + d)) \\
 + 9.863sin( 2(6.24004077 + 0.01720197(365.24(y-2000) + d)) + 3.5932)\qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año contado desde el 1 de enero. Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**.
+donde **d** es el día del año **y** contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la **figura 3.1** se representa graficamente la **ecuación 3.2** para los años 1826, 2026 y 2226. Podemos hacernos una idea de la variación anual en distintos años. Las diferencias son pequeñas a pesar de haber 400 años de separación entre curvas extremas.
+
+<div align="center">
+   <a id="f31"></a>
+	{% include  image.html url="/img/geoloc/eot_2026.svg" description="Figura 2.1. Evolución anual de la Ecuación del Tiempo durante los años 1826, 2026 y 2226." %}
+</div>
+
 
 
 **[Ejemplo práctico 3.1]**  
