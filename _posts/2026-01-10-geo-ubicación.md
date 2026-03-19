@@ -160,9 +160,7 @@ $$
 \lambda=\frac{-EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, $$\overline{Zm}=12-ZH$$, ambos en hora UTC. Es decir,  $$difZ_{noon}= Zmv - \overline{Zm}$$. Para España $$ZH=0$$, para Canarias $$ZH=-1$$, para Italia $$ZH=1$$, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura BLA  BLABLABLA**, **ref 8**, puede obtenerse una buena estimación del valor de EoT para cualquier día del año. ¡Ojo!, aunque la variación de l valor de EoT es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
-
-
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, $$\overline{Zm}=12-ZH$$, ambos en hora UTC. Es decir,  $$difZ_{noon}= Zmv - \overline{Zm}$$. Para España $$ZH=0$$, para Canarias $$ZH=-1$$, para Italia $$ZH=1$$, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol).
 
 EoT puede calcularse (**ref 10**), con error inferior a 1 minuto , a partir de la siguiente expresión  
 
@@ -171,11 +169,11 @@ EoT =-7.659\sin[6.24004077 + \\0.01720197(365.24(y-2000) + d)] + \\
 9.863sin[2(6.24004077 + \\ 0.01720197(365.24(y-2000) + d)) + 3.5932]\qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año **y** contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la **figura 3.1** se representa graficamente la **ecuación 3.2** para los años 1826, 2026 y 2226. Podemos hacernos una idea de la variación anual en distintos años. Las diferencias son pequeñas a pesar de haber 400 años de separación entre curvas extremas.
+donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la **figura 3.1** se representa graficamente la **ecuación 3.2** para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
 
 <div align="center">
    <a id="f31"></a>
-	{% include  image.html url="/img/geoloc/eot2.svg" description="Figura 2.1. Evolución anual de la Ecuación del Tiempo durante los años 1826, 2026 y 2226." %}
+	{% include  image.html url="/img/geoloc/eot2.svg" description="Figura 3.1. Evolución anual de la Ecuación del Tiempo durante los años 1826, 2026 y 2226." %}
 </div>
 
 
