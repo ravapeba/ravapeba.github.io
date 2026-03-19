@@ -49,6 +49,21 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
 
+Entre los ángulos $GHA$, $LHA$ y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
+
+$$
+LHA=GHA+\lambda \quad \small \textbf{[3.3]}
+$$ 
+
+donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. En el ejemplo mostrado en la **Figura 1.1** lo números en juego bien podrían ser, a groso modo,
+ 
+$$
+\begin{align}
+ LHA=  12^\circ \\GHA = 30^\circ \\  \lambda=LHA-GHA=-18^\circ
+\end{align}
+$$
+
+
 En la **figura  1.2** se muestra un esquema que describe las coordenadas de posición del sol respecto a un observador dado. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano, el sur, del observador. En el ejemplo mostrado, el ángulo horario, $$h=LHA$$, sería positivo, pues el sol queda al oeste del observador. La altitud también es positiva, pues el sol se encuentra por encima del horizonte. En cuanto a la longitud, $$\lambda$$, por vonvenio, al estar situado el observador al oeste del meridiano de Greenwich, sería negativa. 
 
 <!-- XXXXXXXXXXX -->
@@ -195,21 +210,6 @@ $$
 $$
 
 el error cometido en este caso sería $$-4.637-(-4.72)=0.083^\circ$$, es decir, unos 4 minutos, es decir, unos 7 km al este del punto de observación.
-
-En la **figura 3.2** se muestra un esquema de los ángulos horarios que definen la posición Este-Oeste del sol en un instante dado.
- Se denota con la letra G el punto ecuatorial del meridiano de Greenwich; con la O el meridiano del observador, y con las letras GP el meridiano correspondiente al punto subsolar. Estos tres meridianos definen tres ángulos que nos van a servir para la tarea de estimar nuestra longitud. LHA es el ángulo horario local (h en la **ecuación 2.1**), que marca nuestra distancia angular con el astro que observamos, en este caso el sol. GHA es el ángulo horario de Greenwich, que marca la distancia angular del meridiano G con el meridiano del astro a observar.  Entre estos ángulos y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
-
-$$
-LHA=GHA+\lambda \quad \small \textbf{[3.3]}
-$$ 
-
-donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. Ambos ángulos se toman como positivos y se miden hacia el oeste del meridiano de Greenwich. Es decir, si el sol estuviera $$10^\circ$$ al este de G, su GHA sería $$355^\circ$$, casi una vuelta completa ($$360^\circ$$), salvo $$10^\circ$$.  En el ejemplo mostrado lo números en juego bien podrían ser, a groso modo,
- 
-$$
-\begin{align}
- LHA=  12^\circ \\GHA = 30^\circ \\  \lambda=LHA-GHA=-18^\circ
-\end{align}
-$$
 
 **[Ejemplo práctico 3.2]**   
 
