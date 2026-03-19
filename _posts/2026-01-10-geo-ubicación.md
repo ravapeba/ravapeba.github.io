@@ -31,10 +31,6 @@ si estamos en el mar, obviamente, el tercer valor ya lo tenemos, es 0. Precisame
 $$\frac{\sin\left(x\right)}{\sqrt{1 - a^{2} \cos^{2}\left(x\right)}}$$
 $$-\frac{\arcsin\left(a \cos\left(x\right)\right)}{a}$$ -->
 
-<div align="center">
-   <a id="f11"></a>
-	{% include  image.html url="/img/geoloc/sol_yobs4.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
-</div> 
 
 En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado (**figura 1.1**):  
 
@@ -42,6 +38,11 @@ En cuanto a la **posición del sol respecto al centro de la tierra**, las coorde
 - ángulo horario de Greenwich, $$GHA$$: ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
 
 La declinación del sol alcanza valores extremos en los solsticios (negativo en el de invierno) y pasa por el valor $$0^\circ$$ en los equinocios. En cuanto al ángulo horario de Greenwich, aumenta hacia el oeste desde valores próximos a $$0^\circ$$ en puntos cercanos al meridiano de Greenwich y valores próximos a $$360^\circ$$  en puntos cercanos y hacia el este de dicho meridiano.
+
+<div align="center">
+   <a id="f11"></a>
+	{% include  image.html url="/img/geoloc/sol_yobs4.png" description="Figura 1.1. Variables de posición del sol, GP, y del observador O." %}
+</div>  
 
 Por último, la **posición del sol respecto a un observador** en un instante dado, puede definirse mediante dos ángulos:
 - ángulo horario local, $$LHA$$ ó $$\large h$$: ángulo formado entre el meridiano del sol, $$\overline{ZGP}$$ y el del observador, , $$\overline{ZO}$$. Su rango de valores es $$[-180^\circ,180^\circ]$$. 
