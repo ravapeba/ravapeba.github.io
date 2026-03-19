@@ -52,7 +52,7 @@ Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano
 Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
 
 $$
-LHA=GHA+\lambda \quad \small \textbf{[3.3]}
+LHA=GHA+\lambda \quad \small \textbf{[1.1]}
 $$ 
 
 donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. En el ejemplo mostrado en la **Figura 1.1** lo números en juego bien podrían ser, a groso modo,
@@ -78,14 +78,14 @@ Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$
 
 
 $$
-\sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.1]}
+\sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.2]}
 $$
 
 
 que también puede escribirse
 
 $$
-\sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(GHA+\lambda) \quad \textbf{[1.2]}
+\sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(GHA+\lambda) \quad \textbf{[1.3]}
 $$
 
 y que utilizaremos en los siguientes apartados para estimar nuestras coordenadas geográficas, $$(\varphi,\lambda)$$. La filosofía de la geolocalización es: 'para saber donde uno está es necesario saber donde están los demás'. En este caso 'los demás' se refiere a objetos celestes: el sol, la luna, las estrellas. De ahí el nombre elegido habitualmente para referirse a este tipo de geolocalizacion:  [navegación astronómica o celeste](https://en.wikipedia.org/wiki/Celestial_navigation). 
