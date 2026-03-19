@@ -56,7 +56,7 @@ $$
 LHA=GHA+\lambda \quad \small \textbf{[1.1]}
 $$ 
 
-donde $$\lambda$$ incluye el signo, de modo que en el caso de la **Figura 1.1**, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. En el ejemplo mostrado en la **Figura 1.1** lo números en juego bien podrían ser, a groso modo,
+donde $$\lambda$$ incluye el signo, de modo que en el caso representado el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. En el ejemplo de la **Figura 1.1** los números en juego bien podrían ser, a 'grosso modo',
  
 $$
 \begin{align}
