@@ -65,15 +65,13 @@ $$
 $$
 
 
-En la **figura  1.2** se muestra un esquema que describe las coordenadas de posición del sol respecto a un observador dado. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano, el sur, del observador. En el ejemplo mostrado, el ángulo horario, $$h=LHA$$, sería positivo, pues el sol queda al oeste del observador. La altitud también es positiva, pues el sol se encuentra por encima del horizonte. En cuanto a la longitud, $$\lambda$$, por vonvenio, al estar situado el observador al oeste del meridiano de Greenwich, sería negativa. 
+En la **figura  1.2** se muestra un esquema, más a pie de tierra, que describe las coordenadas de posición del sol respecto a un observador dado, $$O$$. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano, el sur, del observador. En el ejemplo mostrado, el ángulo horario, $$h=LHA$$, sería positivo, pues el sol queda al oeste del observador. La altitud también es positiva, pues el sol se encuentra por encima del horizonte. En cuanto a la longitud, $$\lambda$$, por vonvenio, al estar situado el observador al oeste del meridiano de Greenwich, sería negativa. 
 
 <!-- XXXXXXXXXXX -->
 <div align="center">
    <a id="f12"></a>
 	{% include  image.html url="/img/geoloc/sol_pos_obs4.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado. Escala distorsionada para poder incluir el punto del meridiano de Greenwich y el propio sol" %}
-</div> 
-
-
+</div>  
 
 Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
 
