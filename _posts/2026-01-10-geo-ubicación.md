@@ -154,8 +154,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 <a id="longitud"></a>
 ## 3. Estimación de la longitud 
 
-La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva.  En la **figura 3.1** vemos un esquema con medio globo terrestre y varios meridianos pintados sobre él.  
-Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, **ver Apéndice I** ). En ese caso, basta aplicar la siguiente ecuación, 
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva. Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, **ver Apéndice I** ). En ese caso, basta aplicar la siguiente ecuación, 
 
 $$
 \lambda=\frac{-EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
