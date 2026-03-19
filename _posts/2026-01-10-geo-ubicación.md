@@ -160,7 +160,7 @@ $$
 \lambda=\frac{-EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
 $$
 
-donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, ZH. Es decir,  $$difZ_{noon}= 12 -ZH$$. Para España ZH=0, para Canarias -1, para Italia 1, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura BLA  BLABLABLA**, **ref 8**, puede obtenerse una buena estimación del valor de EoT para cualquier día del año. ¡Ojo!, aunque la variación de l valor de EoT es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
+donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria (12-ZH), ambos en hora UTC. Es decir,  $$difZ_{noon}= Zmv - \overbar{Zm}$$. Para España $$ZH=0$$, para Canarias $$ZH=-1$$, para Italia $$ZH=1$$, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol). A partir de la **figura BLA  BLABLABLA**, **ref 8**, puede obtenerse una buena estimación del valor de EoT para cualquier día del año. ¡Ojo!, aunque la variación de l valor de EoT es lenta habría que actualizar la figura cada pocos años (**ref 9**). 
 
 
 
