@@ -50,13 +50,13 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
 
-Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el gráfico, existe la siguiente relación sencilla:
+Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el esquema de la **Figura 1.1**, existe la siguiente relación sencilla:
 
 $$
 LHA=GHA+\lambda \quad \small \textbf{[1.1]}
 $$ 
 
-donde $$\lambda$$ incluye el signo, de modo que en el caso de la figura, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. En el ejemplo mostrado en la **Figura 1.1** lo números en juego bien podrían ser, a groso modo,
+donde $$\lambda$$ incluye el signo, de modo que en el caso de la **Figura 1.1**, el miembro de la derecha sería una resta de dos números positivos, pues la longitud del observador es negativa en el ejemplo. El valor del ángulo horario de Greenwich, GHA, depende unicamente de la hora UTC y se encuentra tabulado en los almanaques naúticos, como el de la referencia 1. En el ejemplo mostrado en la **Figura 1.1** lo números en juego bien podrían ser, a groso modo,
  
 $$
 \begin{align}
