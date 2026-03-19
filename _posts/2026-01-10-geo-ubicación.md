@@ -175,7 +175,7 @@ donde **d** es el día del año **y** contado desde el 1 de enero . Para cálcul
 
 <div align="center">
    <a id="f31"></a>
-	{% include  image.html url="/img/geoloc/eot3.svg" description="Figura 2.1. Evolución anual de la Ecuación del Tiempo durante los años 1826, 2026 y 2226." %}
+	{% include  image.html url="/img/geoloc/eot2.svg" description="Figura 2.1. Evolución anual de la Ecuación del Tiempo durante los años 1826, 2026 y 2226." %}
 </div>
 
 
