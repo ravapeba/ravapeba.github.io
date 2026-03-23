@@ -270,7 +270,14 @@ $$Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI
 
 así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resultado en hora local habrá que añadir al valor calculado, $$Z_{mv}$$, la corrección gubernamental vigente. 
 
-**Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse de manera más o menos precisa.
+**Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse de manera más o menos precisa a partir de la variación de la lonfitud de la sombra de un objeto de extensión vertical $$h$$. De acuerdo con la [figura 2.1](#f21) la longitud de la sombra de tal objeto vendrá dada por la expresión
+
+<a id="anex_ec1"></a>
+
+$$
+\tan\alpha=\frac{l}{x_s}\\
+\alpha=\arctan\frac{l}{x_s}\\
+$$
 
 
 <a id="referencias"></a>
