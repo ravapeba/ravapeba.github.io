@@ -292,14 +292,10 @@ h=\arccos\sqrt{\frac{1-\frac{16\sin^{4}\alpha}{l^{2}}(\frac{dx_s}{dt})^{2}}{1-\f
 $$
 
 $$
-\simeq 
-\frac{dx_s}{dt}= 
-\frac{l}{\sin^{2}\alpha}\frac{\sinh}{\sqrt{1-\cos^{2}\varphi\cos^{2}\delta\cos^{2}h}}\frac{dh}{dt} \\ \\
-\frac{\sin^{2}\alpha}{l}\frac{dx_s}{dt}=\frac{\sinh}{4\sqrt{1-\cos^{2}\varphi\cos^{2}\delta\cos^{2}h}}\\
-(1-\cos^{2}\varphi\cos^{2}\delta\cos^{2}h)\frac{16\sin^{4}\alpha}{l^{2}}(\frac{dx_s}{dt})^{2} = (1-\cos^{2}h)\\
-\frac{16\sin^{4}\alpha}{l^{2}}(\frac{dx_s}{dt})^{2}-\frac{16\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta}{l^{2}}(\frac{dx_s}{dt})^{2}\cos^{2}h=1-\cos^{2}h
-
+h=\arccos\sqrt{\frac{l^2-16\sin^4\alpha V_s^2}{l^2-16\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta V_s^2}}\\
 $$
+
+
 <a id="referencias"></a>
 ## Referencias
 
