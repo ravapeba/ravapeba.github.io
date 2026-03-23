@@ -182,7 +182,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 <a id="longitud"></a>
 ## 3. Estimación de la longitud 
 
-La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva. Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, [ver Anexo I](#anex1) ). En ese caso, basta aplicar la siguiente ecuación, 
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste de dicho meridiano, por convenio, se considera negativa. Si al este, positiva. Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, [ver Anexo I](#anex1) ). En ese caso, basta aplicar la siguiente ecuación, 
 
 <a id="ec31"></a>
 
@@ -306,7 +306,7 @@ así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resulta
 [9] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
 
 <a id="10"></a>
-Equation_of_time, [https://en.wikipedia.org/wiki/Equation_of_time](https://en.wikipedia.org/wiki/Equation_of_time#Final_calculation) 
+[10] Equation_of_time, [https://en.wikipedia.org/wiki/Equation_of_time](https://en.wikipedia.org/wiki/Equation_of_time#Final_calculation) 
 
 <a id="11"></a>
 [11] Solar position calculations, [https://gml.noaa.gov/grad/solcalc/solareqns.PDF](https://gml.noaa.gov/grad/solcalc/solareqns.PDF) 
