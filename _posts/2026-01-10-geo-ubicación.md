@@ -151,6 +151,7 @@ Las [Ref4 fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsti
 
 nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto. Para cálculos más precisos de la declinación pueden consultarse las **refs 3 y 11**.
 
+<a id="ej21"></a>   
 **[Ejemplo práctico 2.1]**  
 Desde un punto de tu pueblo o ciudad, en mi caso Valladolid, estimar la latitud el día 10 de febrero de 2026 al mediodía. (¡Ojo!, el verdadero mediodía raramente coincide con las 12 locales $$\pm$$ corrección gubernamental). 
 
@@ -181,7 +182,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 <a id="longitud"></a>
 ## 3. Estimación de la longitud 
 
-La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva. Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, [ver Apéndice I](#ap1) ). En ese caso, basta aplicar la siguiente ecuación, 
+La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva. Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, [ver Anexo I](#anex1) ). En ese caso, basta aplicar la siguiente ecuación, 
 
 <a>id='ec31'</a>
 
@@ -208,10 +209,10 @@ donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálcu
 </div>
 
 
-
+<a id="ej31"></a>  
 **[Ejemplo práctico 3.1]**  
  
-Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía verdadero del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la **ecuación 3.1**, estimar la longitud de dicho punto de observación. 
+Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía verdadero del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la [ecuación 3.1](#ec31), estimar la longitud de dicho punto de observación. 
 
 Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32, a partir de la **ecuación 3.2**,
 
@@ -219,7 +220,7 @@ $$
 EoT(d=32,y=2026) = -13.45'
 $$
 
-y después llevamos ese valor a la **ecuación 3.1**  
+y después llevamos ese valor a la [ecuación 3.1](#ec31)  
 
 $$
 \lambda=\frac{13.45 - 32}{4}=-4.637^\circ
@@ -227,18 +228,19 @@ $$
 
 el error cometido en este caso sería $$-4.637-(-4.72)=0.083^\circ$$, es decir, unos 4 minutos, es decir, unos 7 km al este del punto de observación.
 
+<a id="ej32"></a>  
 **[Ejemplo práctico 3.2]**   
 
-Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la **ecuación 2.1**.  
+Estimación de la longitud. Desde un punto de observación vamos a tomar dos medidas de la altitud solar en dos momentos diferentes del día, en este ejemplo es el día 20 de febrero de 2026 y el lugar es Valladolid. Obtener una estimación de la longitud a partir de las mismas, con la ayuda de las tablas naúticas y la [ecuación 1.3](#ec13).  
 
-Hechas las medidas y consultadas las tablas en el [almanaque](https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf) de la **ref 1**,  obtenemos 
+Hechas las medidas y consultadas las tablas en el [almanaque](https://thenauticalalmanac.com/SunRegular/2026_Sun_only.pdf) de la [Ref 1](#1),  obtenemos 
 
 | :---: | :------: | :------: | :------: | :------: |
 |       |  hora    |  alt     |  dec     |  GHA     |
 | Obs 1 | 11 UTC   |  33.4    | -10.83   | 341.58   |
 | Obs 2 | 16 UTC   |  19.3    | -10.753  | 56.585   |
 
-donde alt y dec son la altitud y declinación solares $$(\alpha,\delta)$$. Aplicando la **ecuación 2.1** a cada observación obtenemos el siguiente sistema de ecuaciones:
+donde alt y dec son la altitud y declinación solares $$(\alpha,\delta)$$. Aplicando la [ecuación 1.3](#ec13) a cada observación obtenemos el siguiente sistema de ecuaciones:
 
 		
 $$ 
@@ -246,14 +248,14 @@ $$
 [obs2] \quad\sin(19.3) = sin(-10.753)sin(\phi)+\\   cos(-10.753)cos(\phi)cos(56.585+\lambda) \end{align}
 $$ 
 
-donde se ha tenido en cuenta la **ecuación 3.3** para sustituir el ángulo horario local, h en la ecuación original. La solución a este sistema puede obtenerse usando una calculadora científica. En nuestro caso el resultado ha sido
+donde se ha tenido en cuenta la [ecuación 1.1](#ec11) para sustituir el ángulo horario local, h en la ecuación original. La solución a este sistema puede obtenerse usando una calculadora científica. En nuestro caso el resultado ha sido
 
 $$
 \lambda= -4.78^\circ\\
 \phi= 41.59^\circ 
 $$
 
-vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del **ejemplo 2.1**. En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, que también, en menor grado, mejora el error cometido en la estimación del **ejemplo 3.1**.
+vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del [ejemplo 2.1](#ej21). En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, que también, en menor grado, mejora el error cometido en la estimación del [ejemplo 3.1](#ej31)**.
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
