@@ -285,6 +285,7 @@ $$
 \frac{-l}{\sin^{2}\alpha}\frac{-\sinh}{\sqrt{1-\cos^{2}\varphi\cos^{2}h}}\frac{dh}{dt} \quad \small \textbf{[AI.2]}
 $$  
 
+donde $$\frac{dh}{dt}=15^{\circ}/hora=0.25^\circ/min$$ es la velocidad de variación del ángulo horario, constante a los largo del día, pues equivale a la velocidad angular de rotación de la tierra.
 
 <a id="referencias"></a>
 ## Referencias
