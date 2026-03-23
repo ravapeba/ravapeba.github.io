@@ -32,7 +32,7 @@ $$\frac{\sin\left(x\right)}{\sqrt{1 - a^{2} \cos^{2}\left(x\right)}}$$
 $$-\frac{\arcsin\left(a \cos\left(x\right)\right)}{a}$$ -->
 
 
-En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado (**figura 1.1**):  
+En cuanto a la **posición del sol respecto al centro de la tierra**, las coordenadas son las mismas para cualquier observador en un instante dado, [figura 1.1](#f11):  
 
 - declinación, $$\large \delta$$: ángulo formado por la línea de posición del sol, $$\overline{CGP}$$, y el plano del ecuador. Coincide con la latitud del punto subsolar, GP. Varía en el rango $$[-23.44^\circ,23.44^\circ]$$.
 - ángulo horario de Greenwich, $$GHA$$: ángulo entre el meridiano del sol, $$\overline{ZGP}$$, y el meridiano de Greenwich, $$\overline{ZG}$$. Varía en el rango  $$[0^\circ,360^\circ]$$.
@@ -52,6 +52,7 @@ Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano
 
 Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el esquema de la **Figura 1.1**, existe la siguiente relación sencilla:
 
+<a id="ec11"></a>
 $$
 LHA=GHA+\lambda \quad \small \textbf{[1.1]}
 $$ 
@@ -65,7 +66,7 @@ $$
 $$
 
 
-En la **figura  1.2** se muestra un esquema, más a pie de tierra, que describe las coordenadas de posición del sol respecto a un observador dado, $$O$$. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano, el sur, del observador. En el ejemplo mostrado, el ángulo horario, $$h=LHA$$, sería positivo, pues el sol queda al oeste del observador. La altitud también es positiva, pues el sol se encuentra por encima del horizonte. En cuanto a la longitud, $$\lambda$$, por vonvenio, al estar situado el observador al oeste del meridiano de Greenwich, sería negativa. 
+En la [figura 1.2](#f12) se muestra un esquema, más a pie de tierra, que describe las coordenadas de posición del sol respecto a un observador dado, $$O$$. La línea $$HH'$$ representa el horizonte y S la dirección del meridiano, el sur, del observador. En el ejemplo mostrado, el ángulo horario, $$h=LHA$$, sería positivo, pues el sol queda al oeste del observador. La altitud también es positiva, pues el sol se encuentra por encima del horizonte. En cuanto a la longitud, $$\lambda$$, por vonvenio, al estar situado el observador al oeste del meridiano de Greenwich, sería negativa. 
 
 <!-- XXXXXXXXXXX -->
 <div align="center">
@@ -73,9 +74,9 @@ En la **figura  1.2** se muestra un esquema, más a pie de tierra, que describe 
 	{% include  image.html url="/img/geoloc/sol_pos_obs4.png" description="Figura 1.2. Variables de posición del sol respecto a un observador, O, en un instante dado. Escala distorsionada para poder incluir el punto del meridiano de Greenwich y el propio sol" %}
 </div>  
 
-Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
+Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la [figura 1.1](#f11):  
 
-61nemo_G.
+
 $$
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.2]}
 $$
@@ -185,7 +186,7 @@ EoT =-7.659\sin[6.24004077 + \\0.01720197(365.24(y-2000) + d)] + \\
 9.863sin[2(6.24004077 + \\ 0.01720197(365.24(y-2000) + d)) + 3.5932]\qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la **figura 3.1** se representa graficamente la **ecuación 3.2** para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
+donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la [figura 3.1](#f31) se representa graficamente la **ecuación 3.2** para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
 
 <div align="center">
    <a id="f31"></a>
