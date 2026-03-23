@@ -281,7 +281,7 @@ derivando esta expresión respecto al tiempo obtendremos la velocidad de variaci
 <a id="anex_ec2"></a>
 
 $$
-\frac{dx_s}{dt}=\frac{-l}{\sin^{2}\alpha}\frac{d\alpha}{dt}=\\ 
+\frac{dx_s}{dt}=\frac{-l}{\sin^{2}\alpha}\frac{d\alpha}{dt}\simeq \\ 
 \frac{l}{\sin^{2}\alpha}\frac{\sinh}{\sqrt{1-\cos^{2}\varphi\cos^{2}\delta\cos^{2}h}}\frac{dh}{dt} \quad \small \textbf{[AI.2]}
 $$  
 
