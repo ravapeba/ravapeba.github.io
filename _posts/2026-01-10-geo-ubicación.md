@@ -305,10 +305,14 @@ así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resulta
 <a id="9"></a>
 [9] Calculadora de la ecuación del tiempo,  [https://planetcalc.com/9198/](https://planetcalc.com/9198/) 
 
-<a id="10"></a>https://en.wikipedia.org/wiki/Equation_of_time](https://en.wikipedia.org/wiki/Equation_of_time#Final_calculation) 
+<a id="10"></a>[Equation_of_time](https://en.wikipedia.org/wiki/Equation_of_time#Final_calculation) 
 
 <a id="11"></a>
 [11] Solar position calculations, [https://gml.noaa.gov/grad/solcalc/solareqns.PDF](https://gml.noaa.gov/grad/solcalc/solareqns.PDF) 
+
+<a id="12"></a>
+[11] Ecuación del tiempo, [https://academia-lab.com/enciclopedia/ecuacion-de-tiempo/F) 
+
 
 
 
