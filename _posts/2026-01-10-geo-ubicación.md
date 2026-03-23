@@ -282,10 +282,10 @@ derivando esta expresión respecto al tiempo obtendremos la velocidad de variaci
 
 $$
 \frac{dx_s}{dt}=\frac{-l}{\sin^{2}\alpha}\frac{d\alpha}{dt}=\\ 
-\frac{-l}{\sin^{2}\alpha}\frac{-\sinh}{\sqrt{1-\cos^{2}\varphi\cos^{2}h}}\frac{dh}{dt} \quad \small \textbf{[AI.2]}
+\frac{l}{\sin^{2}\alpha}\frac{\sinh}{\sqrt{1-\cos^{2}\varphi\cos^{2}\delta\cos^{2}h}}\frac{dh}{dt} \quad \small \textbf{[AI.2]}
 $$  
 
-donde $$\frac{dh}{dt}=15^{\circ}/hora=0.25^\circ/min$$ es la velocidad de variación del ángulo horario, constante a los largo del día, pues equivale a la velocidad angular de rotación de la tierra.
+donde $$\frac{dh}{dt}=15^{\circ}/hora=0.25^\circ/min$$ es la velocidad de variación del ángulo horario, constante a lo largo del día, pues equivale a la velocidad angular de rotación de la tierra.
 
 <a id="referencias"></a>
 ## Referencias
