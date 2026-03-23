@@ -19,7 +19,7 @@ En este artículo se describen algunos métodos o técnicas de **geolocalizació
 
 ## 1. Posición del sol y del observador
 
-En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas (**figura 1.1**): 
+En el contexto de la tierra la **posición de un observador** sobre su superficie se puede definir mediante las llamadas coordenadas geográficas, [figura 1.1](#f11): 
 
 - latitud, $$\large \varphi$$: se refiere a cuan cerca o lejos estoy, en unidades angulares, del ecuador terrestre. Varía en un rango de $$[-90^\circ,90^\circ]$$, siendo $$\pm90^\circ$$ en los polos y $$0^\circ$$ en el ecuador (negativa al sur del mismo).
 - longitud, $$\large \lambda$$: se refiere a cuan cerca o lejos estoy, en unidades angulares, del meridiano de Greenwich. Varía en un rango de $$[-180^\circ,180^\circ]$$, siendo $$0^\circ$$ en el meridiano de Greenwich y negativa hacia el oeste del mismo. 
@@ -75,7 +75,7 @@ En la **figura  1.2** se muestra un esquema, más a pie de tierra, que describe 
 
 Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la **figura 1.1**:  
 
-
+61nemo_G.
 $$
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.2]}
 $$
