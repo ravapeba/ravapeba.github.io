@@ -292,7 +292,7 @@ h=\arccos\sqrt{\frac{1-\frac{16\sin^{4}\alpha}{l^{2}}(\frac{dx_s}{dt})^{2}}{1-\f
 $$
 
 $$
-h=\arccos\sqrt{\frac{l^2-16\sin^4\alpha V_s^2}{l^2-16\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta V_s^2}}\\
+h=\arccos\sqrt{\frac{l^2-16V_s^2\sin^4\alpha}{l^2-V_s^216\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta }}\\
 $$
 
 
