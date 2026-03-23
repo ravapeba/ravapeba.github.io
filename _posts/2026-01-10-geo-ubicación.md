@@ -142,14 +142,14 @@ donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el 
 
 Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$  
 
-Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son:   
+Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio), [Ref 4](#4) para los próxinos años son:   
 
 | :-------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | 
 | Fecha  	| 2025     | 2026     | 2027     | 2028     | 2032     | 2036     | 2040     |
 | Día  		| 21/12/   | 21/12    | 22/12    | 21/12    | 21/12    | 21/12    | 21/12    |
 | Hora(UTC) | 15:03:01 | 20:50:09 | 02:42:04 | 08:19:33 | 07:55:48 | 07:12:42 | 06:32:38 |
 
-nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto. Para cálculos más precisos de la declinación pueden consultarse las **refs 3 y 11**.
+nótese que hay algo menos de 6 horas de diferencia de año en año, reseteándose la cuenta unas 18 horas hacia atrás cada año bisiesto. Para cálculos más precisos de la declinación pueden consultarse las [Ref 3](#3) y [Ref 11](#11).
 
 <a id="ej21"></a>   
 **[Ejemplo práctico 2.1]**  
@@ -192,7 +192,7 @@ $$
 
 donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y el mediodía promedio de nuestra zona horaria, $$\overline{Zm}=12-ZH$$, ambos en hora UTC. Es decir,  $$difZ_{noon}= Zmv - \overline{Zm}$$. Para España $$ZH=0$$, para Canarias $$ZH=-1$$, para Italia $$ZH=1$$, etc. EoT es la ecuación (corrección astronómica) del tiempo, es decir, la diferencia en minutos entre el tiempo solar medio (reloj) y el tiempo solar verdadero (reloj de sol).
 
-EoT puede calcularse (**ref 10**), con error inferior a 1 minuto , a partir de la siguiente expresión  
+EoT puede calcularse, [Ref 10](#10), con error inferior a 1 minuto , a partir de la siguiente expresión  
 
 <a id="ec32"></a> 
 
@@ -201,7 +201,7 @@ EoT =-7.659\sin[6.24004077 + \\0.01720197(365.24(y-2000) + d)] + \\
 9.863sin[2(6.24004077 + \\ 0.01720197(365.24(y-2000) + d)) + 3.5932]\qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la [figura 3.1](#f31) se representa graficamente la [ecuación 3.2](#ec32) para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
+donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las [Ref 3](#3) y [Ref 11](#11). En la [figura 3.1](#f31) se representa graficamente la [ecuación 3.2](#ec32) para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
 
 <div align="center">
    <a id="f31"></a>
@@ -214,7 +214,7 @@ donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálcu
  
 Supongamos que hemos registrado la hora UTC en que tiene lugar el mediodía verdadero del 1 de febrero de 2026 en nuestro punto de observación, de nuevo el centro de Valladolid en nuestro caso. El resultado ha sido las 12 horas y 32 minutos. Aplicando la [ecuación 3.1](#ec31), estimar la longitud de dicho punto de observación. 
 
-Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32, a partir de la **ecuación 3.2**,
+Calculamos primero la ecuación del tiempo para el día 1 de febrero, día 32, a partir de la [ecuación 3.2](#ec32),
 
 $$
 EoT(d=32,y=2026) = -13.45'
@@ -255,7 +255,7 @@ $$
 \phi= 41.59^\circ 
 $$
 
-vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del [ejemplo 2.1](#ej21). En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, que también, en menor grado, mejora el error cometido en la estimación del [ejemplo 3.1](#ej31)**.
+vemos que los errores, tanto en latitud como en longitud, se han reducido: en concreto, el error en latitud en este caso sería de $$41.59-41.65=-0.06^\circ$$, que suponen en distancia norte-sur un error de unos 7 km, la tercera parte del error cometido en la estimación del [ejemplo 2.1](#ej21). En cuanto al error en longitud, sería de $$-4.78-(-4.72)=0.06^\circ$$, que en el caso de la longitud corresponden a una distancia este-oeste de unos 5 km, que también, en menor grado, mejora el error cometido en la estimación del [ejemplo 3.1](#ej31).
   
 <!-- <a id="f3"></a>
 {% include  image.html url="/img/geoloc/sextante_marino.png" description="Figura 1. Esquema básico de un sextante marino. Fuente: ver referencias 3 y 4 " %}
@@ -265,7 +265,7 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 <a id="anex1"></a>
 ## Anexo I: El mediodía verdadero
 
-**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la **ecuación 3.1**, sin más que despejar el término $$difZ_{noon}$$ (diferencia minutal entre el mediodía promedio y el verdadero) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ en la zona horaria $$ZH$$ (ver [apartado 3](#3-estimación-de-la-longitud)),
+**Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la [ecuación 3.1](#ec31), sin más que despejar el término $$difZ_{noon}$$ (diferencia minutal entre el mediodía promedio y el verdadero) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ en la zona horaria $$ZH$$ (ver [apartado 3](#3-estimación-de-la-longitud)),
 
 $$Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
 
