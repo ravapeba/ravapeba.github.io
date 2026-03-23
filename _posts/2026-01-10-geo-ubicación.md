@@ -142,7 +142,7 @@ donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el 
 
 Para un año n cualquiera: $$\delta_M=23.439 - 0.0000004n $$  
 
-Las [Ref4 fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son:   
+Las [fechas del solsticio de invierno](https://es.wikipedia.org/wiki/Solsticio) para los próxinos años son:   
 
 | :-------: | :------: | :------: | :------: | :------: | :------: | :------: | :------: | 
 | Fecha  	| 2025     | 2026     | 2027     | 2028     | 2032     | 2036     | 2040     |
@@ -184,7 +184,7 @@ Veremos en el siguiente apartado que esta estimación es mejorable si hacemos do
 
 La longitud de un lugar sobre la superficie terrestre, como se definió anteriormente, es la distancia angular respecto al meridiano de Greenwich. Si el punto de observación, O, está al oeste del dicho meridiano, por convenio, se considera negativa. Si al este, positiva. Una primera aproximación al valor de la longitud en nuestro punto de observación puede obteberse si somo capaces de hacer una buena estimación  del momento exacto del mediodía (mediodía verdadero, [ver Anexo I](#anex1) ). En ese caso, basta aplicar la siguiente ecuación, 
 
-<a>id="ec31"</a>
+<a id="ec31"></a>
 
 $$
 \lambda=\frac{-EoT- (difZ_{noon}))}{4} \quad \small \textbf{[3.1]}
@@ -194,14 +194,14 @@ donde $$difZ_{noon}$$ es la diferencia en minutos entre el mediodía verdadero y
 
 EoT puede calcularse (**ref 10**), con error inferior a 1 minuto , a partir de la siguiente expresión  
 
-<a>id="ec32"</a> 
+<a id="ec32"></a> 
 
 $$
 EoT =-7.659\sin[6.24004077 + \\0.01720197(365.24(y-2000) + d)] + \\
 9.863sin[2(6.24004077 + \\ 0.01720197(365.24(y-2000) + d)) + 3.5932]\qquad \small \textbf{[3.2]}
 $$
 
-donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la [figura 3.1](#f31) se representa graficamente la **ecuación 3.2** para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
+donde **d** es el día del año **y**, contado desde el 1 de enero . Para cálculos más precisos de la $$EoT$$ pueden consultarse las **refs 3 y 11**. En la [figura 3.1](#f31) se representa graficamente la [ecuación 3.2](#ec32) para los años 1826, 2026 y 2226. Esta representación nos permite hacernos una idea de lo pequeña que es la variación interanual, incluso interdecadal, de la Ecuación del tiempo. 
 
 <div align="center">
    <a id="f31"></a>
