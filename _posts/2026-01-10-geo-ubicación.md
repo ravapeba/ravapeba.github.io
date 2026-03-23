@@ -123,10 +123,9 @@ $$
 
 La declinación solar, $$\delta$$, en el momento de la observación, puede estimarse mediante dos métodos  
 
-1. (Más preciso) Consultando un almanaque naútico, por ejemplo: 
-[Ref1 The Nautical Almanac](https://thenauticalalmanac.com/)  
-2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
-[Ref3 Position of the sun](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
+1. (Más preciso) Consultando un almanaque naútico, por ejemplo: [Ref 13](#13) o [Ref 13](#13)
+2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: [Ref 3](#3)
+
 
 <a id="ec23"></a>
 
