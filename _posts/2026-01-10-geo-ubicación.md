@@ -296,7 +296,7 @@ $$
 -->
 
 $$
-h=\arccos\sqrt{\frac{l^2-16v_s^2\sin^4\alpha}{l^2-16v_s^2\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta  \quad \small \textbf{[AI.3] }}
+h=\arccos\sqrt{\frac{l^2-16v_s^2\sin^4\alpha}{l^2-16v_s^2\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta}} \quad \small \textbf{[AI.3]}
 $$
 
 
