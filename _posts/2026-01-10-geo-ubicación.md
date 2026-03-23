@@ -50,7 +50,7 @@ Por último, la **posición del sol respecto a un observador** en un instante da
 
 Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano y positivos que el sol se está alejando del meridiano. El valor $$0^\circ$$ indica que el sol está sobre el meridiano del observador (mediodía verdadero).  En cuanto a la altitud, $$\alpha$$, es próxima a $$0^\circ$$ en el amanecer y en el ocaso, pudiendo alcanzar en determinados momentos del año valores de hasta $$90^\circ$$ al mediodía en latitudes intertropicales. Los valores negativos son valores nocturnos, es decir, corresponden a momentos en que el sol está por debajo del horizonte del observador.
 
-Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el esquema de la **Figura 1.1**, existe la siguiente relación sencilla:
+Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el esquema de la [figura 1.1](#f11), existe la siguiente relación sencilla:
 
 <a id="ec11"></a>
 $$
@@ -100,17 +100,19 @@ La filosofía de la geolocalización es: 'para saber donde uno está es necesari
 
 La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el momento del verdadero mediodía. Medir entonces su altitud. Un instrumento bastante preciso para esta tarea es el [sextante::ref5](https://es.wikipedia.org/wiki/Sextante), utilizado desde hace tiempo en la navegación por mar. Con menor precisión, podemos idear métodos más caseros basados en la medición de la longitud de la sombra de un objeto o en la inclinación de un objeto que hace que su sombra sea mínima, entre otros métodos posibles, ¿se te ocurre algún otro?.  
 
-Si observamos justo al mediodía (verdadero), el águlo horario local, h, será cero y eso facilita mucho las cuentas. En tal caso (h=0) la  **ecuación 1.1** nos queda:
+Si observamos justo al mediodía (verdadero), el águlo horario local, h, será cero y eso facilita mucho las cuentas. En tal caso (h=0) la  [ecuación 1.1](#ec11) nos queda:
 
+<a id="ec21"></a>
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+\\  
-cos(\delta)cos(\phi)  \quad \small \textbf{[2.2]}
+cos(\delta)cos(\phi)  \quad \small \textbf{[2.1]}
 $$ 
 
 que nos lleva a la expresión final de la latitud en función de la altitud y declinación de un sol observado a mediodía
 
+<a id="ec22"></a>
 $$ 
-\phi = \delta+ arcos(sin(\alpha)) \quad \small \textbf{[2.3]}   
+\phi = \delta+ arcos(sin(\alpha)) \quad \small \textbf{[2.2]}   
 $$ 
 
 La declinación solar, $$\delta$$, en el momento de la observación, puede estimarse mediante dos métodos  
@@ -120,12 +122,13 @@ La declinación solar, $$\delta$$, en el momento de la observación, puede estim
 2. Utilizando alguna fórmula empírica de entre las disponibles, por ejemplo: 
 [Position of the sun::ref3](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
+<a id="ec23"></a>
 $$
 \delta = arsin(sin(\delta_M)\\   
 cos(\frac{360}{N_m} 
 (N+9+\frac{h_o+h_s}{24})+\\ 
 \frac{360\epsilon}{\pi} 
-\sin(\frac{360}{N_m}(N+\frac{h}{24}-3)))) \quad \small \textbf{[2.4]}
+\sin(\frac{360}{N_m}(N+\frac{h}{24}-3)))) \quad \small \textbf{[2.3]}
 $$ 
 
 donde $$\delta_M$$ es la declinación máxima solar (actualmente 23.44º, en el solsticio de junio), $$N$$ el ordinal del día contado desde el 1 de enero (el 10 de febrero sería N=41), $$N_m$$ la duración en días de un año promedio (365.24), $$\epsilon$$ la excentricidad de la órbita terrestre (actualmente 0.0167), $$h_o$$ es la hora de la observación (12 si es al mediodía) y $$h_s$$ la diferencia en horas entre el solsticio de invierno del año anterior y el día 22 de diciembre de tal año a las 12.  
