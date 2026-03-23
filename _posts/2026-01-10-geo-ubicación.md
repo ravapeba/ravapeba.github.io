@@ -53,6 +53,7 @@ Valores negativos del $$LHA$$ indican que el sol se está acercando al meridiano
 Entre los ángulos $$GHA$$, $$LHA$$ y la longitud geográfica, $$\lambda$$, como evidencia el esquema de la [figura 1.1](#f11), existe la siguiente relación sencilla:
 
 <a id="ec11"></a>
+
 $$
 LHA=GHA+\lambda \quad \small \textbf{[1.1]}
 $$ 
@@ -77,13 +78,15 @@ En la [figura 1.2](#f12) se muestra un esquema, más a pie de tierra, que descri
 Entre las coordenadas de posición del sol respecto a la tierra, $$(\delta,GHA)$$, y respecto al observador, $$(\alpha,h)$$, existe una relación relativamente sencilla, no del todo intuitiva a partir del gráfico de la [figura 1.1](#f11):  
 
 
+<a id="ec12"></a>
+
 $$
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.2]}
 $$
 
 
 que también puede escribirse
-
+<a id="ec13"></a>  
 $$
 \sin(\alpha) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(GHA+\lambda) \quad \textbf{[1.3]}
 $$
@@ -103,6 +106,7 @@ La forma más inmediata de estimar nuestra latitud es mirar al sol justo en el m
 Si observamos justo al mediodía (verdadero), el águlo horario local, h, será cero y eso facilita mucho las cuentas. En tal caso (h=0) la  [ecuación 1.1](#ec11) nos queda:
 
 <a id="ec21"></a>
+
 $$ 
 \sin(\alpha) = sin(\delta)sin(\phi)+\\  
 cos(\delta)cos(\phi)  \quad \small \textbf{[2.1]}
@@ -111,6 +115,7 @@ $$
 que nos lleva a la expresión final de la latitud en función de la altitud y declinación de un sol observado a mediodía
 
 <a id="ec22"></a>
+
 $$ 
 \phi = \delta+ arcos(sin(\alpha)) \quad \small \textbf{[2.2]}   
 $$ 
@@ -123,6 +128,7 @@ La declinación solar, $$\delta$$, en el momento de la observación, puede estim
 [Position of the sun::ref3](https://en.wikipedia.org/wiki/Position_of_the_Sun#Calculations)  
 
 <a id="ec23"></a>
+
 $$
 \delta = arsin(sin(\delta_M)\\   
 cos(\frac{360}{N_m} 
