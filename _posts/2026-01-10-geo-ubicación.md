@@ -284,7 +284,7 @@ $$
 
 obtenemos así la parte minutal del mediodía verdadero $$Z_{MV}$$
 
-dado que los errores en el cálculo del ángulo horario son menores cuanto más cerca estemos del amanecer o del ocaso (cuanto más lejos del mediodía), este método presenta un error teoricamente mínimo, siempre que la estimación del momento del amanecer sea precisa. 
+dado que los errores en el cálculo del ángulo horario son menores cuanto más cerca estemos del amanecer o del ocaso (cuanto más lejos del mediodía), este método presenta un error teoricamente mínimo, siempre que la estimación del momento del amanecer sea precisa. De igual modo se podría haber aplicado (restando en lugar de sumando) a partir de una observación del momento del ocaso.
 
 
 
