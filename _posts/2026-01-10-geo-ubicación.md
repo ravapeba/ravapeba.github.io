@@ -273,13 +273,13 @@ así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resulta
 **Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse a partir del momento del amanecer o salida del sol, más fácil de apreciar a simple vista si estamos en terreno llano o con amplio horizonte visual.  Al contrario que muchas otras medidas de parámetros solares, la salida del sol ocurre cuando su limbo superior, no su centro, toca el horizonte. En dicho momento el ángulo de elevación solar no es cero exactamente, debido al efecto de la refracción de los rayos de luz al atravesar la atmósfera. Aunque su valor depende en parte de las condiciones meteorológicas, que influyen en el índice de refracción del aire, un valor promedio bastante aceptado, [Ref 1](#1), es $$ \alpha\simeq -0.83^{\circ}$$. LLevando este valor a la [ecuación 1.2](#ec12), y despejando h, obtenemos
 
 $$
-h_{AMA}=\arccos(\frac{\sin(-0.83) - sin(\delta)sin(\varphi)}{ cos(\delta)cos(\varphi)}) 
+h_{\small AMA}=\arccos(\frac{\sin(-0.83) - sin(\delta)sin(\varphi)}{ cos(\delta)cos(\varphi)}) 
 $$
 
-donde $$h_{AMA}$$ es el ángulo horario del sol al amanecer. Si llamamos $$Z_{AMA}$$ a la parte minutal de la hora Z del amanecer,
+donde $$h_{\small AMA}$$ es el ángulo horario del sol al amanecer. Si llamamos $$Z_{\small AMA}$$ a la parte minutal de la hora Z del amanecer,
 
 $$
-$$difZ_{noon}$$=Z_{AMA}+60\times parteDecimal(\frac{h_{AMA}}{15}) (\quad _{minutos})
+$$difZ_{noon}$$=Z_{\small AMA}+60\times parteDecimal(\frac{h_{\small AMA}}{15}) \quad ( _{minutos})
 $$
 
 obtenemos así la parte minutal del mediodía verdadero, lo que llamamos $$difZ_{noon}$$ en el [apartado 3](#longitud). Dado que los errores en el cálculo del ángulo horario son menores cuanto más cerca estemos del amanecer o del ocaso (cuanto más lejos del mediodía), este método presenta un error teoricamente mínimo, siempre que la estimación del momento del amanecer sea precisa. De igual modo se podría haber aplicado (restando en lugar de sumando) a partir de una observación del momento del ocaso.
