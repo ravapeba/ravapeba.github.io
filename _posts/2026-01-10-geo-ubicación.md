@@ -353,6 +353,9 @@ $$
 <a id="13"></a>
 [13] Long-term almanac for sun, moon, and polaris, v1.12, [https://www.celnav.de/longterm.htm](https://www.celnav.de/longterm.htm)
 
+<a id="14"></a>
+[14] Sunrise, [https://en.wikipedia.org/wiki/Sunrise#Angle_with_respect_to_horizon](https://en.wikipedia.org/wiki/Sunrise#Angle_with_respect_to_horizon)
+
 
 
 
