@@ -270,13 +270,13 @@ $$Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI
 
 así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resultado en hora local habrá que añadir al valor calculado, $$Z_{mv}$$, la corrección gubernamental vigente. 
 
-**Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse a partir del momento del amanecer o salida del sol, más fácil de apreciar a simple vista si estamos en terreno llano o con amplio horizonte visual.  Al contrario que muchas otras medidas de parámetros solares, la salida del sol ocurre cuando su limbo superior, no su centro, toca el horizonte. En dicho momento el ángulo de elevación solar no es cero exactamente, debido al efecto de la refracción de los rayos de luz al atravesar la atmósfera. Aunque su valor depende en parte de las condiciones meteorológicas, que influyen en el índice de refracción del aire, un valor promedio bastante aceptado, [Ref 1](#1), es $$ \alpha\simeq -0.83^{\circ}$$. LLevando este valor a la [ecuación 1.2](#ec12), obtenemos
+**Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse a partir del momento del amanecer o salida del sol, más fácil de apreciar a simple vista si estamos en terreno llano o con amplio horizonte visual.  Al contrario que muchas otras medidas de parámetros solares, la salida del sol ocurre cuando su limbo superior, no su centro, toca el horizonte. En dicho momento el ángulo de elevación solar no es cero exactamente, debido al efecto de la refracción de los rayos de luz al atravesar la atmósfera. Aunque su valor depende en parte de las condiciones meteorológicas, que influyen en el índice de refracción del aire, un valor promedio bastante aceptado, [Ref 1](#1), es $$ \alpha\simeq -0.83^{\circ}$$. LLevando este valor a la [ecuación 1.2](#ec12), y despejando h, obtenemos
 
 $$
-\sin(-0.83) = sin(\delta)sin(\varphi)+\\   cos(\delta)cos(\varphi)cos(h) \quad \textbf{[1.2]}
+h=\arccos(\frac{\sin(-0.83) - sin(\delta)sin(\varphi)}{ cos(\delta)cos(\varphi)}) 
 $$
 
-					
+dado que los errores en el cálculo del ángulo horario son menores cuanto más cerca estemos del amanecer o del ocaso (cuanto más lejos del mediodía), este método presenta un error teoricamente mínimo, siempre que la estimación del momento del amanecer sea precisa. 
 
 
 
