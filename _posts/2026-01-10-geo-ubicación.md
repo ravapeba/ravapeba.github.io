@@ -279,7 +279,7 @@ $$
 donde $$h_{\small AMA}$$ es el ángulo horario del sol al amanecer. Si llamamos $$Z_{\small AMA}$$ a la parte minutal de la hora Z del amanecer,
 
 $$
-$$difZ_{noon}$$=Z_{\small AMA}+60\times parteDecimal(\frac{h_{\small AMA}}{15}) \quad ( _{minutos})
+difZ_{noon}=Z_{\small AMA}+60\times parteDecimal(\frac{h_{\small AMA}}{15}) \quad ( _{minutos})
 $$
 
 obtenemos así la parte minutal del mediodía verdadero, lo que llamamos $$difZ_{noon}$$ en el [apartado 3](#longitud). Dado que los errores en el cálculo del ángulo horario son menores cuanto más cerca estemos del amanecer o del ocaso (cuanto más lejos del mediodía), este método presenta un error teoricamente mínimo, siempre que la estimación del momento del amanecer sea precisa. De igual modo se podría haber aplicado (restando en lugar de sumando) a partir de una observación del momento del ocaso.
