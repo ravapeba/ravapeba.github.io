@@ -9,16 +9,19 @@ categories: jekyll update
 {:toc}
 
 ## Introducción
-En este artículo se muestran dos series históricas de temperatura media global en superficie, y una serie local larga, prehistórica, con las temperaturas registradas en la estación antártica de Vostok. Estas son series climáticas de referencia que pueden ayudarnos a entender la evolución del clima en la tierra durante el último medio millón de años, lo cual puede servirnos de gran ayuda para entender la evolución futura que anticipan las proyecciones climáticas (ver referencia [7](#7)). Las distintas fuentes de datos, a partir de las cuales se han realizado los gráficos, se relacionan al final del artículo, en el apartado de [referencias](#referencias). 
+En este artículo se muestran dos series históricas de temperatura media global en superficie, y una serie local larga, prehistórica, con las temperaturas registradas en la estación antártica de Vostok. Estas son series climáticas de referencia que pueden ayudarnos a entender la evolución del clima en la tierra durante el último medio millón de años, lo cual puede servirnos de gran ayuda para entender la evolución futura que anticipan las proyecciones climáticas (ver  [referencia 7](#7)). Las distintas fuentes de datos, a partir de las cuales se han realizado los gráficos, se relacionan al final del artículo, en el apartado de [referencias](#referencias). 
 
 <a id="temp_instru"></a>
 ## Serie instrumental, 1850-2025 
 Una serie instrumental de temperaturas es aquella que se ha obtenido mediante registros directos de la temperatura del aire a partir de termómetros. La serie que se muestra a continuación se ha obtenido a partir de datos elaborados por el [Met Office Hadley Centre](https://www.metoffice.gov.uk/hadobs/hadcrut5/index.html). Muestra la evolución de la temperatura media global en superficie en términos de anomalías respecto a las temperaturas del periodo de referencia pre-industrial, 1850-1900. Puede consultarse el fichero .csv fuente de los datos en el siguiente enlace: [Summary_Series: Global: Annual](https://www.metoffice.gov.uk/hadobs/hadcrut5/data/HadCRUT.5.1.0.0/download.html).
 
 <a id="f1"></a>
-{% include image.html url="/img/temp_hadley2025c.svg" description="Fig 1. Evolución de la temperatura en superficie (valor medio global / anomalías respecto a 1961-1990) entre los años 1850 y 2025. Fuente: HadCRUT5 near surface temperature data set, Met Office Hadley Centre (referencia 1)." %}
+{% include image.html url="/img/temp_hadley2025c.svg" description="Fig 1. Evolución de la temperatura en superficie (valor medio global / anomalías respecto al periodo pre-industrial, 1850-1900) entre los años 1850 y 2025. Fuente: HadCRUT5 near surface temperature data set, Met Office Hadley Centre (referencia 1)." %}
 
-Aunque con altibajos, se aprecia en el gráfico una tendencia general al aumento de las temperaturas, al principio más lento y después más rápido, con dos 'acelerones' (aumento de la pendiente de la curva), uno a partir de 1910 y otro a partir de 1965, más o menos. Además, vemos como el rango (diferencia entre el valor máximo y mínimo durante el periodo) de anomalías de la serie es casi de 1.8 ºC de temperatura, un valor que, como comprobaremos más adelante, es bastante superior al que podría explicar la variabilidad natural del clima en una escala temporal tan corta. Señalar también que los periodos [1850-1910] y [1940-1980] no registran una tendencia definida. Es probable que durante estos periodos la variabilidad natural del clima (asociada a procesos de interacción océano-atmósfera,  variaciones en la actividad solar, erupciones volcánicas, etc... ) haya contrarrestado la variabilidad asociada al forzamiento antropogénico (emisiones de gases de efecto invernadero). A partir de 1965, más o menos, parece que la variabilidad natural no es capaz de contrarrestar las tendencias positivas, salvo de forma puntual, asociadas a dichas emisiones.
+Aunque con altibajos, se aprecia en el gráfico una tendencia general al aumento de las temperaturas, al principio más lento y después más rápido, con dos 'acelerones' (aumento de la pendiente de la curva), uno a partir de 1910 y otro a partir de 1965, más o menos. Además, vemos como el rango (diferencia entre el valor máximo y mínimo durante el periodo) de anomalías de la serie es casi de 1.8 ºC de temperatura, un valor que, como comprobaremos más adelante, es bastante superior al que podría explicar la variabilidad natural del clima en una escala temporal tan corta. Señalar también que los periodos [1850-1910] y [1940-1980] no registran una tendencia definida. Es probable que durante estos periodos la variabilidad natural del clima (asociada a procesos de interacción océano-atmósfera,  variaciones en la actividad solar, erupciones volcánicas, etc... ) haya contrarrestado la variabilidad asociada al forzamiento antropogénico (emisiones de gases de efecto invernadero). A partir de 1965, más o menos, parece que la variabilidad natural no es capaz de contrarrestar las tendencias positivas, salvo de forma puntual, asociadas a dichas emisiones. 
+
+El valor máximo de la serie se alcanzó en el año 2024, con un valor de la anomalía térmica global de $$1.52^\circ C$$. En este año, por primera vez se superó el primero de los límites-objetivo acordado ($$1.5^\circ C$$) en la reunión de [Naciones Unidas, Paris 2015](https://www.un.org/es/climatechange/paris-agreement). Con muy alta probabilidad, [Referencias 7, 10](#7), se espera que en las decadas venideras la superación de este umbral se reafirme y pase de ser un hecho puntual a ser lo habitual. La probabilidad de contener la anomalía térmica por debajo de $$2^\circ C$$ (límite alternativo de la reunión de París) en las siguientes decadas dependerá del escenario de emisiones en que la comunidad internacional decida acomodarse. Los probables impactos en los ecosistemas de la superación de los umbrales acordados en París son enormes. La [referencia 11](#11) es un buen punto de partida para documentarse sobre este tema.
+
 
 <a id="temp_milenio"></a>
 ## Serie de los últimos 2000 años, 200-2025
@@ -71,6 +74,15 @@ Destacar finalmente la corta duración (unos pocos milenios) de los periodos cá
 
 <a id="8"></a>
 [8] Serie instrumental de temperaturas en la  [estación antártica de Vostok](http://www.nerc-bas.ac.uk/icd/gjma/vostok.temps.html)
+
+<a id="9"></a>
+[9] Acuerdo de Naciones Unidas, [Paris 2015](https://www.un.org/es/climatechange/paris-agreement)
+
+<a id="10"></a>
+[10] [Panel Intergubernamental para el Cambio Climático, IPCC](https://www.ipcc.ch/languages-2/spanish/)
+
+<a id="11"></a>
+[11] Copernicus, Climate Change: [Why do we keep talking about 1.5°C and 2°C above the pre-industrial era?](https://climate.copernicus.eu/why-do-we-keep-talking-about-15degc-and-2degc-above-pre-industrial-era#:~:text=slightly%20different%20results.-,Why%201.5%C2%B0C%2C%202%C2%B0C%3F,for%20human%20life%20and%20ecosystems)
 
 
 
