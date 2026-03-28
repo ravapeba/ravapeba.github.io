@@ -85,8 +85,7 @@ Destacar finalmente la corta duración (unos pocos milenios) de los periodos cá
 [11] Copernicus, Climate Change: [Why do we keep talking about 1.5°C and 2°C above the pre-industrial era?](https://climate.copernicus.eu/why-do-we-keep-talking-about-15degc-and-2degc-above-pre-industrial-era#:~:text=slightly%20different%20results.-,Why%201.5%C2%B0C%2C%202%C2%B0C%3F,for%20human%20life%20and%20ecosystems)
 
 <a id="12"></a>
-[12] Mitigación del calentamiento global [(wikipedia)]
-(https://es.wikipedia.org/wiki/Mitigaci%C3%B3n_del_cambio_clim%C3%A1tico)
+[12] Mitigación del calentamiento global, [wikipedia](https://es.wikipedia.org/wiki/Mitigaci%C3%B3n_del_cambio_clim%C3%A1tico)
 
 
 
