@@ -272,7 +272,8 @@ así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resulta
 
 **Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse a partir de uno de los siguientes dos métodos, entre otros que pudieran idearse,
 
-*1. Método de la salida del sol:*
+*1. Método de la salida del sol:*  
+
 Si estamos en terreno llano o con amplio horizonte visual, el instante en que tiene lugar la salida del sol es relativamente fácil de apreciar a simple vista.  Al contrario que muchas otras medidas de parámetros solares, la salida del sol ocurre cuando su limbo superior, no su centro, toca el horizonte. En dicho momento el ángulo de elevación solar no es cero exactamente, debido al efecto de la refracción de los rayos de luz al atravesar la atmósfera. Aunque su valor depende en parte de las condiciones meteorológicas, que influyen en el índice de refracción del aire, un valor promedio bastante aceptado, [Ref 1](#1), es $$ \alpha\simeq -0.83^{\circ}$$. LLevando este valor a la [ecuación 1.2](#ec12), y despejando h, obtenemos
 
 $$
