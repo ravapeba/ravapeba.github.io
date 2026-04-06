@@ -305,7 +305,7 @@ $$
 \frac{dx_{s}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
 $$  
 
-Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delta$$, podemos obtener h a partir de la última ecuación. Dicha estimación puede realizarse mediante el siguiente dispositivo casero:
+Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. La estimación de $$\frac{dx_{s}}{dt}$$ puede realizarse mediante el siguiente dispositivo casero:
 
 
 <a id="referencias"></a>
