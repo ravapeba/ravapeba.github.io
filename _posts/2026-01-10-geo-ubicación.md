@@ -305,7 +305,7 @@ $$
 \frac{dx_{s}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
 $$  
 
-Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. La estimación de $$\frac{dx_{s}}{dt}$$ puede realizarse a partir del esquema de la [figura](#fanex1).
+Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. La estimación de $$\frac{dx_{s}}{dt}$$ puede realizarse a partir del esquema de la [figura](#fanex1)
 
 <div align="center">
    <a id="fanex1"></a>
@@ -314,19 +314,19 @@ Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delt
 
 <a id="eja1"></a>   
 **[Ejemplo práctico A.1]**
-Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 2 o 3 horas antes, digamos las 10:00Z del día 1 de abril de 2026, en Valladolid en mi caso. Medir la longitud de la sombra de un objeto alargado en tal momento y 8 minutos después (equivale a 2 grados de ángulo horario). Usando la [ecuación AI.2](#anex1_ec2) hacer una estimación del ángulo horario a las 10.04 Z y a partir de ella obtener el valor del mediodía verdadero.
+Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 2 o 3 horas antes, digamos las 09:00Z del día 1 de abril de 2026, en Valladolid en mi caso. Medir la longitud de la sombra de un objeto alargado en tal momento y 8 minutos después (equivale a 2 grados de ángulo horario). Usando la [ecuación AI.2](#anex1_ec2) hacer una estimación del ángulo horario a las 09.04 Z y a partir de ella obtener el valor del mediodía verdadero.
 
 Vamos a hacer dos observaciones para medir la longitud de la sombra de un objeto de longitud, en nuestro caso,$$l=210 mm$$. La primera a las 09:00 y la segunda a las 09:08Z (11:08 locales) y anotarlas en la tabla siguiente,
 
 | :---: | :------:  | :------: | :------: | :-------: |
 |       |  hora     |  dec     |  lat     |  Xs (mm)  |
-| Obs 1 | 10:00 Z   |  4.646   | 41.625   | 224.7     |
-| Obs 2 | 10:08 Z   |  4.647   | 41.625   | 216.3     |
+| Obs 1 | 09:00 Z   |  4.630   | 41.625   | 319.2     |
+| Obs 2 | 09:08 Z   |  4.632   | 41.625   | 302.4     |
 
 en nuestro caso tendremos, de acuerdo con la tabla,
 
 $$
-v_s=\frac{\Delta x_{s}}{\Delta t}=\frac{224.7-216.3}{8}=1.05\quad mm/min
+v_s=\frac{\Delta x_{s}}{\Delta t}=\frac{319.2-302.4}{8}=2.1\quad mm/min
 $$
 
 
