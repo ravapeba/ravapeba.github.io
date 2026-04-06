@@ -329,17 +329,13 @@ $$
 v_s=\frac{\Delta x_{s}}{\Delta t}=\frac{319.2-302.4}{8}=2.1\quad mm/min
 $$
 
-y llevando este valor a la [ecuación A.I.2](#anex1_ec2), 
+llevando este valor, junto con las observaciones de la tablam a la [ecuación A.I.2](#anex1_ec2) y despejando h, obtenemos 
 
 $$
-\frac{dx_{s}}{dt}=2.1=\frac{210\pi\sinh\cos41.625\cos4.631}{720\sin^{2}\alpha(41.625,4.631,h)\sqrt{1-\sin^{2}\alpha(41.625,4.631,h)}}}
+h=49.182^{\circ}
 $$  
 
 
-
-$$
-\frac{dx_{s}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
-$$  
 
 <a id="referencias"></a>
 ## Referencias
