@@ -302,17 +302,6 @@ $$
 
 donde $$v_s=\frac{dx_s}{dt}$$ es la velocidad de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm).
 
-<!-- 
-$$
-h=\arccos\sqrt{\frac{1-\frac{16\sin^{4}\alpha}{l^{2}}(\frac{dx_s}{dt})^{2}}{1-\frac{16\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta}{l^{2}}(\frac{dx_s}{dt})^{2}}}\\
-$$
-
--->
-
-$$
-h=\arccos\sqrt{\frac{l^2-16v_s^2\sin^4\alpha}{l^2-16v_s^2\sin^{4}\alpha\cos^{2}\varphi\cos^{2}\delta}} \quad \small \textbf{[AI.3]}
-$$
-
 
 <a id="referencias"></a>
 ## Referencias
