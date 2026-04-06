@@ -314,14 +314,14 @@ Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delt
 
 <a id="eja1"></a>   
 **[Ejemplo práctico A.1]**
-Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 2 o 3 horas antes, digamos las 09:00Z del día 1 de abril de 2026, en Valladolid en mi caso. Medir la longitud de la sombra de un objeto alargado en tal momento y 8 minutos después (equivale a 2 grados de ángulo horario). Usando la [ecuación AI.2](#anex1_ec2) hacer una estimación del ángulo horario a las 09.04 Z y a partir de ella obtener el valor del mediodía verdadero.
+Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 2 o 3 horas antes, digamos las 09:00Z del día 6 de abril de 2026, en Valladolid en mi caso. Medir la longitud de la sombra de un objeto alargado en tal momento y 8 minutos después (equivale a 2 grados de ángulo horario). Usando la [ecuación AI.2](#anex1_ec2) hacer una estimación del ángulo horario a las 09.04 Z y a partir de ella obtener el valor del mediodía verdadero.
 
 Vamos a hacer dos observaciones para medir la longitud de la sombra de un objeto de longitud, en nuestro caso,$$l=210 mm$$. La primera a las 09:00 y la segunda a las 09:08Z (11:08 locales) y anotarlas en la tabla siguiente,
 
 | :---: | :------:  | :------: | :------: | :-------: |
 |       |  hora     |  dec     |  lat     |  Xs (mm)  |
-| Obs 1 | 09:00 Z   |  4.630   | 41.625   | 319.2     |
-| Obs 2 | 09:08 Z   |  4.632   | 41.625   | 302.4     |
+| Obs 1 | 09:00 Z   |  6.540   | 41.625   | 319.2     |
+| Obs 2 | 09:08 Z   |  6.577   | 41.625   | 302.4     |
 
 en nuestro caso tendremos, de acuerdo con la tabla,
 
@@ -332,7 +332,7 @@ $$
 llevando este valor, junto con las observaciones de la tablam a la [ecuación A.I.2](#anex1_ec2) y despejando h, obtenemos 
 
 $$
-h=49.182^{\circ}
+h=50.609^{\circ}
 $$  
 
 
