@@ -318,10 +318,10 @@ Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 
 
 Vamos a hacer dos observaciones para medir la longitud de la sombra de un objeto de longitud, en nuestro caso, 210 mm. La primera a las 09:00 y la segunda a las 09:08Z (11:08 locales) y anotarlas en la tabla siguiente, $$2\Delta h$$
 
-| :---: | :------:  | :------: | :------: | :------: |
-|       |  hora     |  dec     |  lat     |   Xs     |
-| Obs 1 | 10:00 Z   |  33.4    | -10.83   | 341.58   |
-| Obs 2 | 10:08 Z   |  19.3    | -10.753  | 56.585   |
+| :---: | :------:  | :------: | :------: | :-------: |
+|       |  hora     |  dec     |  lat     |  Xs (mm)  |
+| Obs 1 | 10:00 Z   |  4.646   | 41.625   | 224.7     |
+| Obs 2 | 10:08 Z   |  4.647   | 41.625   | 216.3     |
 
 
 <a id="referencias"></a>
