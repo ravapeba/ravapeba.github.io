@@ -297,7 +297,7 @@ Este método se basa en la medida de la variación de la longitud de la sombra d
 
 $$x_s=\frac{l}{\tan\alpha}$$
 
-derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec12) obtendremos la velocidad de variación de la longitud de la sombra, 
+derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec12) obtendremos la velocidad de variación de la longitud de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm), 
 
 <a id="anex1_ec2"></a>
 
@@ -305,7 +305,7 @@ $$
 \frac{dx_{s}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
 $$  
 
-donde $$\frac{dx_{s}}{dt}$$ es la 'velocidad' de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm). La estimación del valor de $$\frac{dx_{s}}{dt}$$ puede realizarse mediante el siguiente dispositivo casero:
+La estimación del valor de $$\frac{dx_{s}}{dt}$$ puede realizarse mediante el siguiente dispositivo casero:
 
 
 <a id="referencias"></a>
