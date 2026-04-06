@@ -272,7 +272,7 @@ así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resulta
 
 **Si no conocemos nuestra longitud, $$\lambda$$**,  el momento del  mediodía verdadero puede estimarse a partir de uno de los siguientes dos métodos, entre otros que pudieran idearse,
 
-$$1. \quad Método-de-la-salida-del-sol: $$
+*1. Método de la salida del sol:*
 Si estamos en terreno llano o con amplio horizonte visual, el instante en que tiene lugar la salida del sol es relativamente fácil de apreciar a simple vista.  Al contrario que muchas otras medidas de parámetros solares, la salida del sol ocurre cuando su limbo superior, no su centro, toca el horizonte. En dicho momento el ángulo de elevación solar no es cero exactamente, debido al efecto de la refracción de los rayos de luz al atravesar la atmósfera. Aunque su valor depende en parte de las condiciones meteorológicas, que influyen en el índice de refracción del aire, un valor promedio bastante aceptado, [Ref 1](#1), es $$ \alpha\simeq -0.83^{\circ}$$. LLevando este valor a la [ecuación 1.2](#ec12), y despejando h, obtenemos
 
 $$
@@ -288,7 +288,7 @@ $$
 obtenemos así la parte minutal del mediodía verdadero, lo que llamamos $$difZ_{noon}$$ en el [apartado 3](#longitud). Este método presenta un error pequeño, siempre que la estimación del momento del amanecer sea precisa. De igual modo se podría haber aplicado (restando en lugar de sumando) a partir de una observación del momento del ocaso. Podríamos haber aplicado este método en un instante intermedio entre el amanecer y el mediodía, aunque en este caso necesitremos una medida previa del ángulo de elevación solar, $$\alpha$$. 
 
 
-$$2. \quad Método-del-movimiento-de-la-sombra$$
+*2. Método del movimiento de la sombra:*
 
 Este método se basa en la medida de la variación de la longitud de la sombra de un objeto de extensión vertical  $$l$$ en un intervalo pequeño de tiempo. De acuerdo con la [figura 2.1](#f21) la longitud de la sombra de tal objeto vendrá dada por la expresión
 
