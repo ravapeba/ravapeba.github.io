@@ -307,6 +307,10 @@ $$
 
 Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. La estimación de $$\frac{dx_{s}}{dt}$$ puede realizarse mediante el siguiente dispositivo casero:
 
+<div align="center">
+   <a id="fanex1"></a>
+	{% include  image.html url="/img/geoloc/2sombras.png" description="Figura A1.1. Esquema para la estimación del ángulo horario intermedio entre dos instantes 1 y 2." %}
+</div>
 
 <a id="referencias"></a>
 ## Referencias
