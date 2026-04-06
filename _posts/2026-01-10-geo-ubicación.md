@@ -329,7 +329,7 @@ $$
 v_s=\frac{\Delta x_{s}}{\Delta t}=\frac{319.2-302.4}{8}=2.1\quad mm/min
 $$
 
-llevando este valor, junto con las observaciones de la tablam a la [ecuación A.I.2](#anex1_ec2) y despejando h, obtenemos 
+llevando este valor, junto con las observaciones de la tabla a la [ecuación A.I.2](#anex1_ec2), y despejando h, obtenemos 
 
 $$
 h=50.609^{\circ}
