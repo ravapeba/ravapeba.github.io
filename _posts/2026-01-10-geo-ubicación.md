@@ -297,10 +297,10 @@ derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec
 <a id="anex1_ec2"></a>
 
 $$
-v_{s}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
+\frac{dx_{s}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
 $$  
 
-donde $$v_s=\frac{dx_s}{dt}$$ es la velocidad de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm).
+donde $$\frac{dx_{s}}{dt}$$ es la 'velocidad' de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm). La estimación del valor de $$\frac{dx_{s}}{dt}$$ puede realizarse mediante el siguiente dispositivo casero:
 
 
 <a id="referencias"></a>
