@@ -316,7 +316,7 @@ Una vez estimado el valor de $$\frac{dx_{s}}{dt}$$, y dados $$\alpha$$ y $$\delt
 **[Ejemplo práctico A.1]**
 Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 2 o 3 horas antes, digamos las 10:00Z del día 1 de abril de 2026, en Valladolid en mi caso. Medir la longitud de la sombra de un objeto alargado en tal momento y 8 minutos después (equivale a 2 grados de ángulo horario). Usando la [ecuación AI.2](#anex1_ec2) hacer una estimación del ángulo horario a las 10.04 Z y a partir de ella obtener el valor del mediodía verdadero.
 
-Vamos a hacer dos observaciones para medir la longitud de la sombra de un objeto de longitud, en nuestro caso, 210 mm. La primera a las 09:00 y la segunda a las 09:08Z (11:08 locales) y anotarlas en la tabla siguiente, $$2\Delta h$$
+Vamos a hacer dos observaciones para medir la longitud de la sombra de un objeto de longitud, en nuestro caso,$$l=210 mm$$. La primera a las 09:00 y la segunda a las 09:08Z (11:08 locales) y anotarlas en la tabla siguiente, $$2\Delta h$$
 
 | :---: | :------:  | :------: | :------: | :-------: |
 |       |  hora     |  dec     |  lat     |  Xs (mm)  |
