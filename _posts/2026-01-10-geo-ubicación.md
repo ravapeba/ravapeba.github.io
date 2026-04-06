@@ -283,7 +283,7 @@ $$
 donde $$h_{\small AMA}$$ es el ángulo horario del sol al amanecer. Si llamamos $$Z_{\small AMA}$$ a la parte minutal de la hora Z del amanecer,
 
 $$
-difZ_{noon}=Mod([Z_{\small AMA}+\\60\times parteDecimal(\frac{h_{\small AMA}}{15}),60] \quad \small (minutos)
+difZ_{noon}=Mod(Z_{\small AMA}+\\60\times parteDecimal(\frac{h_{\small AMA}}{15}),60) \quad \small (minutos)
 $$
 
 obtenemos así la parte minutal del mediodía verdadero, lo que llamamos $$difZ_{noon}$$ en el [apartado 3](#longitud). Este método presenta un error pequeño, siempre que la estimación del momento del amanecer sea precisa. De igual modo se podría haber aplicado (restando en lugar de sumando) a partir de una observación del momento del ocaso. Podríamos haber aplicado este método en un instante intermedio entre el amanecer y el mediodía, aunque en este caso necesitremos una medida previa del ángulo de elevación solar, $$\alpha$$. 
