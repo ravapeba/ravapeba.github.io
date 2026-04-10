@@ -295,7 +295,7 @@ Este método se basa en la medida de la variación de la longitud de la sombra d
 
 <a id="anex1_ec1"></a>
 
-$$x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]$$
+$$x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]}$$
 
 derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec12) obtendremos la velocidad de variación de la longitud de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm), 
 
