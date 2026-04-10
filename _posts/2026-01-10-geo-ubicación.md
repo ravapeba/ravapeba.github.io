@@ -311,7 +311,7 @@ ahora bien, esta velocidad no es constante, sino que depende del ángulo horario
 $$
 xs_2-xs_1 =v_{xs_1}(\varphi,\delta,h)(t_2-t_1)+\\
 \frac{1}{2}\frac{v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)}{t_2-t_1}{(t_2-t_1)}^{2}=\\
-\frac{t_2-t_1}{2} \left(v_{xs_2}(\varphi,\delta,h)+v_{xs_1}(\varphi,\delta,h)\right) \quad\small (mm) \textbf{[AI.4]}
+\frac{t_2-t_1}{2} \left(v_{xs_2}(\varphi,\delta,h)+v_{xs_1}(\varphi,\delta,h)\right) \quad\small (mm) \quad \textbf{[AI.4]}
 $$
  
 
