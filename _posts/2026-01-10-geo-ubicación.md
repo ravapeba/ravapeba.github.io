@@ -314,12 +314,14 @@ v_{xs_1}(\varphi,\delta,h)+\frac{t_2-t_1}{2}\left(v_{xs_2}(\varphi,\delta,h)-v_{
 $$
  
 
-Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. El error cometido dependerá de la precisión de la medida (milimétrica a ser posible) y de l error que arrastremos en la latitud y la declinación, $$\varphi$$ y $$\delta$$, así como de la longitud, $$l$$, del objeto que proyecta la sombra.
+Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. 
 
 <div align="center">
    <a id="fanex1"></a>
 	{% include  image.html url="/img/geoloc/2sombras2.png" description="Figura A1.1. Esquema para la estimación del ángulo horario en un instante dado (1, 2 o el instante intermedio)." %}
 </div> 
+
+El error cometido dependerá de la precisión de la medida (milimétrica a ser posible) y del error que arrastremos en la latitud y la declinación, $$\varphi$$ y $$\delta$$, así como de la longitud, $$l$$, del objeto que proyecta la sombra (menor error cuanto mayor longitud). 
 
 <a id="eja1"></a>   
 **[Ejemplo práctico A.1]**
