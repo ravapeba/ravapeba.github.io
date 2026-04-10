@@ -283,7 +283,7 @@ $$
 donde $$h_{\small AMA}$$ es el ángulo horario del sol al amanecer. Si llamamos $$Z_{\small AMA}$$ a la parte minutal de la hora Z del amanecer,
 
 $$
-difZ_{noon}=Mod(Z_{\small AMA}+\\60\times parteDecimal(\frac{h_{\small AMA}}{15}),60) \quad \small (minutos)
+difZ_{noon}=Mod(Z_{\small AMA}+\\60\times parteDecimal(\frac{h_{\small AMA}}{15}),60) \quad \small (minutos) \quad \small \textbf{[AI.2]}
 $$
 
 donde $$Mod(x,60)$$ es el resto de la división por 60 de cierta variable x. Obtenemos así la parte minutal del mediodía verdadero, lo que llamamos $$difZ_{noon}$$ en el [apartado 3](#longitud). Este método presenta un error pequeño, siempre que la estimación del momento del amanecer sea precisa. De igual modo se podría haber aplicado (restando en lugar de sumando) a partir de una observación del momento del ocaso. Podríamos haber aplicado este método en un instante intermedio entre el amanecer y el mediodía, aunque en este caso necesitremos una medida previa del ángulo de elevación solar, $$\alpha$$. 
@@ -302,14 +302,15 @@ derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec
 <a id="anex1_ec2"></a>
 
 $$
-v_{xs}=\frac{d{xs}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.2]}
+v_{xs}=\frac{d{xs}}{dt}=\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h)}} \quad \small \textbf{[AI.3]}
 $$  
 
 ahora bien, esta velocidad no es constante, sino que depende del ángulo horario, siendo su valor mayor cuanto más lejos estemos del mediodía veradero. Para variaciones pequeñas del àngulo horario es aproximadamente constante (aunque esta aproximación empeora de nuevo si nos alejamos mucho del mediodía). En resumen, los valores intermedios de $$h$$, serán los mejores para utilizar este método. En este caso el movimiento de la sombra en dirección x es un movimiento uniformemente acelerado y esto nos permite expresar la variación de la longitud de la sombra, entre los instantes 1 y 2, como sigue:
 
 $$
 xs_2-xs_1=v_{xs_1}(\varphi,\delta,h)+\\
-\frac{1}{2}\frac{v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)}{t_2-t_1}{(t_2-t_1)}^{2}
+\frac{1}{2}\frac{v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)}{t_2-t_1}{(t_2-t_1)}^{2}=\\
+v_{xs_1}(\varphi,\delta,h)+\frac{t_2-t_1}{2}\left[v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)\right] \quad \small \textbf{[AI.14}
 $$
  
 
