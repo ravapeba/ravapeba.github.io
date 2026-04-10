@@ -316,7 +316,7 @@ Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con
 
 <div align="center">
    <a id="fanex1"></a>
-	{% include  image.html url="/img/geoloc/2sombras2.png" description="Figura A1.1. Esquema para la estimación del ángulo horario intermedio entre dos instantes 1 y 2." %}
+	{% include  image.html url="/img/geoloc/2sombras2.png" description="Figura A1.1. Esquema para la estimación del ángulo horario en un instante dado (1, 2 o el instante intermedio)." %}
 </div> 
 
 <a id="eja1"></a>   
