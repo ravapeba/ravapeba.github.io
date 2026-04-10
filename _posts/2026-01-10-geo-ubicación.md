@@ -308,7 +308,8 @@ $$
 ahora bien, esta velocidad no es constante, sino que depende del ángulo horario, siendo su valor mayor cuanto más lejos estemos del mediodía veradero. Para variaciones pequeñas del àngulo horario es aproximadamente constante (aunque esta aproximación empeora de nuevo si nos alejamos mucho del mediodía). En resumen, los valores intermedios de $$h$$, serán los mejores para utilizar este método. En este caso el movimiento de la sombra en dirección x es un movimiento uniformemente acelerado y esto nos permite expresar la variación de la longitud de la sombra, entre los instantes 1 y 2, como sigue:
 
 $$
-xs_2-xs_1=v_{xs_1}(\varphi,\delta,h)+\frac{1}{2}\frac{v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)}{t_2-t_1}{(t_2-t_1)}^{2}
+xs_2-xs_1=v_{xs_1}(\varphi,\delta,h)+\\
+\frac{1}{2}\frac{v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)}{t_2-t_1}{(t_2-t_1)}^{2}
 $$
  
 
