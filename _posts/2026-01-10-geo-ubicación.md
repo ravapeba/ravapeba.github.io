@@ -302,8 +302,8 @@ derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec
 <a id="anex1_ec2"></a>
 
 $$
-v_{xs}=\frac{d{xs}}{dt}=\\
-\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h) \quad}}  \quad \small (\frac{mm}{min}) \quad \small \textbf{[AI.3]}
+v_{xs}=\frac{d{xs}}{dt}\quad \small (\frac{mm}{min})=\\
+\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h) \quad}}   \quad \small \textbf{[AI.3]}
 $$  
 
 ahora bien, esta velocidad no es constante, sino que depende del ángulo horario, siendo su valor mayor cuanto más lejos estemos del mediodía veradero. Para variaciones pequeñas del àngulo horario es aproximadamente constante (aunque esta aproximación empeora de nuevo si nos alejamos mucho del mediodía). En resumen, los valores intermedios de $$h$$, serán los mejores para utilizar este método. En este caso el movimiento de la sombra en dirección x es un movimiento uniformemente acelerado y esto nos permite expresar la variación de la longitud de la sombra, entre los instantes 1 y 2, como sigue:
