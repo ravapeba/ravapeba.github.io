@@ -27,7 +27,7 @@ El valor máximo de la serie se alcanzó en el año 2024, con un valor de la ano
 ## Serie de los últimos 2000 años, 200-2025
 Si nos movemos más hacia el pasado, más allá de los registros instrumentales, los datos de temperatura que podemos recoger son indirectos. En climatología a este tipo de datos indirectos se les llama datos proxy o indicadores paleoclimáticos. Estos indicadores sirven para reconstruir las condiciones climáticas de momentos pasados de la historia de la tierra. Ejemplos conocidos son los anillos de los árboles, los testigos de hielo (perforaciones profundas en capas de hielo en glaciares o continentes helados), sedimentos marinos, polen, etc. La fiabilidad de estos datos se estima a partir de calibraciones frente a registros instrumentales. En el siguiente gráfico se muestran dos series superpuestas: 
 - desde el año 200 hasta 1849: serie global de temprtaturas reconstruida a partir de datos multi-proxy obtenidos en distintas regiones del planeta. Publicada en Mann, M.E. and P.D. Jones, 2003. Ver referencia [2](#2)
-- desde el año 1850 hasta 2025: la serie instrumental del Hadley Center (ver figura [1](#f1))
+- desde el año 1850 hasta 2025: la serie instrumental del Hadley Center (ver [figura 1](#f1))
  
 <a id="f2"></a>
 {% include  image.html url="/img/serie_mann_hadley10b.svg" description="Fig 2. Evolución de la temperatura media global decadal (anomalías respecto al periodo de referencia pre-industrial (1850-1900), entre los años 200 y 2025. Fuente: ver referencias 1 y 2." %}
