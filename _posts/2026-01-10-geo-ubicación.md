@@ -312,7 +312,6 @@ aplicando esta expresión entre dos instantes entre los cuales el sol se desplaz
 
 $$
 xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1}=\\
-l\left(\frac{\cos\alpha_2}{\sin\alpha_2} -\frac{\cos\alpha_1}{\sin\alpha_1}\right)=\\
 l\left(\frac{\sqrt{1-[\sin\alpha(\varphi,\delta,h_2)]^2}}{\sin\alpha(\varphi,\delta,h_2)}- 
 \frac{\sqrt{1-[\sin\alpha(\varphi,\delta,h_1)]^2}}{\sin\alpha(\varphi,\delta,h_1)} \right) \quad \small \textbf{[AI.3]}
 $$
