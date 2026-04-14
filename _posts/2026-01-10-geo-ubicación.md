@@ -306,7 +306,7 @@ x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]}
 $$
 
 
-aplicando esta expresión entre dos instantes entre los cuales el sol se desplaza de la altitud $$\alpha_1$$ a $$\alpha_2$$
+aplicando esta expresión entre los instantes 1 y 2, representados en la[figura A1.1](#fanex1), entre los cuales el sol se desplaza de la altitud $$\alpha_1$$ a $$\alpha_2$$
 
 <a id="anex1_ec3"></a>
 
