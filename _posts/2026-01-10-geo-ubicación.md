@@ -267,6 +267,8 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 
 **Si conocemos nuestra longitud, $$\lambda$$**, el momento del  mediodía verdadero puede calcularse a partir de la [ecuación 3.1](#ec31), sin más que despejar el término $$difZ_{noon}$$ (diferencia minutal entre el mediodía promedio y el verdadero) y sumar dicha corrección al valor del mediodía promedio, $$12-ZH$$ en la zona horaria $$ZH$$ (ver [apartado 3](#3-estimación-de-la-longitud)),
 
+
+<a id="anex1_ec1"></a>
 $$Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
 
 así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resultado en hora local habrá que añadir al valor calculado, $$Z_{mv}$$, la corrección gubernamental vigente. 
@@ -294,31 +296,14 @@ donde $$Mod(x,60)$$ es el resto de la división por 60 de cierta variable x. Obt
 
 Este método se basa en la medida de la variación de la longitud de la sombra de un objeto de extensión vertical  $$l$$ en un intervalo pequeño de tiempo. De acuerdo con la [figura 2.1](#f21) la longitud de la sombra de tal objeto vendrá dada por la expresión
 
-<a id="anex1_ec1"></a>
-
+<a id="anex1_ec2"></a>
 $$x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]}$$
+
 
 aplicando esta expresión entre dos instantes entre los cuales el sol se desplaza de la altitud $$\alpha_1$$ a $$\alpha_2$$
 
-xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1}
-
-
-derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec12) obtendremos la velocidad de variación de la longitud de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm), 
-
-<a id="anex1_ec2"></a>
-
-$$
-v_{xs}=\frac{d{xs}}{dt} \small (\frac{mm}{min})=\\
-\normalsize\frac{\pi l\sinh\cos\varphi\cos\delta}{720\sin^{2}\alpha(\varphi,\delta,h)\sqrt{1-\sin^{2}\alpha(\varphi,\delta,h) \quad}}   \quad \small \textbf{[AI.3]}
-$$  
-
-ahora bien, esta velocidad no es constante, sino que depende del ángulo horario, siendo su valor mayor cuanto más lejos estemos del mediodía veradero. Para variaciones pequeñas del àngulo horario es aproximadamente constante (aunque esta aproximación empeora de nuevo si nos alejamos mucho del mediodía). En resumen, los valores intermedios de $$h$$, serán los mejores para utilizar este método. En este caso el movimiento de la sombra en dirección x es un movimiento uniformemente acelerado y esto nos permite expresar la variación de la longitud de la sombra, entre los instantes 1 y 2, como sigue:
-
-$$
-xs_2-xs_1 =v_{xs_1}(\varphi,\delta,h)(t_2-t_1)+\\
-\frac{1}{2}\frac{v_{xs_2}(\varphi,\delta,h)-v_{xs_1}(\varphi,\delta,h)}{t_2-t_1}{(t_2-t_1)}^{2}=\\
-\frac{t_2-t_1}{2} \left(v_{xs_2}(\varphi,\delta,h)+v_{xs_1}(\varphi,\delta,h)\right) \quad\small (mm) \quad \textbf{[AI.4]}
-$$
+<a id="anex1_ec3"></a>
+$$xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1} \quad \small \textbf{[AI.3]$$
  
 
 Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. 
