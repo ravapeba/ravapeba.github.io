@@ -298,6 +298,11 @@ Este método se basa en la medida de la variación de la longitud de la sombra d
 
 $$x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]}$$
 
+aplicando esta expresión entre dos instantes entre los cuales el sol se desplaza de la altitud $$\alpha_1$$ a $$\alpha_2$$
+
+xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1}
+
+
 derivando esta expresión respecto al tiempo y utilizando la [ecuación 1.2](#ec12) obtendremos la velocidad de variación de la longitud de la sombra en unidades convenientes (ej. mm/min, si l se expresa en mm), 
 
 <a id="anex1_ec2"></a>
