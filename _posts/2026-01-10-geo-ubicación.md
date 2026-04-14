@@ -297,13 +297,17 @@ donde $$Mod(x,60)$$ es el resto de la división por 60 de cierta variable x. Obt
 Este método se basa en la medida de la variación de la longitud de la sombra de un objeto de extensión vertical  $$l$$ en un intervalo pequeño de tiempo. De acuerdo con la [figura 2.1](#f21) la longitud de la sombra de tal objeto vendrá dada por la expresión
 
 <a id="anex1_ec2"></a>
-$$x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]}$$
+$$
+x_s=\frac{l}{\tan\alpha} \quad \small \textbf{[AI.2]}
+$$
 
 
 aplicando esta expresión entre dos instantes entre los cuales el sol se desplaza de la altitud $$\alpha_1$$ a $$\alpha_2$$
 
 <a id="anex1_ec3"></a>
-$$xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1} \quad \small \textbf{[AI.3]$$
+$$
+xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1} \quad \small \textbf{[AI.3]
+$$
  
 
 Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. 
