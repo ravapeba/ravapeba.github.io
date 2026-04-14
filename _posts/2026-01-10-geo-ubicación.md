@@ -269,7 +269,10 @@ vemos que los errores, tanto en latitud como en longitud, se han reducido: en co
 
 
 <a id="anex1_ec1"></a>
-$$Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}$$
+
+$$
+Z_{mv} = 12-ZH+difZ_{noon} =\\ 12 -ZH + EoT -4\lambda \quad \small \textbf{[AI.1]}
+$$
 
 así obtendremos la hora Z (UTC) del mediodía verdadero. Si queremos el resultado en hora local habrá que añadir al valor calculado, $$Z_{mv}$$, la corrección gubernamental vigente. 
 
@@ -308,9 +311,14 @@ aplicando esta expresión entre dos instantes entre los cuales el sol se desplaz
 <a id="anex1_ec3"></a>
 
 $$
-xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1} \quad \small \textbf{[AI.3]}
+xs_2-xs_1=\frac{l}{\tan\alpha_2}-\frac{l}{\tan\alpha_1}=\\
+l\left(\frac{\cos\alpha_2}{\sin\alpha_2} -\frac{\cos\alpha_1}{\sin\alpha_1}\right)=\\
+l\left(\frac{\sqrt{1-[\sin\alpha(\varphi,\delta,h_2)]^2}}{\sin\alpha(\varphi,\delta,h_2)}- \\
+\frac{\sqrt{1-[\sin\alpha(\varphi,\delta,h_1)]^2}}{\sin\alpha(\varphi,\delta,h_1)} \right) \quad \small \textbf{[AI.3]}
 $$
  
+donde hemos utilizado la [ecuación 1.2](#ec12) y la expresión del miembro de la derecha de la misma, simbolizado como $$ \sin\alpha(\varphi,\delta,h)$$
+
 
 Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. 
 
