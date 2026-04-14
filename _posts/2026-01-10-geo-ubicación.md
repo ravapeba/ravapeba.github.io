@@ -320,7 +320,7 @@ $$
 donde hemos utilizado la [ecuación 1.2](#ec12) y la expresión abreviada del miembro de la derecha de la misma, simbolizado como $$ \sin\alpha(\varphi,\delta,h)$$
 
 
-Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. 
+Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. 
 
 <div align="center">
    <a id="fanex1"></a>
@@ -331,6 +331,7 @@ El error cometido dependerá de la precisión de la medida (milimétrica a ser p
 
 <a id="eja1"></a>   
 **[Ejemplo práctico A.1]**
+
 Elegir un momento no muy cercano al mediodía de tu localidad, por ejemplo unas 2 o 3 horas antes, digamos las 09:00Z del día 6 de abril de 2026, en Valladolid en mi caso. Medir la longitud de la sombra de un objeto alargado en tal momento y 8 minutos después (equivale a 2 grados de ángulo horario). Usando la [ecuación AI.2](#anex1_ec2) hacer una estimación del ángulo horario a las 09.04 Z y a partir de ella obtener el valor del mediodía verdadero.
 
 Vamos a hacer dos observaciones para medir la longitud de la sombra de un objeto de longitud, en nuestro caso,$$l=210 mm$$. La primera a las 09:00 y la segunda a las 09:08Z (11:08 locales) y anotarlas en la tabla siguiente,
