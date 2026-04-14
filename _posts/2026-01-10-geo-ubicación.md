@@ -317,7 +317,7 @@ l\left(\frac{\sqrt{1-[\sin\alpha(\varphi,\delta,h_2)]^2}}{\sin\alpha(\varphi,\de
 \frac{\sqrt{1-[\sin\alpha(\varphi,\delta,h_1)]^2}}{\sin\alpha(\varphi,\delta,h_1)} \right) \quad \small \textbf{[AI.3]}
 $$
  
-donde hemos utilizado la [ecuación 1.2](#ec12) y la expresión del miembro de la derecha de la misma, simbolizado como $$ \sin\alpha(\varphi,\delta,h)$$
+donde hemos utilizado la [ecuación 1.2](#ec12) y la expresión abreviada del miembro de la derecha de la misma, simbolizado como $$ \sin\alpha(\varphi,\delta,h)$$
 
 
 Una vez estimado el valor de $$xs_2-xs_1$$, por medición directa de acuerdo con la [figura A1.1](#fanex1), y dados $$\varphi$$ y $$\delta$$, podemos obtener h a partir de la última ecuación utilizando una calculadora. Es probable que el tiempo de calculo no sea pequeño (unos pocos minutos), aunque eso depende de la calculadora utilizada. 
