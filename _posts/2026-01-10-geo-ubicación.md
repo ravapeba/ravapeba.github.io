@@ -337,8 +337,8 @@ Vamos a hacer dos observaciones separadas 8 minutos en el tiempo, para medir la 
 
 | :---: | :------:  | :------: | :------: | :-------: |
 |       |  hora     |  dec     |  lat     |  Xs (mm)  |
-| Obs 1 | 07:56 Z   |  9.090   | 41.625   |  212      |
-| Obs 2 | 08:04 Z   |  6.092   | 41.625   | 203.5     |
+| Obs 1 | 07:56 Z   |  9.09    | 41.625   |  212      |
+| Obs 2 | 08:04 Z   |  9.091   | 41.625   | 203.5     |
 
 en nuestro caso tendremos, aplicando la [ecuación](#anex1_ec3), con los valores de la tabla, 
 
@@ -351,8 +351,10 @@ $$
 y despejando h, obtenemos 
 
 $$
-h=50.609^{\circ}
+h=19.57^{\circ}
 $$  
+
+
 
 
 
