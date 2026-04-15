@@ -354,7 +354,7 @@ $$
 h=-35.8^{\circ}
 $$  
 
-con lo que la parte minutal del mediodía verdadero será aproximadamente a las 
+con lo que la parte minutal del mediodía verdadero será aproximadamente 
 
 $$
 Mod(60\times parteDecimal(\frac{35.8}{15}),60)  \simeq 20^{'} 
