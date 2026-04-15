@@ -343,7 +343,7 @@ Vamos a hacer dos observaciones separadas 8 minutos en el tiempo, para medir la 
 en nuestro caso tendremos, aplicando la [ecuación](#anex1_ec3), con los valores de la tabla, 
 
 $$
-[xs_2-xs_1]=-8.5\quad mm = \\
+[xs_2-xs_1]=8.5\quad mm = \\
 210\left(\frac{\sqrt{1-[\sin\alpha(41.652,9.092,h-1)]^2}}{\sin\alpha(41.652,9.092,h-1)}- 
 \frac{\sqrt{1-[\sin\alpha(41.652,9.09,h+1))]^2}}{\sin\alpha(41.652,9.09,h+1))} \right)
 $$
@@ -351,8 +351,16 @@ $$
 y despejando h, obtenemos 
 
 $$
-h=19.57^{\circ}
+h=-35.8^{\circ}
 $$  
+
+con lo que el mediodía verdadero tendrálugar aproximadamente a las 
+
+$$
+Z_{MV}=12h+Mod(Z_{60\times parteDecimal(\frac{35.8}{15}),60) \simeq 12h y 20 minutos 
+$$
+
+
 
 
 
