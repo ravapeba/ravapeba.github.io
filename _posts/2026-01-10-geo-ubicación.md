@@ -357,9 +357,10 @@ $$
 con lo que el mediodía verdadero tendrá lugar aproximadamente a las 
 
 $$
-Z_{MV}=12h+Mod(Z_{60\times parteDecimal(\frac{35.8}{15}),60) \simeq 12h y 20 minutos 
+Mod(60\times parteDecimal(\frac{35.8}{15}),60)  \simeq 20^{'} 
 $$
 
+y por tanto el mediodía verdadero será aproximadamente a las 12:20 UTC. Es importante destacar que si utilizamos un valor de $$l$$ pequeño, errores de 1 mm en la medida de la variación de la sombra pueden significar 2 o 3 minutos de error en el cálculo del mediodía. Con valores de $$l$$ mayores los errores se reducen.
 
 
 
