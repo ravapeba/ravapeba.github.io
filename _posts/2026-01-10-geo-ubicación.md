@@ -345,7 +345,7 @@ en nuestro caso tendremos, aplicando la [ecuación](#anex1_ec3), con los valores
 $$
 [xs_2-xs_1]=203.5-212=-8.5\quad mm \\
 210\left(\frac{\sqrt{1-[\sin\alpha(41.652,9.092,h-1)]^2}}{\sin\alpha(41.652,9.092,h-1)}- \\
-\frac{\sqrt{1-[\sin\alpha(41.652,9.09,h+1))]^2}}{\sin\alpha(41.652,9.09,h+1))} \right)}
+\frac{\sqrt{1-[\sin\alpha(41.652,9.09,h+1))]^2}}{\sin\alpha(41.652,9.09,h+1))} \right)
 $$
 
 y despejando h, obtenemos 
