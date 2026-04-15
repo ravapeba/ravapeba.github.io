@@ -348,13 +348,13 @@ $$
 \frac{\sqrt{1-[\sin\alpha(41.652,9.09,h+1))]^2}}{\sin\alpha(41.652,9.09,h+1))} \right)
 $$
 
-y despejando h, obtenemos 
+y despejando h, con una calculadora científica, obtenemos 
 
 $$
 h=-35.8^{\circ}
 $$  
 
-con lo que el mediodía verdadero tendrálugar aproximadamente a las 
+con lo que el mediodía verdadero tendrá lugar aproximadamente a las 
 
 $$
 Z_{MV}=12h+Mod(Z_{60\times parteDecimal(\frac{35.8}{15}),60) \simeq 12h y 20 minutos 
