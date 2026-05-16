@@ -18,7 +18,7 @@ Una serie instrumental de temperaturas es aquella que se ha obtenido a partir de
 <a id="f1"></a>
 {% include image.html url="/img/temp_hadley2025b.svg" description="Fig 1. Evolución de la temperatura en superficie (valor medio global / anomalías respecto al periodo pre-industrial, 1850-1900) entre los años 1850 y 2025. Fuente: HadCRUT5 near surface temperature datasets, Met Office Hadley Centre (referencia 1)." %}
 
-Aunque con altibajos, se aprecia en el gráfico una tendencia general al aumento de las temperaturas, al principio más lento y después más rápido, con dos 'acelerones' (aumento de la pendiente de la curva), uno a partir de 1910 y otro a partir de 1965, más o menos. Además, vemos como el rango (diferencia entre el valor máximo y mínimo durante el periodo) de anomalías de la serie es casi de 1.8 ºC de temperatura, un valor que, como comprobaremos más adelante, es bastante superior al que podría explicar la variabilidad natural del clima en una escala temporal tan corta. El consenso científico en cuanto a que la tendencia al aumento de las temperaturas subyacente en la serie de la [figura 1](#f1) tiene causa antropogénica es amplio. Más en concreto, dicha tendencia al alza está asociada a las emisiones de gases de efecto invernadero: $$CO_2$$ , $$CH_4$$ y $$N_2O$$, principalmente. 
+Aunque con altibajos, se aprecia en el gráfico una tendencia general al aumento de las temperaturas, al principio más lento y después más rápido, con dos 'acelerones' (aumento de la pendiente de la curva), uno a partir de 1910 y otro a partir de 1965, más o menos. Además, vemos como el rango (diferencia entre el valor máximo y mínimo durante el periodo) de anomalías de la serie es casi de 1.8 ºC de temperatura, un valor que, como comprobaremos más adelante, es bastante superior al que podría explicar la variabilidad natural del clima en una escala temporal tan corta. El consenso científico en cuanto a que la tendencia al aumento de las temperaturas subyacente en la serie de la [figura 1](#f1) tiene causa antropogénica es amplio. Más en concreto, esta asociado a los cambios en el forzamiento radiativo terrestre ([referencia 14](#14)) provocados por las emisiones de gases de efecto invernadero: $$CO_2$$ , $$CH_4$$ y $$N_2O$$, principalmente. 
 
 El periodo [1850-1910] no muestra una tendencia definida, lo cual lo hace buen candidato como periodo de referencia. En cuanto al periodo [1940-1970], la tendencia es ligeramenta a la baja, cosa que sorprende y demanda explicación. Existe cierto consenso científico en cuanto a que la causa de esta tendencia temporal 'anómala', ausente o mucho más suave en la serie del hemisferio sur, es el aumento de las concentraciones de aerosoles (ver [referencia 13](#13)) asociada al resurgir económico e industrial posterior a la Segunda Guerra Mundial. A medida que la actividad económica fue transitando hacia el uso de combustibles fosiles más limpios las concentraciones de aerosoles fueron disminuyendo, volviendo a hacerse dominante el forzamiento de los gases de efecto invernadero. 
 
@@ -99,8 +99,7 @@ New Series, Vol. 173, No. 3992 (Jul. 9, 1971)
 https://www.science.org/doi/10.1126/science.173.3992.138
 
 <a id="14"></a>
-[14] 
-https://journals.ametsoc.org/view/journals/bams/89/9/2008bams2370_1.pdf
+[14]  Forzamiento radiativo, [wikipedia](https://es.wikipedia.org/wiki/Forzamiento_radiativo)
 
 
 
