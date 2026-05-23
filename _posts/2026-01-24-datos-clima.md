@@ -32,7 +32,7 @@ El valor máximo de la serie instrumental se alcanzó en el año 2024, con un va
 
 A inicios de mayo de 2026 los pronósticos estacionales del Centro Europeo de predicción a plazo medio, [anomalías de temperatura del agua del mar en la zona Niño 3-4](https://charts.ecmwf.int/products/seasonal_system5_nino_plumes?base_time=202605010000&nino_area=NINO3-4), apuntan a que, a partir del verano  de 2026, se instale en el océano pacífico la fase positiva de ENSO. Sería 'El Niño' 2026-2027. Según dichos pronósticos, es muy probable además que este episodio alcance, a finales de año, intensidad similar o superior a los episodios 'El Niño' más intensos hasta la fecha. Esto nos permite hacer un pequeño pronóstico: 
 
-> el 2026 estará entre los dos años más cálidos de la serie instrumental y el 2027 será, muy probablemente, el año más cálido de toda la serie. Lo más probable entonces es que el 2028 predomine la fase neutra o La Niña, con lo cual tendría lugar un descenso de la temperatura media global, que quedaría al nivel alcanzado en 2026 o ligeramente por debajo, dependiendo de la fase de ENSO dominante.
+> el 2026 estará entre los dos años más cálidos de la serie instrumental y el 2027 será, muy probablemente, el año más cálido de toda la serie. 
 
 
 <a id="temp_milenio"></a>
