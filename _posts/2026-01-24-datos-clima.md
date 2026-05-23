@@ -26,7 +26,7 @@ En cuanto a la variabilidad de alta frecuencia (subidas y bajadas interanuales) 
 
 El valor máximo de la serie instrumental se alcanzó en el año 2024, con un valor de la anomalía térmica global anual de $$\small 1.52^\circ C$$. Fue el primer año en que se superó uno de los límites-objetivo ($$\small 1.5^\circ C$$) acordado en la reunión de [Naciones Unidas, Paris 2015](https://www.un.org/es/climatechange/paris-agreement). Con muy alta probabilidad, [refs 7 y 10](#7), se espera que en las decadas venideras la superación de este umbral suceda con más frecuencia y pase de ser un hecho puntual a ser lo habitual. Además, la probabilidad de contener la anomalía térmica por debajo de $$\small 2^\circ C$$ (límite alternativo de la reunión de París) en las siguientes decadas no parece muy alta. Dependerá en buena medida del escenario de emisiones en que la comunidad internacional decida acomodarse y de otras acciones de mitigación del calentamiento global, [ref 12](#12), que pudieran emprenderse. La [referencia 11](#11) es un buen punto de partida para documentarse sobre los probables impactos de la superación de los umbrales de $$\small 1.5$$ y $$\small 2^\circ C$$ acordados en París en los distintos ecosistemas terrestres. 
 
-*Un pequeño pronóstico:* 
+**Un pequeño pronóstico:**
 
 (Aunque no siempre es garantía, muy a menudo conocer la historia ayuda a pronosticar que sucederá en adelante. Si añadimos a esto algo de ciencia, la ayuda es aún mayor y la fiabilidad del pronóstico también es mayor.)
 
