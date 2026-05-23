@@ -34,7 +34,7 @@ A inicios de mayo de 2026 los pronósticos estacionales del Centro Europeo de pr
 
 > El 2026 estará entre los dos años más cálidos de la serie instrumental y el 2027 será, muy probablemente, el año más cálido de toda la serie. 
 
-Este pronóstico no tendría validez en caso de que en el intermedio tuviera lugara una erupción volcánica de alto impacto.
+Este pronóstico no tendría validez en caso de que en el intermedio tuviera lugar una erupción volcánica de alto impacto.
 <a id="temp_milenio"></a>
 ## Serie de los últimos 2000 años, 200-2025
 Si nos movemos más hacia el pasado, más allá de los registros instrumentales, los datos de temperatura que podemos recoger son indirectos. En climatología a este tipo de datos indirectos se les llama datos proxy o indicadores paleoclimáticos. Estos indicadores sirven para reconstruir las condiciones climáticas de momentos pasados de la historia de la tierra. Ejemplos conocidos son los anillos de los árboles, los testigos de hielo (perforaciones profundas en capas de hielo en glaciares o continentes helados), sedimentos marinos, polen, etc. La fiabilidad de estos datos se estima a partir de calibraciones frente a registros instrumentales. En el siguiente gráfico se muestran dos series superpuestas: 
